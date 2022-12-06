@@ -1,0 +1,438 @@
+[2022-12-06 18:30:08,336] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:30:09,096] #INFO   [F:utils.py L:194] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:30:09,600] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.9
+[2022-12-06 18:30:10,392] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.9
+[2022-12-06 18:30:11,121] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_off.png on screen, confidence = 0.9
+[2022-12-06 18:30:11,878] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\rpr.png on screen, confidence = 0.9
+[2022-12-06 18:30:12,638] #INFO   [F:utils.py L:194] >> Click at x = 192.5, y = 50.0
+[2022-12-06 18:30:13,145] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.9
+[2022-12-06 18:30:13,892] #INFO   [F:utils.py L:194] >> Click at x = 254.0, y = 113.5
+[2022-12-06 18:30:14,401] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.9
+[2022-12-06 18:30:15,160] #INFO   [F:utils.py L:194] >> Click at x = 433.0, y = 236.5
+[2022-12-06 18:30:25,167] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\camera.png on screen, confidence = 0.9
+[2022-12-06 18:30:25,902] #INFO   [F:utils.py L:194] >> Click at x = 1441.0, y = 132.0
+[2022-12-06 18:30:26,403] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\save_viewer_image.png on screen, confidence = 0.9
+[2022-12-06 18:30:27,155] #INFO   [F:utils.py L:194] >> Click at x = 1521.5, y = 413.5
+[2022-12-06 18:30:28,407] #INFO   [F:utils.py L:34] >> Child processes: [psutil.Process(pid=7108, name='python.exe', status='running', started='18:29:58')]
+[2022-12-06 18:30:28,920] #INFO   [F:utils.py L:53] >> Process is killed: psutil.Process(pid=7108, name='python.exe', status='terminated', started='18:29:58')
+[2022-12-06 18:30:28,925] #INFO   [F:utils.py L:59] >> Process is killed: psutil.Popen(pid=22424, name='cmd.exe', status='terminated', started='18:29:58')
+[2022-12-06 18:31:13,564] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:31:14,325] #INFO   [F:utils.py L:194] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:31:14,832] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.9
+[2022-12-06 18:31:15,610] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.9
+[2022-12-06 18:31:16,355] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_off.png on screen, confidence = 0.9
+[2022-12-06 18:31:17,100] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\rpr.png on screen, confidence = 0.9
+[2022-12-06 18:31:17,831] #INFO   [F:utils.py L:194] >> Click at x = 192.5, y = 50.0
+[2022-12-06 18:31:18,336] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.9
+[2022-12-06 18:31:19,076] #INFO   [F:utils.py L:194] >> Click at x = 254.0, y = 113.5
+[2022-12-06 18:31:19,586] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.9
+[2022-12-06 18:31:20,349] #INFO   [F:utils.py L:194] >> Click at x = 433.0, y = 236.5
+[2022-12-06 18:31:30,360] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\camera.png on screen, confidence = 0.9
+[2022-12-06 18:31:31,094] #INFO   [F:utils.py L:194] >> Click at x = 1441.0, y = 132.0
+[2022-12-06 18:31:31,609] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\save_viewer_image.png on screen, confidence = 0.9
+[2022-12-06 18:31:31,824] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\save_viewer_image.png on screen, confidence = 0.8300000000000001
+[2022-12-06 18:31:32,044] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\save_viewer_image.png on screen, confidence = 0.76
+[2022-12-06 18:31:32,273] #INFO   [F:utils.py L:34] >> Child processes: [psutil.Process(pid=19848, name='python.exe', status='running', started='18:31:03')]
+[2022-12-06 18:31:32,785] #INFO   [F:utils.py L:53] >> Process is killed: psutil.Process(pid=19848, name='python.exe', status='terminated', started='18:31:03')
+[2022-12-06 18:31:32,790] #INFO   [F:utils.py L:59] >> Process is killed: psutil.Popen(pid=19380, name='cmd.exe', status='terminated', started='18:31:03')
+[2022-12-06 18:31:52,672] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:31:53,433] #INFO   [F:utils.py L:195] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:31:53,941] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.9
+[2022-12-06 18:31:54,718] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.9
+[2022-12-06 18:31:55,468] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_off.png on screen, confidence = 0.9
+[2022-12-06 18:31:56,224] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\rpr.png on screen, confidence = 0.9
+[2022-12-06 18:31:57,002] #INFO   [F:utils.py L:195] >> Click at x = 192.5, y = 50.0
+[2022-12-06 18:31:57,507] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.9
+[2022-12-06 18:31:58,285] #INFO   [F:utils.py L:195] >> Click at x = 254.0, y = 113.5
+[2022-12-06 18:31:58,792] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.9
+[2022-12-06 18:31:59,569] #INFO   [F:utils.py L:195] >> Click at x = 433.0, y = 236.5
+[2022-12-06 18:32:09,574] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\camera.png on screen, confidence = 0.9
+[2022-12-06 18:32:10,309] #INFO   [F:utils.py L:195] >> Click at x = 1441.0, y = 132.0
+[2022-12-06 18:32:10,823] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\save_viewer_image.png on screen, confidence = 0.9
+[2022-12-06 18:32:11,578] #INFO   [F:utils.py L:195] >> Click at x = 1521.5, y = 413.5
+[2022-12-06 18:32:12,846] #ERROR  [F:utils.py L:61] >> Failed to close process: process no longer exists (pid=10692)
+[2022-12-06 18:32:12,847] #ERROR  [F:utils.py L:62] >> Traceback: Traceback (most recent call last):
+  File "C:\JN\WS\HdRPR_Build\jobs\Scripts\utils.py", line 33, in close_process
+    child_processes = process.children()
+  File "c:\python39\lib\site-packages\psutil\__init__.py", line 277, in wrapper
+    raise NoSuchProcess(self.pid, self._name, msg=msg)
+psutil.NoSuchProcess: process no longer exists (pid=10692)
+
+[2022-12-06 18:37:30,721] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.95
+[2022-12-06 18:37:31,512] #INFO   [F:utils.py L:194] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:37:32,019] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.95
+[2022-12-06 18:37:32,796] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.95
+[2022-12-06 18:37:33,554] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_off.png on screen, confidence = 0.95
+[2022-12-06 18:37:34,293] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\rpr.png on screen, confidence = 0.95
+[2022-12-06 18:37:35,023] #INFO   [F:utils.py L:194] >> Click at x = 192.5, y = 50.0
+[2022-12-06 18:37:35,534] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.95
+[2022-12-06 18:37:36,294] #INFO   [F:utils.py L:194] >> Click at x = 254.0, y = 113.5
+[2022-12-06 18:37:36,804] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.95
+[2022-12-06 18:37:37,596] #INFO   [F:utils.py L:194] >> Click at x = 433.0, y = 236.5
+[2022-12-06 18:37:46,591] #ERROR  [F:utils.py L:61] >> Failed to close process: process no longer exists (pid=21872)
+[2022-12-06 18:37:46,592] #ERROR  [F:utils.py L:62] >> Traceback: Traceback (most recent call last):
+  File "C:\JN\WS\HdRPR_Build\jobs\Scripts\sanityCheck.py", line 53, in <module>
+    sleep(10)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\JN\WS\HdRPR_Build\jobs\Scripts\utils.py", line 33, in close_process
+    child_processes = process.children()
+  File "c:\python39\lib\site-packages\psutil\__init__.py", line 277, in wrapper
+    raise NoSuchProcess(self.pid, self._name, msg=msg)
+psutil.NoSuchProcess: process no longer exists (pid=21872)
+
+[2022-12-06 18:38:09,111] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.98
+[2022-12-06 18:38:09,876] #INFO   [F:utils.py L:194] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:38:10,380] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.98
+[2022-12-06 18:38:11,173] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.98
+[2022-12-06 18:38:11,916] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_off.png on screen, confidence = 0.98
+[2022-12-06 18:38:12,675] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\rpr.png on screen, confidence = 0.98
+[2022-12-06 18:38:13,422] #INFO   [F:utils.py L:194] >> Click at x = 192.5, y = 50.0
+[2022-12-06 18:38:13,923] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.98
+[2022-12-06 18:38:14,698] #INFO   [F:utils.py L:194] >> Click at x = 254.0, y = 113.5
+[2022-12-06 18:38:15,204] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.98
+[2022-12-06 18:38:15,446] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.9099999999999999
+[2022-12-06 18:38:15,683] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.8399999999999999
+[2022-12-06 18:38:15,934] #INFO   [F:utils.py L:34] >> Child processes: [psutil.Process(pid=19620, name='python.exe', status='running', started='18:37:58')]
+[2022-12-06 18:38:16,443] #INFO   [F:utils.py L:53] >> Process is killed: psutil.Process(pid=19620, name='python.exe', status='terminated', started='18:37:58')
+[2022-12-06 18:38:16,448] #INFO   [F:utils.py L:59] >> Process is killed: psutil.Popen(pid=25508, name='cmd.exe', status='terminated', started='18:37:58')
+[2022-12-06 18:38:54,110] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.99
+[2022-12-06 18:38:54,871] #INFO   [F:utils.py L:194] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:38:55,377] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.99
+[2022-12-06 18:38:55,645] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_label.png on screen, confidence = 0.99
+[2022-12-06 18:38:56,409] #INFO   [F:utils.py L:194] >> Click at x = 1583.0, y = 162.0
+[2022-12-06 18:38:56,918] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:38:57,210] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_label.png on screen, confidence = 0.99
+[2022-12-06 18:38:57,490] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_label.png on screen, confidence = 0.9199999999999999
+[2022-12-06 18:38:57,768] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_label.png on screen, confidence = 0.8499999999999999
+[2022-12-06 18:38:58,063] #INFO   [F:utils.py L:34] >> Child processes: [psutil.Process(pid=23936, name='python.exe', status='running', started='18:38:43')]
+[2022-12-06 18:38:58,577] #INFO   [F:utils.py L:53] >> Process is killed: psutil.Process(pid=23936, name='python.exe', status='terminated', started='18:38:43')
+[2022-12-06 18:38:58,582] #INFO   [F:utils.py L:59] >> Process is killed: psutil.Popen(pid=23412, name='cmd.exe', status='terminated', started='18:38:43')
+[2022-12-06 18:40:08,621] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:40:09,380] #INFO   [F:utils.py L:200] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:40:09,885] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.99
+[2022-12-06 18:40:10,162] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_label.png on screen, confidence = 0.9
+[2022-12-06 18:40:10,934] #INFO   [F:utils.py L:200] >> Click at x = 1583.0, y = 162.0
+[2022-12-06 18:40:11,441] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:40:12,218] #INFO   [F:utils.py L:200] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:40:12,718] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:40:13,006] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:40:13,827] #INFO   [F:utils.py L:200] >> Click at x = 1620.5, y = 193.5
+[2022-12-06 18:40:14,333] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:40:15,148] #INFO   [F:utils.py L:200] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:40:15,655] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:40:15,926] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:40:16,779] #INFO   [F:utils.py L:200] >> Click at x = 1611.5, y = 225.5
+[2022-12-06 18:40:17,289] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\rpr.png on screen, confidence = 0.9
+[2022-12-06 18:40:18,082] #INFO   [F:utils.py L:200] >> Click at x = 192.5, y = 50.0
+[2022-12-06 18:40:18,587] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.9
+[2022-12-06 18:40:19,365] #INFO   [F:utils.py L:200] >> Click at x = 254.0, y = 113.5
+[2022-12-06 18:40:19,871] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.9
+[2022-12-06 18:40:20,650] #INFO   [F:utils.py L:200] >> Click at x = 433.0, y = 236.5
+[2022-12-06 18:40:30,657] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\camera.png on screen, confidence = 0.9
+[2022-12-06 18:40:31,393] #INFO   [F:utils.py L:200] >> Click at x = 1441.0, y = 132.0
+[2022-12-06 18:40:31,906] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\save_viewer_image.png on screen, confidence = 0.9
+[2022-12-06 18:40:32,657] #INFO   [F:utils.py L:200] >> Click at x = 1521.5, y = 413.5
+[2022-12-06 18:40:33,927] #INFO   [F:utils.py L:34] >> Child processes: [psutil.Process(pid=9264, name='python.exe', status='running', started='18:39:58')]
+[2022-12-06 18:40:34,441] #INFO   [F:utils.py L:53] >> Process is killed: psutil.Process(pid=9264, name='python.exe', status='terminated', started='18:39:58')
+[2022-12-06 18:40:34,447] #INFO   [F:utils.py L:59] >> Process is killed: psutil.Popen(pid=24580, name='cmd.exe', status='terminated', started='18:39:58')
+[2022-12-06 18:40:51,458] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:40:52,203] #INFO   [F:utils.py L:200] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:40:52,707] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.99
+[2022-12-06 18:40:52,977] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_label.png on screen, confidence = 0.9
+[2022-12-06 18:40:53,754] #INFO   [F:utils.py L:200] >> Click at x = 1583.0, y = 162.0
+[2022-12-06 18:40:54,261] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:40:55,037] #INFO   [F:utils.py L:200] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:40:55,547] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:40:55,838] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:40:56,657] #INFO   [F:utils.py L:200] >> Click at x = 1620.5, y = 193.5
+[2022-12-06 18:40:57,161] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:40:57,955] #INFO   [F:utils.py L:200] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:40:58,457] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:40:58,725] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:40:59,522] #INFO   [F:utils.py L:200] >> Click at x = 1611.5, y = 225.5
+[2022-12-06 18:41:00,029] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\rpr.png on screen, confidence = 0.9
+[2022-12-06 18:41:00,807] #INFO   [F:utils.py L:200] >> Click at x = 192.5, y = 50.0
+[2022-12-06 18:41:01,314] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.9
+[2022-12-06 18:41:01,546] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.8300000000000001
+[2022-12-06 18:41:01,772] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.76
+[2022-12-06 18:41:02,021] #INFO   [F:utils.py L:34] >> Child processes: [psutil.Process(pid=20936, name='python.exe', status='running', started='18:40:41')]
+[2022-12-06 18:41:02,532] #INFO   [F:utils.py L:53] >> Process is killed: psutil.Process(pid=20936, name='python.exe', status='terminated', started='18:40:41')
+[2022-12-06 18:41:02,535] #INFO   [F:utils.py L:59] >> Process is killed: psutil.Popen(pid=10072, name='cmd.exe', status='terminated', started='18:40:41')
+[2022-12-06 18:41:16,191] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:41:16,955] #INFO   [F:utils.py L:200] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:41:17,461] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.99
+[2022-12-06 18:41:18,240] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:41:18,985] #INFO   [F:utils.py L:200] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:41:19,493] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:41:19,725] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:41:19,972] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_label.png on screen, confidence = 0.8300000000000001
+[2022-12-06 18:41:20,206] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_label.png on screen, confidence = 0.76
+[2022-12-06 18:41:20,460] #INFO   [F:utils.py L:34] >> Child processes: [psutil.Process(pid=22896, name='python.exe', status='running', started='18:41:06')]
+[2022-12-06 18:41:20,971] #INFO   [F:utils.py L:53] >> Process is killed: psutil.Process(pid=22896, name='python.exe', status='terminated', started='18:41:06')
+[2022-12-06 18:41:20,976] #INFO   [F:utils.py L:59] >> Process is killed: psutil.Popen(pid=7952, name='cmd.exe', status='terminated', started='18:41:06')
+[2022-12-06 18:41:54,687] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:41:55,461] #INFO   [F:utils.py L:200] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:41:55,972] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.99
+[2022-12-06 18:41:56,750] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:41:57,512] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:41:58,258] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\rpr.png on screen, confidence = 0.9
+[2022-12-06 18:41:59,016] #INFO   [F:utils.py L:200] >> Click at x = 192.5, y = 50.0
+[2022-12-06 18:41:59,524] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.9
+[2022-12-06 18:42:00,299] #INFO   [F:utils.py L:200] >> Click at x = 254.0, y = 113.5
+[2022-12-06 18:42:00,808] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.9
+[2022-12-06 18:42:01,598] #INFO   [F:utils.py L:200] >> Click at x = 433.0, y = 236.5
+[2022-12-06 18:42:11,610] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\camera.png on screen, confidence = 0.9
+[2022-12-06 18:42:11,831] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\camera.png on screen, confidence = 0.8300000000000001
+[2022-12-06 18:42:12,041] #INFO   [F:utils.py L:179] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\camera.png on screen, confidence = 0.76
+[2022-12-06 18:42:12,263] #ERROR  [F:utils.py L:61] >> Failed to close process: process no longer exists (pid=19448)
+[2022-12-06 18:42:12,263] #ERROR  [F:utils.py L:62] >> Traceback: Traceback (most recent call last):
+  File "C:\JN\WS\HdRPR_Build\jobs\Scripts\utils.py", line 33, in close_process
+    child_processes = process.children()
+  File "c:\python39\lib\site-packages\psutil\__init__.py", line 277, in wrapper
+    raise NoSuchProcess(self.pid, self._name, msg=msg)
+psutil.NoSuchProcess: process no longer exists (pid=19448)
+
+[2022-12-06 18:45:31,847] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:45:32,651] #INFO   [F:utils.py L:194] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:45:33,159] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.99
+[2022-12-06 18:45:33,996] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:45:34,287] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:45:35,090] #INFO   [F:utils.py L:194] >> Click at x = 1620.5, y = 193.5
+[2022-12-06 18:45:35,598] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:45:36,404] #INFO   [F:utils.py L:194] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:45:36,910] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:45:37,196] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:45:38,034] #INFO   [F:utils.py L:194] >> Click at x = 1611.5, y = 225.5
+[2022-12-06 18:45:38,540] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\rpr.png on screen, confidence = 0.9
+[2022-12-06 18:45:39,330] #INFO   [F:utils.py L:194] >> Click at x = 192.5, y = 50.0
+[2022-12-06 18:45:39,833] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.9
+[2022-12-06 18:45:40,592] #INFO   [F:utils.py L:194] >> Click at x = 254.0, y = 113.5
+[2022-12-06 18:45:41,096] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.9
+[2022-12-06 18:45:41,873] #INFO   [F:utils.py L:194] >> Click at x = 433.0, y = 236.5
+[2022-12-06 18:45:51,880] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\camera.png on screen, confidence = 0.9
+[2022-12-06 18:45:52,637] #INFO   [F:utils.py L:194] >> Click at x = 1441.0, y = 132.0
+[2022-12-06 18:45:53,138] #INFO   [F:utils.py L:173] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\save_viewer_image.png on screen, confidence = 0.9
+[2022-12-06 18:45:53,887] #INFO   [F:utils.py L:194] >> Click at x = 1521.5, y = 413.5
+[2022-12-06 18:45:55,139] #ERROR  [F:utils.py L:51] >> Failed to close process: name 'child_processes' is not defined
+[2022-12-06 18:45:55,139] #ERROR  [F:utils.py L:52] >> Traceback: Traceback (most recent call last):
+  File "C:\JN\WS\HdRPR_Build\jobs\Scripts\utils.py", line 34, in close_process
+    for ch in child_processes:
+NameError: name 'child_processes' is not defined
+
+[2022-12-06 18:46:42,556] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:46:43,346] #INFO   [F:utils.py L:197] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:46:43,852] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.99
+[2022-12-06 18:46:44,131] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_label.png on screen, confidence = 0.9
+[2022-12-06 18:46:44,918] #INFO   [F:utils.py L:197] >> Click at x = 1583.0, y = 162.0
+[2022-12-06 18:46:45,425] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:46:46,217] #INFO   [F:utils.py L:197] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:46:46,722] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:46:47,011] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:46:47,832] #INFO   [F:utils.py L:197] >> Click at x = 1620.5, y = 193.5
+[2022-12-06 18:46:48,341] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:46:49,149] #INFO   [F:utils.py L:197] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:46:49,657] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:46:49,942] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:46:50,779] #INFO   [F:utils.py L:197] >> Click at x = 1611.5, y = 225.5
+[2022-12-06 18:46:51,289] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\rpr.png on screen, confidence = 0.9
+[2022-12-06 18:46:52,080] #INFO   [F:utils.py L:197] >> Click at x = 192.5, y = 50.0
+[2022-12-06 18:46:52,586] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.9
+[2022-12-06 18:46:53,361] #INFO   [F:utils.py L:197] >> Click at x = 254.0, y = 113.5
+[2022-12-06 18:46:53,870] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.9
+[2022-12-06 18:46:54,634] #INFO   [F:utils.py L:197] >> Click at x = 433.0, y = 236.5
+[2022-12-06 18:47:04,638] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\camera.png on screen, confidence = 0.9
+[2022-12-06 18:47:05,373] #INFO   [F:utils.py L:197] >> Click at x = 1441.0, y = 132.0
+[2022-12-06 18:47:05,887] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\save_viewer_image.png on screen, confidence = 0.9
+[2022-12-06 18:47:06,641] #INFO   [F:utils.py L:197] >> Click at x = 1521.5, y = 413.5
+[2022-12-06 18:47:07,897] #INFO   [F:utils.py L:35] >> Child processes: [psutil.Process(pid=10692, name='python.exe', status='running', started='18:46:32')]
+[2022-12-06 18:47:07,903] #ERROR  [F:utils.py L:42] >> Process is alive: psutil.Process(pid=10692, name='python.exe', status='running', started='18:46:32'). Name: python.exe. Status: running
+[2022-12-06 18:47:07,910] #INFO   [F:utils.py L:52] >> Process is killed: psutil.Popen(pid=12280, name='cmd.exe', status='terminated', started='18:46:32')
+[2022-12-06 18:47:37,421] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:47:37,643] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.8300000000000001
+[2022-12-06 18:47:37,852] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.76
+[2022-12-06 18:47:38,054] #ERROR  [F:utils.py L:54] >> Failed to close process: process no longer exists (pid=20512)
+[2022-12-06 18:47:38,054] #ERROR  [F:utils.py L:55] >> Traceback: Traceback (most recent call last):
+  File "C:\JN\WS\HdRPR_Build\jobs\Scripts\utils.py", line 34, in close_process
+    child_processes = process.children()
+  File "c:\python39\lib\site-packages\psutil\__init__.py", line 277, in wrapper
+    raise NoSuchProcess(self.pid, self._name, msg=msg)
+psutil.NoSuchProcess: process no longer exists (pid=20512)
+
+[2022-12-06 18:48:07,512] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:48:08,260] #INFO   [F:utils.py L:197] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:48:08,764] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.99
+[2022-12-06 18:48:09,029] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_label.png on screen, confidence = 0.9
+[2022-12-06 18:48:09,783] #INFO   [F:utils.py L:197] >> Click at x = 1583.0, y = 162.0
+[2022-12-06 18:48:10,287] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:48:11,090] #INFO   [F:utils.py L:197] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:48:11,593] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:48:11,879] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:48:12,684] #INFO   [F:utils.py L:197] >> Click at x = 1620.5, y = 193.5
+[2022-12-06 18:48:13,189] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:48:13,998] #INFO   [F:utils.py L:197] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:48:14,504] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:48:14,782] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:48:15,618] #INFO   [F:utils.py L:197] >> Click at x = 1611.5, y = 225.5
+[2022-12-06 18:48:16,124] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\rpr.png on screen, confidence = 0.9
+[2022-12-06 18:48:16,913] #INFO   [F:utils.py L:197] >> Click at x = 192.5, y = 50.0
+[2022-12-06 18:48:17,421] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.9
+[2022-12-06 18:48:18,165] #INFO   [F:utils.py L:197] >> Click at x = 254.0, y = 113.5
+[2022-12-06 18:48:18,671] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.9
+[2022-12-06 18:48:19,460] #INFO   [F:utils.py L:197] >> Click at x = 433.0, y = 236.5
+[2022-12-06 18:48:29,470] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\camera.png on screen, confidence = 0.9
+[2022-12-06 18:48:30,205] #INFO   [F:utils.py L:197] >> Click at x = 1441.0, y = 132.0
+[2022-12-06 18:48:30,716] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\save_viewer_image.png on screen, confidence = 0.9
+[2022-12-06 18:48:31,468] #INFO   [F:utils.py L:197] >> Click at x = 1521.5, y = 413.5
+[2022-12-06 18:48:32,722] #INFO   [F:utils.py L:35] >> Child processes: [psutil.Process(pid=24584, name='python.exe', status='running', started='18:47:57')]
+[2022-12-06 18:48:32,729] #ERROR  [F:utils.py L:42] >> Process is alive: psutil.Process(pid=24584, name='python.exe', status='running', started='18:47:57'). Name: python.exe. Status: running
+[2022-12-06 18:48:32,735] #INFO   [F:utils.py L:52] >> Process is killed: psutil.Popen(pid=23968, name='cmd.exe', status='terminated', started='18:47:57')
+[2022-12-06 18:48:53,149] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:48:53,895] #INFO   [F:utils.py L:197] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:48:54,405] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.99
+[2022-12-06 18:48:54,690] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_label.png on screen, confidence = 0.9
+[2022-12-06 18:48:55,450] #INFO   [F:utils.py L:197] >> Click at x = 1583.0, y = 162.0
+[2022-12-06 18:48:55,955] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:48:56,747] #INFO   [F:utils.py L:197] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:48:57,252] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:48:57,493] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:48:58,267] #INFO   [F:utils.py L:197] >> Click at x = 1620.5, y = 193.5
+[2022-12-06 18:48:58,772] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:48:59,582] #INFO   [F:utils.py L:197] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:49:00,084] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:49:00,326] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:49:01,158] #INFO   [F:utils.py L:197] >> Click at x = 1611.5, y = 225.5
+[2022-12-06 18:49:01,666] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\rpr.png on screen, confidence = 0.9
+[2022-12-06 18:49:02,458] #INFO   [F:utils.py L:197] >> Click at x = 192.5, y = 50.0
+[2022-12-06 18:49:02,962] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.9
+[2022-12-06 18:49:03,725] #INFO   [F:utils.py L:197] >> Click at x = 254.0, y = 113.5
+[2022-12-06 18:49:04,233] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.9
+[2022-12-06 18:49:05,011] #INFO   [F:utils.py L:197] >> Click at x = 433.0, y = 236.5
+[2022-12-06 18:49:15,026] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\camera.png on screen, confidence = 0.9
+[2022-12-06 18:49:15,762] #INFO   [F:utils.py L:197] >> Click at x = 1441.0, y = 132.0
+[2022-12-06 18:49:16,274] #INFO   [F:utils.py L:176] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\save_viewer_image.png on screen, confidence = 0.9
+[2022-12-06 18:49:17,027] #INFO   [F:utils.py L:197] >> Click at x = 1521.5, y = 413.5
+[2022-12-06 18:49:18,288] #INFO   [F:utils.py L:35] >> Child processes: [psutil.Process(pid=21952, name='python.exe', status='running', started='18:48:42')]
+[2022-12-06 18:49:18,294] #ERROR  [F:utils.py L:42] >> Process is alive: psutil.Process(pid=21952, name='python.exe', status='running', started='18:48:42'). Name: python.exe. Status: running
+[2022-12-06 18:49:18,301] #ERROR  [F:utils.py L:50] >> Process is alive: psutil.Popen(pid=15476, name='cmd.exe', status='terminated', started='18:48:42'). Name: cmd.exe. Status: running
+[2022-12-06 18:50:15,360] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:50:16,124] #INFO   [F:utils.py L:199] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:50:16,630] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.99
+[2022-12-06 18:50:16,914] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_label.png on screen, confidence = 0.9
+[2022-12-06 18:50:17,691] #INFO   [F:utils.py L:199] >> Click at x = 1583.0, y = 162.0
+[2022-12-06 18:50:18,196] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:50:18,991] #INFO   [F:utils.py L:199] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:50:19,495] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:50:19,779] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:50:20,590] #INFO   [F:utils.py L:199] >> Click at x = 1620.5, y = 193.5
+[2022-12-06 18:50:21,092] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:50:21,902] #INFO   [F:utils.py L:199] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:50:22,417] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:50:22,687] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:50:23,525] #INFO   [F:utils.py L:199] >> Click at x = 1611.5, y = 225.5
+[2022-12-06 18:50:24,028] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\rpr.png on screen, confidence = 0.9
+[2022-12-06 18:50:24,822] #INFO   [F:utils.py L:199] >> Click at x = 192.5, y = 50.0
+[2022-12-06 18:50:25,327] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.9
+[2022-12-06 18:50:26,077] #INFO   [F:utils.py L:199] >> Click at x = 254.0, y = 113.5
+[2022-12-06 18:50:26,580] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.9
+[2022-12-06 18:50:27,356] #INFO   [F:utils.py L:199] >> Click at x = 433.0, y = 236.5
+[2022-12-06 18:50:37,367] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\camera.png on screen, confidence = 0.9
+[2022-12-06 18:50:38,101] #INFO   [F:utils.py L:199] >> Click at x = 1441.0, y = 132.0
+[2022-12-06 18:50:38,613] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\save_viewer_image.png on screen, confidence = 0.9
+[2022-12-06 18:50:39,361] #INFO   [F:utils.py L:199] >> Click at x = 1521.5, y = 413.5
+[2022-12-06 18:50:40,610] #INFO   [F:utils.py L:35] >> Child processes: [psutil.Process(pid=24220, name='python.exe', status='running', started='18:50:05')]
+[2022-12-06 18:50:41,127] #INFO   [F:utils.py L:45] >> Process is killed: psutil.Process(pid=24220, name='python.exe', status='terminated', started='18:50:05')
+[2022-12-06 18:50:41,128] #ERROR  [F:utils.py L:56] >> Failed to close process: [WinError 5] Access is denied
+[2022-12-06 18:50:41,128] #ERROR  [F:utils.py L:57] >> Traceback: Traceback (most recent call last):
+  File "C:\JN\WS\HdRPR_Build\jobs\Scripts\utils.py", line 48, in close_process
+    os.kill(process.pid, signal.SIGINT)
+PermissionError: [WinError 5] Access is denied
+
+[2022-12-06 18:50:55,681] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:50:56,430] #INFO   [F:utils.py L:199] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:50:56,938] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.99
+[2022-12-06 18:50:57,225] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_label.png on screen, confidence = 0.9
+[2022-12-06 18:50:58,010] #INFO   [F:utils.py L:199] >> Click at x = 1583.0, y = 162.0
+[2022-12-06 18:50:58,517] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:50:59,324] #INFO   [F:utils.py L:199] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:50:59,836] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:51:00,114] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:51:00,931] #INFO   [F:utils.py L:199] >> Click at x = 1620.5, y = 193.5
+[2022-12-06 18:51:01,440] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:51:02,232] #INFO   [F:utils.py L:199] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:51:02,738] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:51:03,015] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:51:03,850] #INFO   [F:utils.py L:199] >> Click at x = 1611.5, y = 225.5
+[2022-12-06 18:51:04,356] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\rpr.png on screen, confidence = 0.9
+[2022-12-06 18:51:05,160] #INFO   [F:utils.py L:199] >> Click at x = 192.5, y = 50.0
+[2022-12-06 18:51:05,670] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.9
+[2022-12-06 18:51:06,445] #INFO   [F:utils.py L:199] >> Click at x = 254.0, y = 113.5
+[2022-12-06 18:51:06,948] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.9
+[2022-12-06 18:51:07,202] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.8300000000000001
+[2022-12-06 18:51:07,451] #INFO   [F:utils.py L:178] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.76
+[2022-12-06 18:51:07,727] #INFO   [F:utils.py L:35] >> Child processes: [psutil.Process(pid=10692, name='python.exe', status='running', started='18:50:45')]
+[2022-12-06 18:51:08,238] #INFO   [F:utils.py L:45] >> Process is killed: psutil.Process(pid=10692, name='python.exe', status='terminated', started='18:50:45')
+[2022-12-06 18:51:08,239] #ERROR  [F:utils.py L:56] >> Failed to close process: [WinError 5] Access is denied
+[2022-12-06 18:51:08,239] #ERROR  [F:utils.py L:57] >> Traceback: Traceback (most recent call last):
+  File "C:\JN\WS\HdRPR_Build\jobs\Scripts\utils.py", line 48, in close_process
+    os.kill(process.pid, signal.SIGINT)
+PermissionError: [WinError 5] Access is denied
+
+[2022-12-06 18:52:01,175] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:52:01,917] #INFO   [F:utils.py L:204] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:52:02,424] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.99
+[2022-12-06 18:52:02,691] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_label.png on screen, confidence = 0.9
+[2022-12-06 18:52:03,438] #INFO   [F:utils.py L:204] >> Click at x = 1583.0, y = 162.0
+[2022-12-06 18:52:03,949] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:52:04,744] #INFO   [F:utils.py L:204] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:52:05,247] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:52:05,527] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:52:06,356] #INFO   [F:utils.py L:204] >> Click at x = 1620.5, y = 193.5
+[2022-12-06 18:52:06,869] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:52:07,660] #INFO   [F:utils.py L:204] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:52:08,166] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:52:08,449] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_label.png on screen, confidence = 0.9
+[2022-12-06 18:52:09,305] #INFO   [F:utils.py L:204] >> Click at x = 1611.5, y = 225.5
+[2022-12-06 18:52:09,811] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\rpr.png on screen, confidence = 0.9
+[2022-12-06 18:52:10,600] #INFO   [F:utils.py L:204] >> Click at x = 192.5, y = 50.0
+[2022-12-06 18:52:11,106] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.9
+[2022-12-06 18:52:11,898] #INFO   [F:utils.py L:204] >> Click at x = 254.0, y = 113.5
+[2022-12-06 18:52:12,405] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.9
+[2022-12-06 18:52:13,195] #INFO   [F:utils.py L:204] >> Click at x = 433.0, y = 236.5
+[2022-12-06 18:52:23,205] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\camera.png on screen, confidence = 0.9
+[2022-12-06 18:52:23,940] #INFO   [F:utils.py L:204] >> Click at x = 1441.0, y = 132.0
+[2022-12-06 18:52:24,451] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\save_viewer_image.png on screen, confidence = 0.9
+[2022-12-06 18:52:25,203] #INFO   [F:utils.py L:204] >> Click at x = 1521.5, y = 413.5
+[2022-12-06 18:52:26,465] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\close_button.png on screen, confidence = 0.9
+[2022-12-06 18:52:27,213] #INFO   [F:utils.py L:204] >> Click at x = 2523.0, y = 16.0
+[2022-12-06 18:52:27,730] #ERROR  [F:utils.py L:61] >> Failed to close process: process no longer exists (pid=15896)
+[2022-12-06 18:52:27,731] #ERROR  [F:utils.py L:62] >> Traceback: Traceback (most recent call last):
+  File "C:\JN\WS\HdRPR_Build\jobs\Scripts\utils.py", line 33, in close_process
+    child_processes = process.children()
+  File "c:\python39\lib\site-packages\psutil\__init__.py", line 277, in wrapper
+    raise NoSuchProcess(self.pid, self._name, msg=msg)
+psutil.NoSuchProcess: process no longer exists (pid=15896)
+
+[2022-12-06 18:52:51,641] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\lights.png on screen, confidence = 0.9
+[2022-12-06 18:52:52,430] #INFO   [F:utils.py L:204] >> Click at x = 1499.5, y = 133.0
+[2022-12-06 18:52:52,940] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_scene_lights_on.png on screen, confidence = 0.99
+[2022-12-06 18:52:53,730] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_camera_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:52:54,477] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\enable_default_dome_light_off.png on screen, confidence = 0.99
+[2022-12-06 18:52:55,219] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\rpr.png on screen, confidence = 0.9
+[2022-12-06 18:52:55,982] #INFO   [F:utils.py L:204] >> Click at x = 192.5, y = 50.0
+[2022-12-06 18:52:56,487] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\render_quality.png on screen, confidence = 0.9
+[2022-12-06 18:52:57,247] #INFO   [F:utils.py L:204] >> Click at x = 254.0, y = 113.5
+[2022-12-06 18:52:57,756] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\northstar.png on screen, confidence = 0.9
+[2022-12-06 18:52:58,533] #INFO   [F:utils.py L:204] >> Click at x = 433.0, y = 236.5
+[2022-12-06 18:53:08,541] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\camera.png on screen, confidence = 0.9
+[2022-12-06 18:53:09,277] #INFO   [F:utils.py L:204] >> Click at x = 1441.0, y = 132.0
+[2022-12-06 18:53:09,792] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\save_viewer_image.png on screen, confidence = 0.9
+[2022-12-06 18:53:10,526] #INFO   [F:utils.py L:204] >> Click at x = 1521.5, y = 413.5
+[2022-12-06 18:53:11,773] #INFO   [F:utils.py L:183] >> Trying to find C:\JN\WS\HdRPR_Build\jobs\Elements\close_button.png on screen, confidence = 0.9
+[2022-12-06 18:53:12,493] #INFO   [F:utils.py L:204] >> Click at x = 2523.0, y = 16.0
+[2022-12-06 18:53:13,013] #INFO   [F:utils.py L:34] >> Child processes: [psutil.Process(pid=10460, name='python.exe', status='running', started='18:52:41')]
+[2022-12-06 18:53:13,532] #INFO   [F:utils.py L:53] >> Process is killed: psutil.Process(pid=10460, name='python.exe', status='terminated', started='18:52:41')
+[2022-12-06 18:53:13,538] #INFO   [F:utils.py L:59] >> Process is killed: psutil.Popen(pid=24376, name='cmd.exe', status='terminated', started='18:52:41')

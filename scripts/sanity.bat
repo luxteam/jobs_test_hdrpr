@@ -1,0 +1,1 @@
+C:\Python37\python.exe C:\JN\WS\HdRPR_Build\USD\build\bin\usdview -r RPR --camera Camera C:\TestResources\hdrpr_autotests_assets\planet/planetMaterialX.usda

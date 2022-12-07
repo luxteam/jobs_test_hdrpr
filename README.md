@@ -1,5 +1,11 @@
 # Autotests for HdRPR
 
+
+## USD location
+    USD is bound to the paths where it was built.
+    Built USD from Jenkins must be placed in the `C:\JN\WS\HdRPR_Build\USD\build` folder.
+
+
 ## Install
  1. Clone this repo
 

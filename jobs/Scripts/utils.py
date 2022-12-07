@@ -81,6 +81,39 @@ def open_tool(script_path, execution_script):
 
     if not window_hwnd:
         raise Exception("Application window not found")
+    else:
+        case_logger.error("Application windows found")
+
+    # check that application doesn't got stuck
+    try:
+        locate_on_screen(USDViewElements.APPLICATION_GOT_STUCK.build_path(), tries=1, confidence=0.95)
+        case_logger.error("Application got stuck. Restart it")
+        close_process(process)
+
+        process = psutil.Popen(script_path, stdout=PIPE, stderr=PIPE)
+
+        time.sleep(3)
+
+        window_hwnd = None
+
+        for window in pyautogui.getAllWindows():
+            if ".usd" in window.title:
+                window_hwnd = window._hWnd
+                break
+
+        if not window_hwnd:
+            raise Exception("Application window not found")
+        else:
+            case_logger.error("Application windows found")
+
+        try:
+            locate_on_screen(USDViewElements.APPLICATION_GOT_STUCK.build_path(), tries=1, confidence=0.95)
+        except:
+            raise RuntimeError("Application got stuck")
+    except RuntimeError as e:
+        raise e
+    except:
+        pass
 
     pyautogui.hotkey("win", "m")
     time.sleep(1)

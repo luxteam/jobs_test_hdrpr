@@ -42,3 +42,4 @@ class USDViewElements:
     SHOW_HUD_LABEL = USDViewLocation("show_hud_label")
     SHOW_HUD_ON = USDViewLocation("show_hud_on")
     SHOW_HUD_OFF = USDViewLocation("show_hud_off")
+    APPLICATION_GOT_STUCK = USDViewLocation("application_got_stuck")

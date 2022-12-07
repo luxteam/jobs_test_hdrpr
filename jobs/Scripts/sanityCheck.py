@@ -41,6 +41,10 @@ if __name__ == "__main__":
 
         utils.set_camera_options()
 
+        utils.disable_bounding_boxes()
+
+        utils.disable_hud()
+
         utils.set_render_quality(args.engine)
 
         sleep(10)

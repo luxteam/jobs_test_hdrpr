@@ -142,6 +142,32 @@ def save_image(image_path):
     time.sleep(0.5)
 
 
+def disable_bounding_boxes():
+    locate_and_click(USDViewElements.DISPLAY.build_path())
+    time.sleep(0.5)
+    locate_and_click(USDViewElements.BOUNDING_BOX.build_path())
+    time.sleep(0.5)
+
+    try:
+        locate_on_screen(USDViewElements.SHOW_BOUNDING_BOXES_OFF.build_path(), tries=1, confidence=0.99)
+    except:
+        locate_and_click(USDViewElements.SHOW_BOUNDING_BOXES_LABEL.build_path())
+        time.sleep(0.5)
+
+
+def disable_hud():
+    locate_and_click(USDViewElements.DISPLAY.build_path())
+    time.sleep(0.5)
+    locate_and_click(USDViewElements.HEADS_UP_DISPLAY.build_path())
+    time.sleep(0.5)
+
+    try:
+        locate_on_screen(USDViewElements.SHOW_HUD_OFF.build_path(), tries=1, confidence=0.99)
+    except:
+        locate_and_click(USDViewElements.SHOW_HUD_LABEL.build_path())
+        time.sleep(0.5)
+
+
 def set_camera_options():
     locate_and_click(USDViewElements.LIGHTS.build_path())
     time.sleep(0.5)
@@ -152,23 +178,23 @@ def set_camera_options():
         locate_and_click(USDViewElements.ENABLE_SCENE_LIGHTS_LABEL.build_path())
         time.sleep(0.5)
         locate_and_click(USDViewElements.LIGHTS.build_path())
-
-    time.sleep(0.5)
+        time.sleep(0.5)
 
     try:
         locate_on_screen(USDViewElements.ENABLE_DEFAULT_CAMERA_LIGHT_OFF.build_path(), tries=1, confidence=0.99)
     except:
-        locate_and_click(USDViewElements.ENABLE_DEFAULT_CAMERA_LIGHT_LABEL.build_path())
+        locate_and_click(USDViewElements.ENABLE_DEFAULT_CAMERA_LIGHT_LABEL.build_path(), confidence=0.97)
         time.sleep(0.5)
         locate_and_click(USDViewElements.LIGHTS.build_path())
-
-    time.sleep(0.5)
+        time.sleep(0.5)
 
     try:
         locate_on_screen(USDViewElements.ENABLE_DEFAULT_DOME_LIGHT_OFF.build_path(), tries=1, confidence=0.99)
     except:
-        locate_and_click(USDViewElements.ENABLE_DEFAULT_DOME_LIGHT_LABEL.build_path())
-    time.sleep(0.5)
+        locate_and_click(USDViewElements.ENABLE_DEFAULT_DOME_LIGHT_LABEL.build_path(), confidence=0.97)
+        time.sleep(0.5)
+
+    locate_and_click(USDViewElements.LIGHTS.build_path())
 
 
 def close_app_through_button():

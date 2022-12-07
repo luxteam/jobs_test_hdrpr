@@ -68,7 +68,10 @@ def open_tool(script_path, execution_script):
     with open(script_path, "w") as f:
         f.write(execution_script)
 
-    process = psutil.Popen(script_path, stdout=PIPE, stderr=PIPE)
+    pyautogui.hotkey("win", "m")
+    time.sleep(1)
+
+    process = psutil.Popen(script_path, stdout=PIPE, stderr=PIPE, shell=True)
 
     time.sleep(3)
 
@@ -82,7 +85,7 @@ def open_tool(script_path, execution_script):
     if not window_hwnd:
         raise Exception("Application window not found")
     else:
-        case_logger.error("Application windows found")
+        case_logger.info("Application window found")
 
     # check that application doesn't got stuck
     try:
@@ -104,19 +107,21 @@ def open_tool(script_path, execution_script):
         if not window_hwnd:
             raise Exception("Application window not found")
         else:
-            case_logger.error("Application windows found")
+            case_logger.info("Application window found")
 
         try:
             locate_on_screen(USDViewElements.APPLICATION_GOT_STUCK.build_path(), tries=1, confidence=0.95)
-        except:
             raise RuntimeError("Application got stuck")
+        except RuntimeError as e:
+            raise e
+        except:
+            case_logger.info("Application is running normally")
+
     except RuntimeError as e:
         raise e
     except:
-        pass
+        case_logger.info("Application is running normally")
 
-    pyautogui.hotkey("win", "m")
-    time.sleep(1)
     win32gui.ShowWindow(window_hwnd, win32con.SW_MAXIMIZE)
     time.sleep(1)
 

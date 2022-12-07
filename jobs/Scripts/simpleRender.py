@@ -91,6 +91,7 @@ def prepare_empty_reports(args, current_conf):
             test_case_report['render_device'] = get_gpu()
             test_case_report['script_info'] = case['script_info']
             test_case_report['test_group'] = args.test_group
+            test_case_report['tool'] = 'HdRPR'
             test_case_report['date_time'] = datetime.now().strftime(
                 '%m/%d/%Y %H:%M:%S')
 

@@ -1,13 +1,8 @@
 import argparse
 import os
-import sys
 import traceback
 from time import sleep
 import utils
-
-sys.path.append(os.path.abspath(os.path.join(
-    os.path.dirname(__file__), os.path.pardir, os.path.pardir)))
-from jobs_launcher.core.config import *
 
 
 SCENE_NAME = "planet/planetMaterialX.usda"
@@ -26,8 +21,6 @@ def createArgsParser():
 
 
 if __name__ == "__main__":
-    main_logger.info("sanityCheck start working...")
-
     args = createArgsParser().parse_args()
 
     rc = 0

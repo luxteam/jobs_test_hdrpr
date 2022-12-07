@@ -4,12 +4,13 @@ set TESTS_FILTER="%2"
 set ENGINE=%3
 set RETRIES=%4
 set UPDATE_REFS=%5
-set PYTHON="C:\Python37\python.exe"
 set TOOL=%6
+set PYTHON=%7
 
 if not defined RETRIES set RETRIES=2
 if not defined UPDATE_REFS set UPDATE_REFS="No"
 if not defined TOOL set TOOL="..\USD\build\bin\usdview"
+if not defined PYTHON set PYTHON="C:\Python37\python.exe"
 
 python -m pip install -r ..\jobs_launcher\install\requirements.txt
 %PYTHON% -m pip install -r requirements.txt

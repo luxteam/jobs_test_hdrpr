@@ -154,9 +154,10 @@ def save_results(args, case, cases, test_case_status, execution_time = 0.0):
     with open(os.path.join(args.output, case["case"] + CASE_REPORT_SUFFIX), "w") as file:
         json.dump([test_case_report], file, indent=4)
 
-    case["status"] = test_case_status
-    with open(os.path.join(args.output, "test_cases.json"), "w") as file:
-        json.dump(cases, file, indent=4)
+    if test_case_status != "error":
+        case["status"] = test_case_status
+        with open(os.path.join(args.output, "test_cases.json"), "w") as file:
+            json.dump(cases, file, indent=4)
 
 
 def execute_tests(args, current_conf):

@@ -165,11 +165,33 @@ def create_case_logger(case_name, log_path):
     case_logger = logger
 
 
-def is_case_skipped(case, render_platform):
-    if case['status'] == 'skipped':
+def is_case_skipped(case, render_platform, engine):
+    if case["status"] == "skipped":
         return True
 
-    return sum([render_platform & set(x) == set(x) for x in case.get('skip_on', '')])
+    if "skip_config" in case:
+        for config in case["skip_config"]:
+            """
+            Along with skipping the engine, we can set a certain configuration that we also want to skip.
+            ["Hybrid"] - Skips this case with the specified engine on all machines
+            ["Hybrid", "HybridPro", "GeForce RTX 2070"] - Skips this case with the specified engines on machines with RTX 2070
+            ["Hybrid", "HybridPro", "GeForce RTX 2070", "GeForce RTX 2080 Ti"] - *WRONG CONFIG* It will not work, because the configuration has two video cards
+            ["GeForce RTX 2070"] - Skips this case with the specified GPU on all machines
+            ["GeForce RTX 2070", "Linux"] - Skips all Linux machines with a given GPU.
+            ["Hybrid", "GeForce RTX 2070"] - Skips all machines with a GeForce RTX 2070 card regardless of the OS.
+            ["Hybrid", "Windows", "GeForce RTX 2070"] - Skips the case only on Windows machines with a GeForce RTX 2070 graphics card and Hybrid engine.
+            """
+            config = set(config)
+            skip_conf_by_eng = {engine}.union(render_platform)
+            if skip_conf_by_eng.issuperset(config):
+                return True
+            elif (config - skip_conf_by_eng).issubset(CORE_ENGINES_LIST) and engine in config:
+                """
+                If the difference between the sets is equal to some other engine, then the config is designed for different engines.
+                """
+                return True
+
+    return False 
 
 
 def save_image(image_path):

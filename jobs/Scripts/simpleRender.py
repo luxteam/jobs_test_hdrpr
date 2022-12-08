@@ -75,7 +75,7 @@ def prepare_empty_reports(args, current_conf):
         cases = json.load(json_file)
 
     for case in cases:
-        if utils.is_case_skipped(case, current_conf):
+        if utils.is_case_skipped(case, current_conf, args.engine):
             case['status'] = 'skipped'
 
         if case['status'] != 'done' and case['status'] != 'error':
@@ -166,7 +166,7 @@ def execute_tests(args, current_conf):
     with open(os.path.join(os.path.abspath(args.output), "test_cases.json"), "r") as json_file:
         cases = json.load(json_file)
 
-    for case in [x for x in cases if not utils.is_case_skipped(x, current_conf)]:
+    for case in [x for x in cases if not utils.is_case_skipped(x, current_conf, args.engine)]:
         case_start_time = time()
 
         current_try = 0

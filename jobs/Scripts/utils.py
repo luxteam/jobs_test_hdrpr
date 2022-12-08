@@ -123,7 +123,9 @@ def open_tool(script_path, execution_script):
         case_logger.info("Application is running normally")
 
     win32gui.ShowWindow(window_hwnd, win32con.SW_MAXIMIZE)
-    time.sleep(1)
+    time.sleep(0.5)
+    pyautogui.hotkey("ctrl", "\\")
+    time.sleep(0.5)
 
 
 def set_render_quality(engine):

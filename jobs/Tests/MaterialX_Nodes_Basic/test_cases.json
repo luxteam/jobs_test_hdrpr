@@ -1,0 +1,882 @@
+[
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_001",
+    "status": "active",
+    "scene": "Math_Absval_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Absval basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_002",
+    "status": "active",
+    "scene": "Math_Acos_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Acos basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_003",
+    "status": "active",
+    "scene": "Math_Add_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Add basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_004",
+    "status": "active",
+    "scene": "Math_Asin_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Asin basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_005",
+    "status": "active",
+    "scene": "Math_Atan2_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Atan2 basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_006",
+    "status": "active",
+    "scene": "Math_Burn_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Burn basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_007",
+    "status": "active",
+    "scene": "Math_Ceil_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Ceil basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_008",
+    "status": "active",
+    "scene": "Math_Clamp_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Clamp basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_009",
+    "status": "active",
+    "scene": "Math_Cos_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Cos basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_010",
+    "status": "active",
+    "scene": "Math_CrossProduct_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math CrossProduct basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_011",
+    "status": "skipped",
+    "scene": "Math_Determinant_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Determinant basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_012",
+    "status": "active",
+    "scene": "Math_Difference_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Difference basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_013",
+    "status": "active",
+    "scene": "Math_Divide_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Divide basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_014",
+    "status": "active",
+    "scene": "Math_Dodge_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Dodge basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_015",
+    "status": "active",
+    "scene": "Math_Dot_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Dot basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_016",
+    "status": "active",
+    "scene": "Math_Dotproduct_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Dotproduct basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_017",
+    "status": "active",
+    "scene": "Math_Exp_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Exp basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_018",
+    "status": "active",
+    "scene": "Math_Extract_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Extract basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_019",
+    "status": "active",
+    "scene": "Math_Floor_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Floor basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_020",
+    "status": "active",
+    "scene": "Math_Magnitude_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Magnitude basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_021",
+    "status": "active",
+    "scene": "Math_Max_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Max basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_022",
+    "status": "active",
+    "scene": "Math_Min_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Min basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_023",
+    "status": "active",
+    "scene": "Math_Minus_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Minus basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_024",
+    "status": "active",
+    "scene": "Math_Mix_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Mix basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_025",
+    "status": "active",
+    "scene": "Math_Modulo_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Modulo basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_026",
+    "status": "active",
+    "scene": "Math_Normalize_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Normalize basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_028",
+    "status": "active",
+    "scene": "Math_Overlay_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Overlay basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_029",
+    "status": "active",
+    "scene": "Math_Plus_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Plus basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_030",
+    "status": "active",
+    "scene": "Math_Power_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Power basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_031",
+    "status": "active",
+    "scene": "Math_Range_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Range basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_032",
+    "status": "active",
+    "scene": "Math_Rotate2d_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Rotate2d basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_033",
+    "status": "active",
+    "scene": "Math_Rotate3d_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Rotate3d basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_034",
+    "status": "active",
+    "scene": "Math_Saturate_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Saturate basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_035",
+    "status": "active",
+    "scene": "Math_Screen_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Screen basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_036",
+    "status": "active",
+    "scene": "Math_Sign_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Sign basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_037",
+    "status": "active",
+    "scene": "Math_Sin_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Sin basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_038",
+    "status": "active",
+    "scene": "Math_Sqrt_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Sqrt basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_039",
+    "status": "active",
+    "scene": "Math_Substract_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Substract basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_040",
+    "status": "active",
+    "scene": "Math_Tan_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Tan basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_041",
+    "status": "skipped",
+    "scene": "Math_Transpose_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math Transpose basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_042",
+    "status": "skipped",
+    "scene": "Math_TriplanarProjection_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Math TriplanarProjection basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_043",
+    "status": "active",
+    "scene": "Standart_Procedural_Constant_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Standart_Procedural Constant basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_044",
+    "status": "active",
+    "scene": "Standart_Procedural_Ramplr_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Standart_Procedural Ramplr basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_045",
+    "status": "active",
+    "scene": "Standart_Procedural_Ramptb_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Standart_Procedural Ramptb basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_046",
+    "status": "active",
+    "scene": "Standart_Procedural_Splitlr_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Standart_Procedural Splitlr basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_047",
+    "status": "active",
+    "scene": "Standart_Procedural_Splittb_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Standart_Procedural Splittb basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_048",
+    "status": "active",
+    "scene": "Standart_Procedural_Noise2d_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Standart_Procedural Noise2d basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_049",
+    "status": "active",
+    "scene": "Standart_Procedural_Noise3d_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Standart_Procedural Noise3d basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_050",
+    "status": "active",
+    "scene": "Standart_Procedural_Fractal3d_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Standart_Procedural Fractal3d basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_051",
+    "status": "active",
+    "scene": "Standart_Procedural_CellNoise2d_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Standart_Procedural CellNoise2d basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_052",
+    "status": "active",
+    "scene": "Standart_Procedural_CellNoise3d_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Standart_Procedural CellNoise3d basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_053",
+    "status": "active",
+    "scene": "Standart_Procedural_WorleyNoise2D_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Standart_Procedural WorleyNoise2D basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_054",
+    "status": "active",
+    "scene": "Standart_Procedural_WorleyNoise3D_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Standart_Procedural WorleyNoise3D basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_055",
+    "status": "active",
+    "scene": "Geometric_Position_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Geometric Position basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_056",
+    "status": "active",
+    "scene": "Geometric_Normal_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Geometric Normal basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_057",
+    "status": "active",
+    "scene": "Geometric_Tangent_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Geometric Tangent basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_058",
+    "status": "active",
+    "scene": "Geometric_Bitangent_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Geometric Bitangent basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_059",
+    "status": "active",
+    "scene": "Geometric_Textcoord_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Geometric Textcoord basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_060",
+    "status": "active",
+    "scene": "Geometric_GeomColor_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Geometric GeomColor basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_061",
+    "status": "active",
+    "scene": "Geometric_GeomPropValue_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Geometric GeomPropValue basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_062",
+    "status": "active",
+    "scene": "Adjustment_Remap_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Adjustment Remap basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_063",
+    "status": "active",
+    "scene": "Adjustment_Smoothstep_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Adjustment Smoothstep basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_064",
+    "status": "skipped",
+    "scene": "Adjustment_CurveAdjust_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Adjustment CurveAdjust basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_065",
+    "status": "skipped",
+    "scene": "Adjustment_Curvelookup_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Adjustment Curvelookup basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_066",
+    "status": "active",
+    "scene": "Adjustment_Luminance_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Adjustment Luminance basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_067",
+    "status": "active",
+    "scene": "Adjustment_Rgbtohsv_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Adjustment Rgbtohsv basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_068",
+    "status": "active",
+    "scene": "Adjustment_Hsvtorgb_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Adjustment Hsvtorgb basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_069",
+    "status": "active",
+    "scene": "Conditional_IfGreater_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Conditional IfGreater basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_070",
+    "status": "active",
+    "scene": "Conditional_IfGreatereq_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Conditional IfGreatereq basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_071",
+    "status": "active",
+    "scene": "Conditional_IfEqual_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Conditional IfEqual basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_072",
+    "status": "active",
+    "scene": "Conditional_Switch_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Conditional Switch basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_073",
+    "status": "skipped",
+    "scene": "Channel_Convert_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Channel Convert basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_074",
+    "status": "skipped",
+    "scene": "Channel_Swizzle_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Channel Swizzle basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_075",
+    "status": "skipped",
+    "scene": "Channel_Combine_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Channel Combine basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_076",
+    "status": "active",
+    "scene": "Additional_AlgClamp_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Additional AlgClamp basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_077",
+    "status": "active",
+    "scene": "Additional_AlgDot_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Additional AlgDot basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_078",
+    "status": "active",
+    "scene": "Additional_AlgHeightToNormal_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Additional AlgHeightToNormal basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_079",
+    "status": "skipped",
+    "scene": "Additional_AlgLevels_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Additional AlgLevels basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_080",
+    "status": "active",
+    "scene": "Additional_AlgNormalTStoWS_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Additional AlgNormalTStoWS basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  },
+  {
+    "case": "HDRPR_MATERIALX_NODES_BASIC_081",
+    "status": "active",
+    "scene": "Additional_AlgSrgbToLinear_basic.usda",
+    "camera": "Camera",
+    "script_info": [
+      "Additional AlgSrgbToLinear basic"
+    ],
+    "render_delay": 10,
+    "load_delay": 10
+  }
+]

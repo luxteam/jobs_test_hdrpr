@@ -1,0 +1,739 @@
+[
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_001",
+        "status": "active",
+        "scene": "Adjustment_Contrast_Amount.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Contrast Amount"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_002",
+        "status": "active",
+        "scene": "Adjustment_Contrast_Pivot.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Contrast Pivot"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_003",
+        "status": "active",
+        "scene": "Adjustment_Contrast_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Contrast Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_004",
+        "status": "active",
+        "scene": "Adjustment_Contrast_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Contrast Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_005",
+        "status": "active",
+        "scene": "Adjustment_Contrast_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Contrast Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_006",
+        "status": "active",
+        "scene": "Adjustment_Contrast_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Contrast Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_007",
+        "status": "active",
+        "scene": "Adjustment_Contrast_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Contrast Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_008",
+        "status": "active",
+        "scene": "Adjustment_Contrast_Color3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Contrast Color3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_009",
+        "status": "active",
+        "scene": "Adjustment_Contrast_Color4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Contrast Color4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_010",
+        "status": "active",
+        "scene": "Adjustment_Contrast_Vector2FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Contrast Vector2FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_011",
+        "status": "active",
+        "scene": "Adjustment_Contrast_Vector3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Contrast Vector3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_012",
+        "status": "active",
+        "scene": "Adjustment_Contrast_Vector4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Contrast Vector4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_013",
+        "status": "active",
+        "scene": "Adjustment_Hsvadjust_X.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Hsvadjust X"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_014",
+        "status": "active",
+        "scene": "Adjustment_Hsvadjust_Y.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Hsvadjust Y"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_015",
+        "status": "active",
+        "scene": "Adjustment_Hsvadjust_Z.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Hsvadjust Z"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_016",
+        "status": "active",
+        "scene": "Adjustment_Hsvadjust_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Hsvadjust Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_017",
+        "status": "active",
+        "scene": "Adjustment_Hsvtorgb_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Hsvtorgb Color3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_018",
+        "status": "active",
+        "scene": "Adjustment_Hsvtorgb_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Hsvtorgb Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_019",
+        "status": "active",
+        "scene": "Adjustment_Luminance_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Luminance Color3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_020",
+        "status": "active",
+        "scene": "Adjustment_Luminance_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Luminance Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_021",
+        "status": "active",
+        "scene": "Adjustment_Rgbtohsv_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Rgbtohsv Color3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_022",
+        "status": "active",
+        "scene": "Adjustment_Rgbtohsv_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Rgbtohsv Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_023",
+        "status": "active",
+        "scene": "Adjustment_Range_Inlow.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Range Inlow"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_024",
+        "status": "active",
+        "scene": "Adjustment_Range_Inhigh.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Range Inhigh"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_025",
+        "status": "active",
+        "scene": "Adjustment_Range_Outlow.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Range Outlow"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_026",
+        "status": "active",
+        "scene": "Adjustment_Range_Outhigh.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Range Outhigh"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_027",
+        "status": "active",
+        "scene": "Adjustment_Range_Gamma.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Range Gamma"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_028",
+        "status": "active",
+        "scene": "Adjustment_Range_Doclamp.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Range Doclamp"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_029",
+        "status": "active",
+        "scene": "Adjustment_Range_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Range Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_030",
+        "status": "active",
+        "scene": "Adjustment_Range_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Range Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_031",
+        "status": "active",
+        "scene": "Adjustment_Range_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Range Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_032",
+        "status": "active",
+        "scene": "Adjustment_Range_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Range Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_033",
+        "status": "active",
+        "scene": "Adjustment_Range_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Range Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_034",
+        "status": "active",
+        "scene": "Adjustment_Range_Color3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Range Color3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_035",
+        "status": "active",
+        "scene": "Adjustment_Range_Color4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Range Color4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_036",
+        "status": "active",
+        "scene": "Adjustment_Range_Vector2FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Range Vector2FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_037",
+        "status": "active",
+        "scene": "Adjustment_Range_Vector3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Range Vector3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_038",
+        "status": "active",
+        "scene": "Adjustment_Range_Vector4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Range Vector4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_039",
+        "status": "active",
+        "scene": "Adjustment_Remap_Inlow.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Remap Inlow"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_040",
+        "status": "active",
+        "scene": "Adjustment_Remap_Inhigh.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Remap Inhigh"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_041",
+        "status": "active",
+        "scene": "Adjustment_Remap_Outlow.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Remap Outlow"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_042",
+        "status": "active",
+        "scene": "Adjustment_Remap_Outhigh.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Remap Outhigh"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_043",
+        "status": "active",
+        "scene": "Adjustment_Remap_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Remap Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_044",
+        "status": "active",
+        "scene": "Adjustment_Remap_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Remap Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_045",
+        "status": "active",
+        "scene": "Adjustment_Remap_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Remap Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_046",
+        "status": "active",
+        "scene": "Adjustment_Remap_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Remap Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_047",
+        "status": "active",
+        "scene": "Adjustment_Remap_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Remap Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_048",
+        "status": "active",
+        "scene": "Adjustment_Remap_Color3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Remap Color3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_049",
+        "status": "active",
+        "scene": "Adjustment_Remap_Color4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Remap Color4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_050",
+        "status": "active",
+        "scene": "Adjustment_Remap_Vector2FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Remap Vector2FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_051",
+        "status": "active",
+        "scene": "Adjustment_Remap_Vector3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Remap Vector3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_052",
+        "status": "active",
+        "scene": "Adjustment_Remap_Vector4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Remap Vector4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_053",
+        "status": "active",
+        "scene": "Adjustment_Saturate_Amount.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Saturate Amount"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_054",
+        "status": "active",
+        "scene": "Adjustment_Saturate_Lumacoeffs.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Saturate Lumacoeffs"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_055",
+        "status": "active",
+        "scene": "Adjustment_Saturate_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Saturate Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_056",
+        "status": "active",
+        "scene": "Adjustment_Smoothstep_High.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Smoothstep High"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_057",
+        "status": "active",
+        "scene": "Adjustment_Smoothstep_Low.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Smoothstep Low"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_058",
+        "status": "active",
+        "scene": "Adjustment_Smoothstep_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Smoothstep Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_059",
+        "status": "active",
+        "scene": "Adjustment_Smoothstep_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Smoothstep Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_060",
+        "status": "active",
+        "scene": "Adjustment_Smoothstep_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Smoothstep Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_061",
+        "status": "active",
+        "scene": "Adjustment_Smoothstep_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Smoothstep Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_062",
+        "status": "active",
+        "scene": "Adjustment_Smoothstep_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Smoothstep Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_063",
+        "status": "active",
+        "scene": "Adjustment_Smoothstep_Color3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Smoothstep Color3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_064",
+        "status": "active",
+        "scene": "Adjustment_Smoothstep_Color4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Smoothstep Color4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_065",
+        "status": "active",
+        "scene": "Adjustment_Smoothstep_Vector2FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Smoothstep Vector2FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_066",
+        "status": "active",
+        "scene": "Adjustment_Smoothstep_Vector3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Smoothstep Vector3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_067",
+        "status": "active",
+        "scene": "Adjustment_Smoothstep_Vector4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Smoothstep Vector4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    }
+]

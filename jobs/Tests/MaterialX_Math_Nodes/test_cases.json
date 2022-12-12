@@ -1,0 +1,2202 @@
+[
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_001",
+        "status": "active",
+        "scene": "Math_Absval_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Absval Color3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_002",
+        "status": "active",
+        "scene": "Math_Absval_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Absval Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_003",
+        "status": "active",
+        "scene": "Math_Absval_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Absval Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_004",
+        "status": "active",
+        "scene": "Math_Absval_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Absval Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_005",
+        "status": "active",
+        "scene": "Math_Absval_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Absval Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_006",
+        "status": "active",
+        "scene": "Math_Absval_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Absval Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_007",
+        "status": "active",
+        "scene": "Math_Acos_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Acos Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_008",
+        "status": "active",
+        "scene": "Math_Acos_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Acos Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_009",
+        "status": "active",
+        "scene": "Math_Acos_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Acos Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_010",
+        "status": "active",
+        "scene": "Math_Acos_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Acos Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_011",
+        "status": "active",
+        "scene": "Math_Add_Color3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Add Color3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_012",
+        "status": "active",
+        "scene": "Math_Add_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Add Color3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_013",
+        "status": "active",
+        "scene": "Math_Add_Color4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Add Color4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_014",
+        "status": "active",
+        "scene": "Math_Add_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Add Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_015",
+        "status": "active",
+        "scene": "Math_Add_Displacementshader.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Add Displacementshader"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_016",
+        "status": "active",
+        "scene": "Math_Add_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Add Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_017",
+        "status": "active",
+        "scene": "Math_Add_Surfaceshader.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Add Surfaceshader"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_018",
+        "status": "active",
+        "scene": "Math_Add_Vector2FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Add Vector2FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_019",
+        "status": "active",
+        "scene": "Math_Add_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Add Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_020",
+        "status": "active",
+        "scene": "Math_Add_Vector3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Add Vector3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_021",
+        "status": "active",
+        "scene": "Math_Add_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Add Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_022",
+        "status": "active",
+        "scene": "Math_Add_Vector4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Add Vector4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_023",
+        "status": "active",
+        "scene": "Math_Add_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Add Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_024",
+        "status": "active",
+        "scene": "Math_Asin_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Asin Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_025",
+        "status": "active",
+        "scene": "Math_Asin_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Asin Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_026",
+        "status": "active",
+        "scene": "Math_Asin_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Asin Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_027",
+        "status": "active",
+        "scene": "Math_Asin_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Asin Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_028",
+        "status": "active",
+        "scene": "Math_Atan2_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Atan2 Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_029",
+        "status": "active",
+        "scene": "Math_Atan2_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Atan2 Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_030",
+        "status": "active",
+        "scene": "Math_Atan2_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Atan2 Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_031",
+        "status": "active",
+        "scene": "Math_Atan2_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Atan2 Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_032",
+        "status": "active",
+        "scene": "Math_Ceil_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Ceil Color3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_033",
+        "status": "active",
+        "scene": "Math_Ceil_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Ceil Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_034",
+        "status": "active",
+        "scene": "Math_Ceil_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Ceil Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_035",
+        "status": "active",
+        "scene": "Math_Ceil_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Ceil Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_036",
+        "status": "active",
+        "scene": "Math_Ceil_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Ceil Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_037",
+        "status": "active",
+        "scene": "Math_Ceil_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Ceil Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_038",
+        "status": "active",
+        "scene": "Math_Clamp_Color3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Clamp Color3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_039",
+        "status": "active",
+        "scene": "Math_Clamp_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Clamp Color3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_040",
+        "status": "active",
+        "scene": "Math_Clamp_Color4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Clamp Color4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_041",
+        "status": "active",
+        "scene": "Math_Clamp_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Clamp Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_042",
+        "status": "active",
+        "scene": "Math_Clamp_Float_bottom.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Clamp Float bottom"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_043",
+        "status": "active",
+        "scene": "Math_Clamp_Float_mid.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Clamp Float mid"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_044",
+        "status": "active",
+        "scene": "Math_Clamp_Float_top.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Clamp Float top"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_045",
+        "status": "active",
+        "scene": "Math_Clamp_Vector2FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Clamp Vector2FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_046",
+        "status": "active",
+        "scene": "Math_Clamp_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Clamp Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_047",
+        "status": "active",
+        "scene": "Math_Clamp_Vector3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Clamp Vector3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_048",
+        "status": "active",
+        "scene": "Math_Clamp_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Clamp Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_049",
+        "status": "active",
+        "scene": "Math_Clamp_Vector4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Clamp Vector4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_050",
+        "status": "active",
+        "scene": "Math_Clamp_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Clamp Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_051",
+        "status": "active",
+        "scene": "Math_Cos_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Cos Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_052",
+        "status": "active",
+        "scene": "Math_Cos_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Cos Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_053",
+        "status": "active",
+        "scene": "Math_Cos_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Cos Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_054",
+        "status": "active",
+        "scene": "Math_Cos_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Cos Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_055",
+        "status": "active",
+        "scene": "Math_Crossproduct_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Crossproduct Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_056",
+        "status": "active",
+        "scene": "Math_Divide_Color3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Divide Color3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_057",
+        "status": "active",
+        "scene": "Math_Divide_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Divide Color3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_058",
+        "status": "active",
+        "scene": "Math_Divide_Color4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Divide Color4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_059",
+        "status": "active",
+        "scene": "Math_Divide_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Divide Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_060",
+        "status": "active",
+        "scene": "Math_Divide_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Divide Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_061",
+        "status": "active",
+        "scene": "Math_Divide_Vector2FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Divide Vector2FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_062",
+        "status": "active",
+        "scene": "Math_Divide_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Divide Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_063",
+        "status": "active",
+        "scene": "Math_Divide_Vector3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Divide Vector3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_064",
+        "status": "active",
+        "scene": "Math_Divide_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Divide Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_065",
+        "status": "active",
+        "scene": "Math_Divide_Vector4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Divide Vector4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_066",
+        "status": "active",
+        "scene": "Math_Divide_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Divide Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_067",
+        "status": "active",
+        "scene": "Math_Dotproduct_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Dotproduct Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_068",
+        "status": "active",
+        "scene": "Math_Dotproduct_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Dotproduct Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_069",
+        "status": "active",
+        "scene": "Math_Dotproduct_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Dotproduct Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_070",
+        "status": "active",
+        "scene": "Math_Exp_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Exp Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_071",
+        "status": "active",
+        "scene": "Math_Exp_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Exp Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_072",
+        "status": "active",
+        "scene": "Math_Exp_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Exp Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_073",
+        "status": "active",
+        "scene": "Math_Exp_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Exp Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_074",
+        "status": "active",
+        "scene": "Math_Floor_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Floor Color3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_075",
+        "status": "active",
+        "scene": "Math_Floor_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Floor Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_076",
+        "status": "active",
+        "scene": "Math_Floor_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Floor Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_077",
+        "status": "active",
+        "scene": "Math_Floor_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Floor Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_078",
+        "status": "active",
+        "scene": "Math_Floor_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Floor Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_079",
+        "status": "active",
+        "scene": "Math_Floor_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Floor Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_080",
+        "status": "active",
+        "scene": "Math_Ln_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Ln Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_081",
+        "status": "active",
+        "scene": "Math_Ln_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Ln Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_082",
+        "status": "active",
+        "scene": "Math_Ln_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Ln Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_083",
+        "status": "active",
+        "scene": "Math_Ln_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Ln Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_084",
+        "status": "active",
+        "scene": "Math_Magnitude_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Magnitude Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_085",
+        "status": "active",
+        "scene": "Math_Magnitude_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Magnitude Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_086",
+        "status": "active",
+        "scene": "Math_Magnitude_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Magnitude Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_087",
+        "status": "active",
+        "scene": "Math_Max_Color3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Max Color3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_088",
+        "status": "active",
+        "scene": "Math_Max_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Max Color3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_089",
+        "status": "active",
+        "scene": "Math_Max_Color4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Max Color4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_090",
+        "status": "active",
+        "scene": "Math_Max_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Max Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_091",
+        "status": "active",
+        "scene": "Math_Max_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Max Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_092",
+        "status": "active",
+        "scene": "Math_Max_Vector2FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Max Vector2FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_093",
+        "status": "active",
+        "scene": "Math_Max_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Max Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_094",
+        "status": "active",
+        "scene": "Math_Max_Vector3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Max Vector3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_095",
+        "status": "active",
+        "scene": "Math_Max_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Max Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_096",
+        "status": "active",
+        "scene": "Math_Max_Vector4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Max Vector4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_097",
+        "status": "active",
+        "scene": "Math_Max_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Max Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_098",
+        "status": "active",
+        "scene": "Math_Min_Color3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Min Color3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_099",
+        "status": "active",
+        "scene": "Math_Min_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Min Color3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_100",
+        "status": "active",
+        "scene": "Math_Min_Color4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Min Color4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_101",
+        "status": "active",
+        "scene": "Math_Min_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Min Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_102",
+        "status": "active",
+        "scene": "Math_Min_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Min Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_103",
+        "status": "active",
+        "scene": "Math_Min_Vector2FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Min Vector2FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_104",
+        "status": "active",
+        "scene": "Math_Min_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Min Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_105",
+        "status": "active",
+        "scene": "Math_Min_Vector3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Min Vector3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_106",
+        "status": "active",
+        "scene": "Math_Min_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Min Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_107",
+        "status": "active",
+        "scene": "Math_Min_Vector4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Min Vector4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_108",
+        "status": "active",
+        "scene": "Math_Min_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Min Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_109",
+        "status": "active",
+        "scene": "Math_Modulo_Color3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Modulo Color3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_110",
+        "status": "active",
+        "scene": "Math_Modulo_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Modulo Color3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_111",
+        "status": "active",
+        "scene": "Math_Modulo_Color4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Modulo Color4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_112",
+        "status": "active",
+        "scene": "Math_Modulo_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Modulo Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_113",
+        "status": "active",
+        "scene": "Math_Modulo_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Modulo Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_114",
+        "status": "active",
+        "scene": "Math_Modulo_Vector2FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Modulo Vector2FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_115",
+        "status": "active",
+        "scene": "Math_Modulo_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Modulo Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_116",
+        "status": "active",
+        "scene": "Math_Modulo_Vector3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Modulo Vector3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_117",
+        "status": "active",
+        "scene": "Math_Modulo_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Modulo Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_118",
+        "status": "active",
+        "scene": "Math_Modulo_Vector4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Modulo Vector4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_119",
+        "status": "active",
+        "scene": "Math_Modulo_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Modulo Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_120",
+        "status": "active",
+        "scene": "Math_Multiply_Color3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Multiply Color3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_121",
+        "status": "active",
+        "scene": "Math_Multiply_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Multiply Color3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_122",
+        "status": "active",
+        "scene": "Math_Multiply_Color4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Multiply Color4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_123",
+        "status": "active",
+        "scene": "Math_Multiply_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Multiply Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_124",
+        "status": "active",
+        "scene": "Math_Multiply_DisplacementshaderF.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Multiply DisplacementshaderF"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_125",
+        "status": "active",
+        "scene": "Math_Multiply_DisplacementshaderV.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Multiply DisplacementshaderV"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_126",
+        "status": "active",
+        "scene": "Math_Multiply_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Multiply Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_127",
+        "status": "active",
+        "scene": "Math_Multiply_SurfaceshaderC.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Multiply SurfaceshaderC"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_128",
+        "status": "active",
+        "scene": "Math_Multiply_SurfaceshaderF.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Multiply SurfaceshaderF"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_129",
+        "status": "active",
+        "scene": "Math_Multiply_Vector2FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Multiply Vector2FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_130",
+        "status": "active",
+        "scene": "Math_Multiply_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Multiply Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_131",
+        "status": "active",
+        "scene": "Math_Multiply_Vector3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Multiply Vector3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_132",
+        "status": "active",
+        "scene": "Math_Multiply_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Multiply Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_133",
+        "status": "active",
+        "scene": "Math_Multiply_Vector4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Multiply Vector4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_134",
+        "status": "active",
+        "scene": "Math_Multiply_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Multiply Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_135",
+        "status": "active",
+        "scene": "Math_Normalize_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Normalize Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_136",
+        "status": "active",
+        "scene": "Math_Normalize_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Normalize Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_137",
+        "status": "active",
+        "scene": "Math_Normalize_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Normalize Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_138",
+        "status": "active",
+        "scene": "Math_Place2d_Offset_pivot.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Place2d Offset pivot"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_139",
+        "status": "active",
+        "scene": "Math_Place2d_Offset.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Place2d Offset"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_140",
+        "status": "active",
+        "scene": "Math_Place2d_Rotate_pivot.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Place2d Rotate pivot"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_141",
+        "status": "active",
+        "scene": "Math_Place2d_Rotate.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Place2d Rotate"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_142",
+        "status": "active",
+        "scene": "Math_Place2d_Scale_pivot.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Place2d Scale pivot"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_143",
+        "status": "active",
+        "scene": "Math_Place2d_Scale.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Place2d Scale"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_144",
+        "status": "active",
+        "scene": "Math_Power_Color3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Power Color3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_145",
+        "status": "active",
+        "scene": "Math_Power_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Power Color3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_146",
+        "status": "active",
+        "scene": "Math_Power_Color4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Power Color4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_147",
+        "status": "active",
+        "scene": "Math_Power_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Power Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_148",
+        "status": "active",
+        "scene": "Math_Power_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Power Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_149",
+        "status": "active",
+        "scene": "Math_Power_Vector2FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Power Vector2FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_150",
+        "status": "active",
+        "scene": "Math_Power_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Power Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_151",
+        "status": "active",
+        "scene": "Math_Power_Vector3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Power Vector3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_152",
+        "status": "active",
+        "scene": "Math_Power_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Power Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_153",
+        "status": "active",
+        "scene": "Math_Power_Vector4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Power Vector4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_154",
+        "status": "active",
+        "scene": "Math_Power_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Power Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_155",
+        "status": "active",
+        "scene": "Math_Rotate2d_0.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Rotate2d 0"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_156",
+        "status": "active",
+        "scene": "Math_Rotate2d_225.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Rotate2d 225"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_157",
+        "status": "active",
+        "scene": "Math_Rotate2d_30.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Rotate2d 30"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_158",
+        "status": "active",
+        "scene": "Math_Rotate2d_45.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Rotate2d 45"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_159",
+        "status": "active",
+        "scene": "Math_Rotate2d_90.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Rotate2d 90"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_160",
+        "status": "active",
+        "scene": "Math_Rotate3d_001_30.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Rotate3d 001 30"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_161",
+        "status": "active",
+        "scene": "Math_Rotate3d_001_90.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Rotate3d 001 90"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_162",
+        "status": "active",
+        "scene": "Math_Rotate3d_010_30.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Rotate3d 010 30"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_163",
+        "status": "active",
+        "scene": "Math_Rotate3d_010_90.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Rotate3d 010 90"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_164",
+        "status": "active",
+        "scene": "Math_Rotate3d_111_30.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Rotate3d 111 30"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_165",
+        "status": "active",
+        "scene": "Math_Rotate3d_111_90.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Rotate3d 111 90"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_166",
+        "status": "active",
+        "scene": "Math_Sign_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Sign Color3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_167",
+        "status": "active",
+        "scene": "Math_Sign_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Sign Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_168",
+        "status": "active",
+        "scene": "Math_Sign_Float_negative.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Sign Float negative"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_169",
+        "status": "active",
+        "scene": "Math_Sign_Float_positive.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Sign Float positive"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_170",
+        "status": "active",
+        "scene": "Math_Sign_Float_zero.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Sign Float zero"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_171",
+        "status": "active",
+        "scene": "Math_Sign_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Sign Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_172",
+        "status": "active",
+        "scene": "Math_Sign_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Sign Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_173",
+        "status": "active",
+        "scene": "Math_Sign_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Sign Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_174",
+        "status": "active",
+        "scene": "Math_Sin_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Sin Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_175",
+        "status": "active",
+        "scene": "Math_Sin_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Sin Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_176",
+        "status": "active",
+        "scene": "Math_Sin_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Sin Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_177",
+        "status": "active",
+        "scene": "Math_Sin_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Sin Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_178",
+        "status": "active",
+        "scene": "Math_Sqrt_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Sqrt Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_179",
+        "status": "active",
+        "scene": "Math_Sqrt_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Sqrt Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_180",
+        "status": "active",
+        "scene": "Math_Sqrt_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Sqrt Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_181",
+        "status": "active",
+        "scene": "Math_Sqrt_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Sqrt Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_182",
+        "status": "active",
+        "scene": "Math_Subtract_Color3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Subtract Color3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_183",
+        "status": "active",
+        "scene": "Math_Subtract_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Subtract Color3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_184",
+        "status": "active",
+        "scene": "Math_Subtract_Color4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Subtract Color4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_185",
+        "status": "active",
+        "scene": "Math_Subtract_Color4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Subtract Color4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_186",
+        "status": "active",
+        "scene": "Math_Subtract_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Subtract Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_187",
+        "status": "active",
+        "scene": "Math_Subtract_Vector2FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Subtract Vector2FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_188",
+        "status": "active",
+        "scene": "Math_Subtract_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Subtract Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_189",
+        "status": "active",
+        "scene": "Math_Subtract_Vector3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Subtract Vector3FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_190",
+        "status": "active",
+        "scene": "Math_Subtract_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Subtract Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_191",
+        "status": "active",
+        "scene": "Math_Subtract_Vector4FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Subtract Vector4FA"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_192",
+        "status": "active",
+        "scene": "Math_Subtract_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Subtract Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_193",
+        "status": "active",
+        "scene": "Math_Tan_Float.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Tan Float"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_194",
+        "status": "active",
+        "scene": "Math_Tan_Vector2.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Tan Vector2"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_195",
+        "status": "active",
+        "scene": "Math_Tan_Vector3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Tan Vector3"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_196",
+        "status": "active",
+        "scene": "Math_Tan_Vector4.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Tan Vector4"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_197",
+        "status": "active",
+        "scene": "Math_Transformmatrix_Basic.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Transformmatrix Basic"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_198",
+        "status": "active",
+        "scene": "Math_Transformnormal_Basic.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Transformnormal Basic"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_199",
+        "status": "active",
+        "scene": "Math_Transformpoint_Basic.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Transformpoint Basic"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    },
+    {
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_200",
+        "status": "active",
+        "scene": "Math_Transformvector_Basic.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Transformvector Basic"
+        ],
+        "render_delay": 10,
+        "load_delay": 10
+    }
+]

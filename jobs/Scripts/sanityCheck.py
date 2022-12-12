@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
         utils.open_tool(script_path, execution_script)
 
-        sleep(5)
+        sleep(3)
 
         utils.set_camera_options()
 

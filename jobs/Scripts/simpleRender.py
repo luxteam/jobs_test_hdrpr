@@ -196,10 +196,7 @@ def execute_tests(args, current_conf):
 
                 utils.open_tool(script_path, execution_script)
 
-                if "load_delay" in case:
-                    sleep(case["load_delay"])
-                else:
-                    sleep(5)
+                sleep(3)
 
                 utils.set_render_quality(args.engine)
 

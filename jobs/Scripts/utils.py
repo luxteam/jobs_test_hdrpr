@@ -131,8 +131,9 @@ def open_tool(script_path, execution_script):
 
     win32gui.ShowWindow(window_hwnd, win32con.SW_MAXIMIZE)
     time.sleep(0.5)
-    pyautogui.hotkey("ctrl", "\\")
-    time.sleep(0.5)
+    # unpause render
+    pyautogui.hotkey("ctrl", "p")
+    time.sleep(0.2)
 
 
 def set_render_quality(engine):
@@ -143,6 +144,9 @@ def set_render_quality(engine):
 
     if engine == "Northstar":
         locate_and_click(USDViewElements.NORTHSTAR.build_path())
+        time.sleep(0.2)
+        # unpause render
+        pyautogui.hotkey("ctrl", "p")
     elif engine == "HybridPro":
         locate_and_click(USDViewElements.HYBRID_PRO.build_path())
     else:

@@ -194,7 +194,7 @@ def execute_tests(args, current_conf):
                 execution_script = f"{args.python} {tool_path} -r RPR --camera {case['camera']} {scene_path}"
                 script_path = os.path.join(args.output, "{}.bat".format(case["case"]))
 
-                utils.open_tool(script_path, execution_script)
+                utils.open_tool(script_path, execution_script, args.engine)
 
                 sleep(3)
 

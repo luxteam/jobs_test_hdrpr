@@ -69,7 +69,7 @@ def close_process(process):
         case_logger.error(f"Traceback: {traceback.format_exc()}")
 
 
-def open_tool(script_path, execution_script):
+def open_tool(script_path, execution_script, engine):
     global process
 
     with open(script_path, "w") as f:
@@ -131,9 +131,10 @@ def open_tool(script_path, execution_script):
 
     win32gui.ShowWindow(window_hwnd, win32con.SW_MAXIMIZE)
     time.sleep(0.5)
-    # unpause render
-    pyautogui.hotkey("ctrl", "p")
-    time.sleep(0.2)
+    # pause render
+    if engine == "HybridPro":
+        pyautogui.hotkey("ctrl", "p")
+        time.sleep(0.2)
 
 
 def set_render_quality(engine):
@@ -144,9 +145,6 @@ def set_render_quality(engine):
 
     if engine == "Northstar":
         locate_and_click(USDViewElements.NORTHSTAR.build_path())
-        time.sleep(0.2)
-        # unpause render
-        pyautogui.hotkey("ctrl", "p")
     elif engine == "HybridPro":
         locate_and_click(USDViewElements.HYBRID_PRO.build_path())
     else:
@@ -308,7 +306,7 @@ def locate_and_click(template, tries=3, confidence=0.9, x_offset=0, y_offset=0, 
     click_on_element(coords, x_offset=x_offset, y_offset=y_offset)
 
 
-def detect_render_finishing(max_delay=30):
+def detect_render_finishing(max_delay=45):
     PREVIOUS_SCREEN_PATH = "previous_screenshot.jpg"
     CURRENT_SCREEN_PATH = "current_screenshot.jpg"
 

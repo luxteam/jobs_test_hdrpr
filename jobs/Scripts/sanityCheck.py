@@ -47,7 +47,7 @@ if __name__ == "__main__":
 
         utils.set_render_quality(args.engine)
 
-        sleep(10)
+        utils.detect_render_finishing()
 
         utils.save_image(image_path)
 

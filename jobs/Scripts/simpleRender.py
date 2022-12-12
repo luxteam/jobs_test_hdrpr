@@ -203,8 +203,7 @@ def execute_tests(args, current_conf):
 
                 utils.set_render_quality(args.engine)
 
-                if "render_delay" in case:
-                    sleep(case["render_delay"])
+                utils.detect_render_finishing()
 
                 utils.save_image(image_path)
 

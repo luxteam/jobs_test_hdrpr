@@ -28,6 +28,9 @@ case_logger = None
 process = None
 
 
+ENGINES_LIST = set(["HybridPro", "Northstar"])
+
+
 def close_process(process):
     try:
         child_processes = process.children()
@@ -185,7 +188,7 @@ def is_case_skipped(case, render_platform, engine):
             skip_conf_by_eng = {engine}.union(render_platform)
             if skip_conf_by_eng.issuperset(config):
                 return True
-            elif (config - skip_conf_by_eng).issubset(CORE_ENGINES_LIST) and engine in config:
+            elif (config - skip_conf_by_eng).issubset(ENGINES_LIST) and engine in config:
                 """
                 If the difference between the sets is equal to some other engine, then the config is designed for different engines.
                 """

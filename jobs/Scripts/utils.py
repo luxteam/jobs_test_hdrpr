@@ -2,6 +2,7 @@ import os
 import logging
 import pyautogui
 import time
+import win32api
 import win32gui
 import win32con
 import json
@@ -12,11 +13,14 @@ from subprocess import PIPE
 import sys
 import traceback
 from PIL import Image
+import pyscreenshot
+from datetime import datetime
 from elements import USDViewElements
 
 sys.path.append(os.path.abspath(os.path.join(
     os.path.dirname(__file__), os.path.pardir, os.path.pardir)))
 import local_config
+from jobs_launcher.common.scripts.CompareMetrics import CompareMetrics
 
 
 pyautogui.FAILSAFE = False
@@ -298,3 +302,42 @@ def click_on_element(coords, x_offset=0, y_offset=0):
 def locate_and_click(template, tries=3, confidence=0.9, x_offset=0, y_offset=0, **kwargs):
     coords = locate_on_screen(template, tries=tries, confidence=confidence, **kwargs)
     click_on_element(coords, x_offset=x_offset, y_offset=y_offset)
+
+
+def detect_render_finishing(max_delay=30):
+    PREVIOUS_SCREEN_PATH = "previous_screenshot.jpg"
+    CURRENT_SCREEN_PATH = "current_screenshot.jpg"
+
+    def make_viewport_screenshot(screen_path):
+        if os.path.exists(screen_path):
+            os.remove(screen_path)
+
+        resolution_x = win32api.GetSystemMetrics(0)
+        resolution_y = win32api.GetSystemMetrics(1)
+
+        # Approximately position of viewport
+        viewport_region = (int(resolution_x / 2), 180, resolution_x - 20, int(resolution_y / 2))
+        screen = pyscreenshot.grab(bbox=viewport_region)
+        screen = screen.convert("RGB")
+        screen.save(screen_path)
+
+    start_time = datetime.now()
+
+    make_viewport_screenshot(PREVIOUS_SCREEN_PATH)
+
+    while True:
+        if (datetime.now() - start_time).total_seconds() > max_delay:
+            raise RuntimeError("Break waiting of render finishing due to timeout")
+
+        time.sleep(3)
+
+        make_viewport_screenshot(CURRENT_SCREEN_PATH)
+
+        metrics = CompareMetrics(PREVIOUS_SCREEN_PATH, CURRENT_SCREEN_PATH)
+        prediction = metrics.getPrediction(mark_failed_if_black=True, max_size=20)
+
+        # Viewport doesn't changed
+        if prediction == 0:
+            break
+
+        make_viewport_screenshot(PREVIOUS_SCREEN_PATH)

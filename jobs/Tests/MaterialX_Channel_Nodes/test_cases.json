@@ -6,42 +6,37 @@
         "camera": "Camera",
         "script_info": [
             "Channel Combine2 Vector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_002",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Combine2_Color4CF.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Combine2 Color4CF"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Combine2 Color4CF",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_003",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Combine2_Vector4VF.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Combine2 Vector4VF"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Combine2 Vector4VF",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_004",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Combine2_Vector4VV.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Combine2 Vector4VV"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Combine2 Vector4VV",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_005",
@@ -50,9 +45,7 @@
         "camera": "Camera",
         "script_info": [
             "Channel Combine3 Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_006",
@@ -61,31 +54,27 @@
         "camera": "Camera",
         "script_info": [
             "Channel Combine3 Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_007",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Combine4_Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Combine4 Color4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Combine4 Color4",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_008",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Combine4_Vector4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Combine4 Vector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Combine4 Vector4",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_009",
@@ -94,20 +83,17 @@
         "camera": "Camera",
         "script_info": [
             "Channel Convert FloatColor3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_010",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Convert_FloatColor4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Convert FloatColor4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Convert FloatColor4",
+            "HP and NS: logo too vague"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_011",
@@ -116,9 +102,7 @@
         "camera": "Camera",
         "script_info": [
             "Channel Convert FloatVector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_012",
@@ -127,20 +111,17 @@
         "camera": "Camera",
         "script_info": [
             "Channel Convert FloatVector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_013",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Convert_FloatVector4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Convert FloatVector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Convert FloatVector4",
+            "HP and NS: logo too vague"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_014",
@@ -149,9 +130,7 @@
         "camera": "Camera",
         "script_info": [
             "Channel Convert Vector2Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_015",
@@ -160,9 +139,7 @@
         "camera": "Camera",
         "script_info": [
             "Channel Convert Vector3Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_016",
@@ -171,31 +148,27 @@
         "camera": "Camera",
         "script_info": [
             "Channel Convert Vector3Vector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_017",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Convert_Vector3Vector4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Convert Vector3Vector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Convert Vector3Vector4",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_018",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Convert_Vector4Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Convert Vector4Color4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Convert Vector4Color4",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_019",
@@ -204,9 +177,7 @@
         "camera": "Camera",
         "script_info": [
             "Channel Convert Vector4Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_020",
@@ -215,31 +186,27 @@
         "camera": "Camera",
         "script_info": [
             "Channel Convert Color3Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_021",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Convert_Color4Vector4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Convert Color4Vector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Convert Color4Vector4",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_022",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Convert_Color3Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Convert Color3Color4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Convert Color3Color4",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_023",
@@ -248,31 +215,28 @@
         "camera": "Camera",
         "script_info": [
             "Channel Convert Color4Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_024",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Convert_BooleanFloat_0.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Convert BooleanFloat_0"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Convert BooleanFloat_0",
+            "NS: black planet",
+            "HP: different color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_025",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Convert_BooleanFloat_1.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Convert BooleanFloat_1"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Convert BooleanFloat_1",
+            "HP and NS: different color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_026",
@@ -281,20 +245,17 @@
         "camera": "Camera",
         "script_info": [
             "Channel Convert IntegerFloat_0"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_027",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Convert_IntegerFloat_1.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Convert IntegerFloat_1"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Convert IntegerFloat_1",
+            "HP and NS: white instead of yellow"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_028",
@@ -303,31 +264,27 @@
         "camera": "Camera",
         "script_info": [
             "Channel Extract Color3_R"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_029",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Extract_Color3_G.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Color3_G"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Extract Color3_G",
+            "HP: only first channel works"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_030",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Extract_Color3_B.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Color3_B"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Extract Color3_B",
+            "HP: only first channel works"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_031",
@@ -336,42 +293,38 @@
         "camera": "Camera",
         "script_info": [
             "Channel Extract Color4_R"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_032",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Extract_Color4_G.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Color4_G"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Extract Color4_G",
+            "HP: only first channel works"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_033",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Extract_Color4_B.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Color4_B"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Extract Color4_B",
+            "HP: only first channel works"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_034",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Extract_Color4_alpha.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Color4_alpha"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Extract Color4_alpha",
+            "NS: alpha 0",
+            "HP: only first channel works"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_035",
@@ -380,20 +333,17 @@
         "camera": "Camera",
         "script_info": [
             "Channel Extract Vector2_X"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_036",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Extract_Vector2_Y.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Vector2_Y"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Extract Vector2_Y",
+            "HP: only first channel works"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_037",
@@ -402,31 +352,27 @@
         "camera": "Camera",
         "script_info": [
             "Channel Extract Vector3_X"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_038",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Extract_Vector3_Y.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Vector3_Y"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Extract Vector3_Y",
+            "HP: only first channel works"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_039",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Extract_Vector3_Z.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Vector3_Z"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Extract Vector3_Z",
+            "HP: only first channel works"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_040",
@@ -435,53 +381,50 @@
         "camera": "Camera",
         "script_info": [
             "Channel Extract Vector4_X"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_041",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Extract_Vector4_Y.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Vector4_Y"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Extract Vector4_Y",
+            "HP: only first channel works"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_042",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Extract_Vector4_Z.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Vector4_Z"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Extract Vector4_Z",
+            "HP: only first channel works"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_043",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Extract_Vector4_W.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Vector4_W"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Extract Vector4_W",
+            "NS: w 0",
+            "HP: only first channel works"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_044",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Separate2_X.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate2 X"
+            "Channel Separate2 X",
+            "NS: too blue, Separate always returns last channel?",
+            "HP: https://amdrender.atlassian.net/browse/BLEN-137"
         ],
-        "render_delay": 10,
-        "load_delay": 10
+        "skip_config": [ ["HybridPro"] ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_045",
@@ -489,32 +432,34 @@
         "scene": "Channel_Separate2_Y.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate2 Y"
+            "Channel Separate2 Y",
+            "HP: https://amdrender.atlassian.net/browse/BLEN-137"
         ],
-        "render_delay": 10,
-        "load_delay": 10
+        "skip_config": [ ["HybridPro"] ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_046",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Separate3_Color3_R.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate3 Color3_R"
+            "Channel Separate3 Color3_R",
+            "NS: too blue, Separate always returns last channel?",
+            "HP: https://amdrender.atlassian.net/browse/BLEN-137"
         ],
-        "render_delay": 10,
-        "load_delay": 10
+        "skip_config": [ ["HybridPro"] ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_047",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Separate3_Color3_G.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate3 Color3_G"
+            "Channel Separate3 Color3_G",
+            "NS: not enough blue, Separate always returns last channel?",
+            "HP: https://amdrender.atlassian.net/browse/BLEN-137"
         ],
-        "render_delay": 10,
-        "load_delay": 10
+        "skip_config": [ ["HybridPro"] ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_048",
@@ -522,32 +467,34 @@
         "scene": "Channel_Separate3_Color3_B.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate3 Color3_B"
+            "Channel Separate3 Color3_B",
+            "HP: https://amdrender.atlassian.net/browse/BLEN-137"
         ],
-        "render_delay": 10,
-        "load_delay": 10
+        "skip_config": [ ["HybridPro"] ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_049",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Separate3_Vector3_X.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate3 Vector3_X"
+            "Channel Separate3 Vector3_X",
+            "NS: too blue, Separate always returns last channel?",
+            "HP: https://amdrender.atlassian.net/browse/BLEN-137"
         ],
-        "render_delay": 10,
-        "load_delay": 10
+        "skip_config": [ ["HybridPro"] ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_050",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Separate3_Vector3_Y.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate3 Vector3_Y"
+            "Channel Separate3 Vector3_Y",
+            "NS: not enough blue, Separate always returns last channel?",
+            "HP: https://amdrender.atlassian.net/browse/BLEN-137"
         ],
-        "render_delay": 10,
-        "load_delay": 10
+        "skip_config": [ ["HybridPro"] ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_051",
@@ -555,32 +502,34 @@
         "scene": "Channel_Separate3_Vector3_Z.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate3 Vector3_Z"
+            "Channel Separate3 Vector3_Z",
+            "HP: https://amdrender.atlassian.net/browse/BLEN-137"
         ],
-        "render_delay": 10,
-        "load_delay": 10
+        "skip_config": [ ["HybridPro"] ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_052",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Separate4_Color4_R.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate4 Color4_R"
+            "Channel Separate4 Color4_R",
+            "NS: too blue, Separate always returns last channel?",
+            "HP: https://amdrender.atlassian.net/browse/BLEN-137"
         ],
-        "render_delay": 10,
-        "load_delay": 10
+        "skip_config": [ ["HybridPro"] ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_053",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Separate4_Color4_G.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate4 Color4_G"
+            "Channel Separate4 Color4_G",
+            "NS: not enough blue, Separate always returns last channel?",
+            "HP: https://amdrender.atlassian.net/browse/BLEN-137"
         ],
-        "render_delay": 10,
-        "load_delay": 10
+        "skip_config": [ ["HybridPro"] ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_054",
@@ -588,10 +537,10 @@
         "scene": "Channel_Separate4_Color4_B.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate4 Color4_B"
+            "Channel Separate4 Color4_B",
+            "HP: https://amdrender.atlassian.net/browse/BLEN-137"
         ],
-        "render_delay": 10,
-        "load_delay": 10
+        "skip_config": [ ["HybridPro"] ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_055",
@@ -599,10 +548,10 @@
         "scene": "Channel_Separate4_Color4_alpha.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate4 Color4_alpha"
+            "Channel Separate4 Color4_alpha",
+            "HP: https://amdrender.atlassian.net/browse/BLEN-137"
         ],
-        "render_delay": 10,
-        "load_delay": 10
+        "skip_config": [ ["HybridPro"] ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_056",
@@ -610,32 +559,34 @@
         "scene": "Channel_Separate4_Vector4_X.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate4 Vector4_X"
+            "Channel Separate4 Vector4_X",
+            "HP: https://amdrender.atlassian.net/browse/BLEN-137"
         ],
-        "render_delay": 10,
-        "load_delay": 10
+        "skip_config": [ ["HybridPro"] ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_057",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Separate4_Vector4_Y.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate4 Vector4_Y"
+            "Channel Separate4 Vector4_Y",
+            "NS: not enough blue, Separate always returns last channel?",
+            "HP: https://amdrender.atlassian.net/browse/BLEN-137"
         ],
-        "render_delay": 10,
-        "load_delay": 10
+        "skip_config": [ ["HybridPro"] ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_058",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Separate4_Vector4_Z.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate4 Vector4_Z"
+            "Channel Separate4 Vector4_Z",
+            "NS: not enough blue, Separate always returns last channel?",
+            "HP: https://amdrender.atlassian.net/browse/BLEN-137"
         ],
-        "render_delay": 10,
-        "load_delay": 10
+        "skip_config": [ ["HybridPro"] ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_059",
@@ -643,54 +594,50 @@
         "scene": "Channel_Separate4_Vector4_W.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate4 Vector4_W"
+            "Channel Separate4 Vector4_W",
+            "HP: https://amdrender.atlassian.net/browse/BLEN-137"
         ],
-        "render_delay": 10,
-        "load_delay": 10
+        "skip_config": [ ["HybridPro"] ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_060",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Color4Vector4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color4Vector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Color4Vector4",
+            "HP and NS: logo too vague"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_061",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Color4Vector3.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color4Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Color4Vector3",
+            "HP: logo too vague"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_062",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Color4Vector2.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color4Vector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Color4Vector2",
+            "HP: logo too vague"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_063",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Color4Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color4Color4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Color4Color4",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_064",
@@ -699,31 +646,27 @@
         "camera": "Camera",
         "script_info": [
             "Channel Swizzle Color4Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_065",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Color4Float.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color4Float"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Color4Float",
+            "HP and NS: different color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_066",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Color3Vector4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color3Vector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Color3Vector4",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_067",
@@ -732,31 +675,27 @@
         "camera": "Camera",
         "script_info": [
             "Channel Swizzle Color3Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_068",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Color3Vector2.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color3Vector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Color3Vector2",
+            "HP: logo too vague"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_069",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Color3Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color3Color4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Color3Color4",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_070",
@@ -765,31 +704,27 @@
         "camera": "Camera",
         "script_info": [
             "Channel Swizzle Color3Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_071",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Color3Float.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color3Float"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Color3Float",
+            "HP and NS: different color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_072",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_FloatVector4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle FloatVector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle FloatVector4",
+            "HP and NS: logo too vague"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_073",
@@ -798,31 +733,27 @@
         "camera": "Camera",
         "script_info": [
             "Channel Swizzle FloatVector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_074",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_FloatVector2.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle FloatVector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle FloatVector2",
+            "HP: logo too vague"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_075",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_FloatColor4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle FloatColor4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle FloatColor4",
+            "HP and NS: logo too vague"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_076",
@@ -831,20 +762,17 @@
         "camera": "Camera",
         "script_info": [
             "Channel Swizzle FloatColor3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_077",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Vector4Vector4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector4Vector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Vector4Vector4",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_078",
@@ -853,31 +781,27 @@
         "camera": "Camera",
         "script_info": [
             "Channel Swizzle Vector4Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_079",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Vector4Vector2.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector4Vector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Vector4Vector2",
+            "HP: logo too vague"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_080",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Vector4Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector4Color4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Vector4Color4",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_081",
@@ -886,31 +810,27 @@
         "camera": "Camera",
         "script_info": [
             "Channel Swizzle Vector4Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_082",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Vector4Float.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector4Float"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Vector4Float",
+            "HP and NS: different color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_083",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Vector3Vector4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector3Vector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Vector3Vector4",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_084",
@@ -919,31 +839,27 @@
         "camera": "Camera",
         "script_info": [
             "Channel Swizzle Vector3Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_085",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Vector3Vector2.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector3Vector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Vector3Vector2",
+            "HP: logo too vague"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_086",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Vector3Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector3Color4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Vector3Color4",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_087",
@@ -952,31 +868,27 @@
         "camera": "Camera",
         "script_info": [
             "Channel Swizzle Vector3Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_088",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Vector3Float.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector3Float"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Vector3Float",
+            "HP and NS: different color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_089",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Vector2Vector4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector2Vector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Vector2Vector4",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_090",
@@ -985,31 +897,27 @@
         "camera": "Camera",
         "script_info": [
             "Channel Swizzle Vector2Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_091",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Vector2Vector2.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector2Vector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Vector2Vector2",
+            "HP and NS: logo too vague"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_092",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Vector2Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector2Color4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Vector2Color4",
+            "HP and NS: not enough color"
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_093",
@@ -1018,19 +926,16 @@
         "camera": "Camera",
         "script_info": [
             "Channel Swizzle Vector2Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_CHANNEL_NODES_094",
-        "status": "active",
+        "status": "observed",
         "scene": "Channel_Swizzle_Vector2Float.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector2Float"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Channel Swizzle Vector2Float",
+            "HP and NS: different color" 
+        ]
     }
 ]

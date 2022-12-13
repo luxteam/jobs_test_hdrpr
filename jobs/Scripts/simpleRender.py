@@ -141,15 +141,19 @@ def save_results(args, case, cases, test_case_status, execution_time = 0.0):
         test_case_report["execution_log"] = os.path.join("execution_logs", case["case"] + ".log")
         test_case_report["testing_start"] = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
         test_case_report["number_of_tries"] += 1
+        test_case_report["render_color_path"] = os.path.join("Color", test_case_report["file_name"])
+        test_case_report["group_timeout_exceeded"] = False
+
+        stub_image_path = os.path.join(args.output, 'Color', test_case_report['file_name'])
 
         if test_case_status == "error":
-            stub_image_path = os.path.join(args.output, 'Color', test_case_report['file_name'])
             if not os.path.exists(stub_image_path):
                 copyfile(os.path.join(args.output, '..', '..', '..', '..', 'jobs_launcher', 
                     'common', 'img', 'error.jpg'), stub_image_path)
-
-        test_case_report["render_color_path"] = os.path.join("Color", test_case_report["file_name"])
-        test_case_report["group_timeout_exceeded"] = False
+        elif test_case_status == "observed" and not os.path.exists(test_case_report["render_color_path"]):
+            if not os.path.exists(stub_image_path):
+                copyfile(os.path.join(args.output, '..', '..', '..', '..', 'jobs_launcher', 
+                    'common', 'img', 'unsupported.jpg'), stub_image_path)
 
     with open(os.path.join(args.output, case["case"] + CASE_REPORT_SUFFIX), "w") as file:
         json.dump([test_case_report], file, indent=4)

@@ -1,6 +1,9 @@
 {
     "split": true,
     "groups": {
-        "MaterialX_Nodes": ""
+        "MaterialX_Adjustment_Nodes": "",
+        "MaterialX_Channel_Nodes": "",
+        "MaterialX_Compositing_Nodes": "",
+        "MaterialX_Math_Nodes": ""
     }
 }

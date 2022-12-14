@@ -1,1036 +1,593 @@
 [
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_001",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_001",
         "status": "active",
-        "scene": "Channel_Combine2_Vector2.usda",
+        "scene": "Compositing_Burn_Color3.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Combine2 Vector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Burn Color3"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_002",
-        "status": "active",
-        "scene": "Channel_Combine2_Color4CF.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Combine2 Color4CF"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_003",
-        "status": "active",
-        "scene": "Channel_Combine2_Vector4VF.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Combine2 Vector4VF"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_004",
-        "status": "active",
-        "scene": "Channel_Combine2_Vector4VV.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Combine2 Vector4VV"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_005",
-        "status": "active",
-        "scene": "Channel_Combine3_Color3.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Combine3 Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_006",
-        "status": "active",
-        "scene": "Channel_Combine3_Vector3.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Combine3 Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_007",
-        "status": "active",
-        "scene": "Channel_Combine4_Color4.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Combine4 Color4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_008",
-        "status": "active",
-        "scene": "Channel_Combine4_Vector4.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Combine4 Vector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_009",
-        "status": "active",
-        "scene": "Channel_Convert_FloatColor3.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert FloatColor3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_010",
-        "status": "active",
-        "scene": "Channel_Convert_FloatColor4.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert FloatColor4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_011",
-        "status": "active",
-        "scene": "Channel_Convert_FloatVector2.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert FloatVector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_012",
-        "status": "active",
-        "scene": "Channel_Convert_FloatVector3.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert FloatVector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_013",
-        "status": "active",
-        "scene": "Channel_Convert_FloatVector4.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert FloatVector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_014",
-        "status": "active",
-        "scene": "Channel_Convert_Vector2Vector3.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert Vector2Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_015",
-        "status": "active",
-        "scene": "Channel_Convert_Vector3Color3.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert Vector3Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_016",
-        "status": "active",
-        "scene": "Channel_Convert_Vector3Vector2.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert Vector3Vector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_017",
-        "status": "active",
-        "scene": "Channel_Convert_Vector3Vector4.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert Vector3Vector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_018",
-        "status": "active",
-        "scene": "Channel_Convert_Vector4Color4.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert Vector4Color4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_019",
-        "status": "active",
-        "scene": "Channel_Convert_Vector4Vector3.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert Vector4Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_020",
-        "status": "active",
-        "scene": "Channel_Convert_Color3Vector3.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert Color3Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_021",
-        "status": "active",
-        "scene": "Channel_Convert_Color4Vector4.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert Color4Vector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_022",
-        "status": "active",
-        "scene": "Channel_Convert_Color3Color4.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert Color3Color4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_023",
-        "status": "active",
-        "scene": "Channel_Convert_Color4Color3.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert Color4Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_024",
-        "status": "active",
-        "scene": "Channel_Convert_BooleanFloat_0.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert BooleanFloat_0"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_025",
-        "status": "active",
-        "scene": "Channel_Convert_BooleanFloat_1.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert BooleanFloat_1"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_026",
-        "status": "active",
-        "scene": "Channel_Convert_IntegerFloat_0.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert IntegerFloat_0"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_027",
-        "status": "active",
-        "scene": "Channel_Convert_IntegerFloat_1.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Convert IntegerFloat_1"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_028",
-        "status": "active",
-        "scene": "Channel_Extract_Color3_R.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Extract Color3_R"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_029",
-        "status": "active",
-        "scene": "Channel_Extract_Color3_G.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Extract Color3_G"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_030",
-        "status": "active",
-        "scene": "Channel_Extract_Color3_B.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Extract Color3_B"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_031",
-        "status": "active",
-        "scene": "Channel_Extract_Color4_R.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Extract Color4_R"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_032",
-        "status": "active",
-        "scene": "Channel_Extract_Color4_G.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Extract Color4_G"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_033",
-        "status": "active",
-        "scene": "Channel_Extract_Color4_B.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Extract Color4_B"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_034",
-        "status": "active",
-        "scene": "Channel_Extract_Color4_alpha.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Extract Color4_alpha"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_035",
-        "status": "active",
-        "scene": "Channel_Extract_Vector2_X.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Channel Extract Vector2_X"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
-    },
-    {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_036",
-        "status": "active",
-        "scene": "Channel_Extract_Vector2_Y.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_002",
+        "status": "observed",
+        "scene": "Compositing_Burn_Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Vector2_Y"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Burn Color4",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_037",
-        "status": "active",
-        "scene": "Channel_Extract_Vector3_X.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_003",
+        "status": "observed",
+        "scene": "Compositing_Burn_Float.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Vector3_X"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Burn Float",
+            "HP: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_038",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_004",
         "status": "active",
-        "scene": "Channel_Extract_Vector3_Y.usda",
+        "scene": "Compositing_Difference_Color3.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Vector3_Y"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Difference Color3"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_039",
-        "status": "active",
-        "scene": "Channel_Extract_Vector3_Z.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_005",
+        "status": "observed",
+        "scene": "Compositing_Difference_Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Vector3_Z"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Difference Color4",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_040",
-        "status": "active",
-        "scene": "Channel_Extract_Vector4_X.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_006",
+        "status": "observed",
+        "scene": "Compositing_Difference_Float.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Vector4_X"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Difference Float",
+            "HP: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_041",
-        "status": "active",
-        "scene": "Channel_Extract_Vector4_Y.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_007",
+        "status": "observed",
+        "scene": "Compositing_Disjointoover_Equal.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Vector4_Y"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Disjointoover Equal",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_042",
-        "status": "active",
-        "scene": "Channel_Extract_Vector4_Z.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_008",
+        "status": "observed",
+        "scene": "Compositing_Disjointoover_Greater.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Vector4_Z"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Disjointoover Greater",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_043",
-        "status": "active",
-        "scene": "Channel_Extract_Vector4_W.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_009",
+        "status": "observed",
+        "scene": "Compositing_Disjointoover_Less_Alpha.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Extract Vector4_W"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Disjointoover Less Alpha",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_044",
-        "status": "active",
-        "scene": "Channel_Separate2_X.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_010",
+        "status": "observed",
+        "scene": "Compositing_Disjointoover_Less_RGB.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate2 X"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Disjointoover Less RGB",
+            "NS: white object"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_045",
-        "status": "active",
-        "scene": "Channel_Separate2_Y.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_011",
+        "status": "observed",
+        "scene": "Compositing_Disjointoover_Mix.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate2 Y"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Disjointoover Mix",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_046",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_012",
         "status": "active",
-        "scene": "Channel_Separate3_Color3_R.usda",
+        "scene": "Compositing_Dodge_Color3.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate3 Color3_R"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Dodge Color3"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_047",
-        "status": "active",
-        "scene": "Channel_Separate3_Color3_G.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_013",
+        "status": "observed",
+        "scene": "Compositing_Dodge_Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate3 Color3_G"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Dodge Color4",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_048",
-        "status": "active",
-        "scene": "Channel_Separate3_Color3_B.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_014",
+        "status": "observed",
+        "scene": "Compositing_Dodge_Float.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate3 Color3_B"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Dodge Float",
+            "HP: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_049",
-        "status": "active",
-        "scene": "Channel_Separate3_Vector3_X.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_015",
+        "status": "observed",
+        "scene": "Compositing_In_Alpha.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate3 Vector3_X"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing In Alpha",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_050",
-        "status": "active",
-        "scene": "Channel_Separate3_Vector3_Y.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_016",
+        "status": "observed",
+        "scene": "Compositing_In_RGB.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate3 Vector3_Y"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing In RGB",
+            "NS: white object"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_051",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_017",
         "status": "active",
-        "scene": "Channel_Separate3_Vector3_Z.usda",
+        "scene": "Compositing_Inside_Color3.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate3 Vector3_Z"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Inside Color3"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_052",
-        "status": "active",
-        "scene": "Channel_Separate4_Color4_R.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_018",
+        "status": "observed",
+        "scene": "Compositing_Inside_Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate4 Color4_R"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Inside Color4",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_053",
-        "status": "active",
-        "scene": "Channel_Separate4_Color4_G.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_019",
+        "status": "observed",
+        "scene": "Compositing_Inside_Float.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate4 Color4_G"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Inside Float",
+            "HP: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_054",
-        "status": "active",
-        "scene": "Channel_Separate4_Color4_B.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_020",
+        "status": "observed",
+        "scene": "Compositing_Mask_Alpha.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate4 Color4_B"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Mask Alpha",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_055",
-        "status": "active",
-        "scene": "Channel_Separate4_Color4_alpha.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_021",
+        "status": "observed",
+        "scene": "Compositing_Mask_RGB.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate4 Color4_alpha"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Mask RGB",
+            "NS: white object"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_056",
-        "status": "active",
-        "scene": "Channel_Separate4_Vector4_X.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_022",
+        "status": "observed",
+        "scene": "Compositing_Matte_Alpha.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate4 Vector4_X"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Matte Alpha",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_057",
-        "status": "active",
-        "scene": "Channel_Separate4_Vector4_Y.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_023",
+        "status": "observed",
+        "scene": "Compositing_Matte_RGB.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate4 Vector4_Y"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Matte RGB",
+            "NS: white object"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_058",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_024",
         "status": "active",
-        "scene": "Channel_Separate4_Vector4_Z.usda",
+        "scene": "Compositing_Minus_Color3.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate4 Vector4_Z"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Minus Color3"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_059",
-        "status": "active",
-        "scene": "Channel_Separate4_Vector4_W.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_025",
+        "status": "observed",
+        "scene": "Compositing_Minus_Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Separate4 Vector4_W"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Minus Color4",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_060",
-        "status": "active",
-        "scene": "Channel_Swizzle_Color4Vector4.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_026",
+        "status": "observed",
+        "scene": "Compositing_Minus_Float.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color4Vector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Minus Float",
+            "HP: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_061",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_027",
         "status": "active",
-        "scene": "Channel_Swizzle_Color4Vector3.usda",
+        "scene": "Compositing_Mix_Color3.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color4Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Mix Color3"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_062",
-        "status": "active",
-        "scene": "Channel_Swizzle_Color4Vector2.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_028",
+        "status": "observed",
+        "scene": "Compositing_Mix_Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color4Vector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Mix Color4",
+            "HP and NS: logo too vague"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_063",
-        "status": "active",
-        "scene": "Channel_Swizzle_Color4Color4.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_029",
+        "status": "observed",
+        "scene": "Compositing_Mix_Displacementshader.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color4Color4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Mix Displacementshader",
+            "HP and NS: not expected result"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_064",
-        "status": "active",
-        "scene": "Channel_Swizzle_Color4Color3.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_030",
+        "status": "observed",
+        "scene": "Compositing_Mix_Float.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color4Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Mix Float",
+            "HP: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_065",
-        "status": "active",
-        "scene": "Channel_Swizzle_Color4Float.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_031",
+        "status": "observed",
+        "scene": "Compositing_Mix_Surfaceshader.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color4Float"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Mix Surfaceshader",
+            "HP and NS: brown object"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_066",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_032",
         "status": "active",
-        "scene": "Channel_Swizzle_Color3Vector4.usda",
+        "scene": "Compositing_Mix_Vector2.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color3Vector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Mix Vector2"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_067",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_033",
         "status": "active",
-        "scene": "Channel_Swizzle_Color3Vector3.usda",
+        "scene": "Compositing_Mix_Vector3.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color3Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Mix Vector3"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_068",
-        "status": "active",
-        "scene": "Channel_Swizzle_Color3Vector2.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_034",
+        "status": "observed",
+        "scene": "Compositing_Mix_Vector4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color3Vector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Mix Vector4",
+            "HP and NS: logo too vague"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_069",
-        "status": "active",
-        "scene": "Channel_Swizzle_Color3Color4.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_035",
+        "status": "observed",
+        "scene": "Compositing_Out_Alpha.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color3Color4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Out Alpha",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_070",
-        "status": "active",
-        "scene": "Channel_Swizzle_Color3Color3.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_036",
+        "status": "observed",
+        "scene": "Compositing_Out_RGB.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color3Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Out RGB",
+            "NS: white object"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_071",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_037",
         "status": "active",
-        "scene": "Channel_Swizzle_Color3Float.usda",
+        "scene": "Compositing_Outside_Color3.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Color3Float"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Outside Color3"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_072",
-        "status": "active",
-        "scene": "Channel_Swizzle_FloatVector4.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_038",
+        "status": "observed",
+        "scene": "Compositing_Outside_Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle FloatVector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Outside Color4",
+            "HP and NS: logo too vague"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_073",
-        "status": "active",
-        "scene": "Channel_Swizzle_FloatVector3.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_039",
+        "status": "observed",
+        "scene": "Compositing_Outside_Float.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle FloatVector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Outside Float",
+            "HP: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_074",
-        "status": "active",
-        "scene": "Channel_Swizzle_FloatVector2.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_040",
+        "status": "observed",
+        "scene": "Compositing_Over_Alpha.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle FloatVector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Over Alpha",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_075",
-        "status": "active",
-        "scene": "Channel_Swizzle_FloatColor4.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_041",
+        "status": "observed",
+        "scene": "Compositing_Over_RGB.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle FloatColor4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Over RGB",
+            "NS: white object"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_076",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_042",
         "status": "active",
-        "scene": "Channel_Swizzle_FloatColor3.usda",
+        "scene": "Compositing_Overlay_Color3.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle FloatColor3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Overlay Color3"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_077",
-        "status": "active",
-        "scene": "Channel_Swizzle_Vector4Vector4.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_043",
+        "status": "observed",
+        "scene": "Compositing_Overlay_Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector4Vector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Overlay Color4",
+            "HP and NS: logo too vague"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_078",
-        "status": "active",
-        "scene": "Channel_Swizzle_Vector4Vector3.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_044",
+        "status": "observed",
+        "scene": "Compositing_Overlay_Float_Equal.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector4Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Overlay Float Equal",
+            "HP: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_079",
-        "status": "active",
-        "scene": "Channel_Swizzle_Vector4Vector2.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_045",
+        "status": "observed",
+        "scene": "Compositing_Overlay_Float_Greater.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector4Vector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Overlay Float Greater",
+            "HP: different color"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_080",
-        "status": "active",
-        "scene": "Channel_Swizzle_Vector4Color4.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_046",
+        "status": "observed",
+        "scene": "Compositing_Overlay_Float_Less.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector4Color4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Overlay Float Less",
+            "HP: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_081",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_047",
         "status": "active",
-        "scene": "Channel_Swizzle_Vector4Color3.usda",
+        "scene": "Compositing_Plus_Color3_Mix.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector4Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Plus Color3 Mix"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_082",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_048",
         "status": "active",
-        "scene": "Channel_Swizzle_Vector4Float.usda",
+        "scene": "Compositing_Plus_Color3.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector4Float"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Plus Color3"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_083",
-        "status": "active",
-        "scene": "Channel_Swizzle_Vector3Vector4.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_049",
+        "status": "observed",
+        "scene": "Compositing_Plus_Color4_Mix.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector3Vector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Plus Color4 Mix",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_084",
-        "status": "active",
-        "scene": "Channel_Swizzle_Vector3Vector3.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_050",
+        "status": "observed",
+        "scene": "Compositing_Plus_Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector3Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Plus Color4",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_085",
-        "status": "active",
-        "scene": "Channel_Swizzle_Vector3Vector2.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_051",
+        "status": "observed",
+        "scene": "Compositing_Plus_Float_Mix.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector3Vector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Plus Float Mix",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_086",
-        "status": "active",
-        "scene": "Channel_Swizzle_Vector3Color4.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_052",
+        "status": "observed",
+        "scene": "Compositing_Plus_Float.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector3Color4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Plus Float",
+            "HP: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_087",
-        "status": "active",
-        "scene": "Channel_Swizzle_Vector3Color3.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_053",
+        "status": "observed",
+        "scene": "Compositing_Premult_Alpha.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector3Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Premult Alpha",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_088",
-        "status": "active",
-        "scene": "Channel_Swizzle_Vector3Float.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_054",
+        "status": "observed",
+        "scene": "Compositing_Premult_RGB.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector3Float"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Premult RGB",
+            "NS: white object"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_089",
-        "status": "active",
-        "scene": "Channel_Swizzle_Vector2Vector4.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_055",
+        "status": "observed",
+        "scene": "Compositing_Screen_Color3.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector2Vector4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Screen Color3",
+            "HP: different color"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_090",
-        "status": "active",
-        "scene": "Channel_Swizzle_Vector2Vector3.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_056",
+        "status": "observed",
+        "scene": "Compositing_Screen_Color4.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector2Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Screen Color4",
+            "NS: logo too vague",
+            "HP: different color"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_091",
-        "status": "active",
-        "scene": "Channel_Swizzle_Vector2Vector2.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_057",
+        "status": "observed",
+        "scene": "Compositing_Screen_Float.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector2Vector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Screen Float",
+            "HP: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_092",
-        "status": "active",
-        "scene": "Channel_Swizzle_Vector2Color4.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_058",
+        "status": "observed",
+        "scene": "Compositing_Unpremult_Alpha.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector2Color4"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Unpremult Alpha",
+            "HP and NS: not enough blue"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_093",
-        "status": "active",
-        "scene": "Channel_Swizzle_Vector2Color3.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_059",
+        "status": "observed",
+        "scene": "Compositing_Unpremult_RGB.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector2Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Unpremult RGB",
+            "NS: white object",
+            "HP: too bright"
+        ]
     },
     {
-        "case": "HDRPR_MATERIALX_CHANNEL_NODES_094",
-        "status": "active",
-        "scene": "Channel_Swizzle_Vector2Float.usda",
+        "case": "HDRPR_MATERIALX_COMPOSITING_NODES_060",
+        "status": "observed",
+        "scene": "Compositing_Unpremult_ZeroAlpha.usda",
         "camera": "Camera",
         "script_info": [
-            "Channel Swizzle Vector2Float"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+            "Compositing Unpremult ZeroAlpha",
+            "NS: white object",
+            "HP: different color"
+        ]
     }
 ]

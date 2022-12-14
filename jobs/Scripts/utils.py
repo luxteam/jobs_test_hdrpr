@@ -32,6 +32,9 @@ case_logger = None
 process = None
 
 
+ENGINES_LIST = set(["HybridPro", "Northstar"])
+
+
 def close_process(process):
     try:
         child_processes = process.children()
@@ -66,7 +69,7 @@ def close_process(process):
         case_logger.error(f"Traceback: {traceback.format_exc()}")
 
 
-def open_tool(script_path, execution_script):
+def open_tool(script_path, execution_script, engine):
     global process
 
     with open(script_path, "w") as f:
@@ -127,7 +130,11 @@ def open_tool(script_path, execution_script):
         case_logger.info("Application is running normally")
 
     win32gui.ShowWindow(window_hwnd, win32con.SW_MAXIMIZE)
-    time.sleep(1)
+    time.sleep(0.5)
+    # pause render
+    if engine == "HybridPro":
+        pyautogui.hotkey("ctrl", "p")
+        time.sleep(0.2)
 
 
 def set_render_quality(engine):
@@ -167,11 +174,36 @@ def create_case_logger(case_name, log_path):
     case_logger = logger
 
 
-def is_case_skipped(case, render_platform):
-    if case['status'] == 'skipped':
+def is_case_skipped(case, render_platform, gpu, engine):
+    if case["status"] == "skipped":
         return True
 
-    return sum([render_platform & set(x) == set(x) for x in case.get('skip_on', '')])
+    if "skip_config" in case:
+        for config in case["skip_config"]:
+            """
+            Along with skipping the engine, we can set a certain configuration that we also want to skip.
+            ["Hybrid"] - Skips this case with the specified engine on all machines
+            ["Hybrid", "HybridPro", "GeForce RTX 2070"] - Skips this case with the specified engines on machines with RTX 2070
+            ["Hybrid", "HybridPro", "GeForce RTX 2070", "GeForce RTX 2080 Ti"] - *WRONG CONFIG* It will not work, because the configuration has two video cards
+            ["GeForce RTX 2070"] - Skips this case with the specified GPU on all machines
+            ["GeForce RTX 2070", "Linux"] - Skips all Linux machines with a given GPU.
+            ["Hybrid", "GeForce RTX 2070"] - Skips all machines with a GeForce RTX 2070 card regardless of the OS.
+            ["Hybrid", "Windows", "GeForce RTX 2070"] - Skips the case only on Windows machines with a GeForce RTX 2070 graphics card and Hybrid engine.
+            """
+            config = set(config)
+            skip_conf_by_eng = {engine}.union(render_platform)
+            if skip_conf_by_eng.issuperset(config):
+                return True
+            elif (config - skip_conf_by_eng).issubset(ENGINES_LIST) and engine in config:
+                """
+                If the difference between the sets is equal to some other engine, then the config is designed for different engines.
+                """
+                return True
+
+    if engine == "HybridPro" and not ("RTX" in gpu or "AMD Radeon RX 6" in gpu):
+        return True
+
+    return False 
 
 
 def save_image(image_path):
@@ -277,7 +309,7 @@ def locate_and_click(template, tries=3, confidence=0.9, x_offset=0, y_offset=0, 
     click_on_element(coords, x_offset=x_offset, y_offset=y_offset)
 
 
-def detect_render_finishing(max_delay=30):
+def detect_render_finishing(max_delay=45):
     PREVIOUS_SCREEN_PATH = "previous_screenshot.jpg"
     CURRENT_SCREEN_PATH = "current_screenshot.jpg"
 

@@ -75,7 +75,7 @@ def prepare_empty_reports(args, current_conf):
         cases = json.load(json_file)
 
     for case in cases:
-        if utils.is_case_skipped(case, current_conf):
+        if utils.is_case_skipped(case, current_conf, get_gpu(), args.engine):
             case['status'] = 'skipped'
 
         if case['status'] != 'done' and case['status'] != 'error':
@@ -94,6 +94,7 @@ def prepare_empty_reports(args, current_conf):
             test_case_report['tool'] = 'HdRPR'
             test_case_report['date_time'] = datetime.now().strftime(
                 '%m/%d/%Y %H:%M:%S')
+            test_case_report['render_version'] = os.getenv('TOOL_VERSION', default='')
 
             if 'jira_issue' in case:
                 test_case_report['jira_issue'] = case['jira_issue']
@@ -141,15 +142,19 @@ def save_results(args, case, cases, test_case_status, execution_time = 0.0):
         test_case_report["execution_log"] = os.path.join("execution_logs", case["case"] + ".log")
         test_case_report["testing_start"] = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
         test_case_report["number_of_tries"] += 1
+        test_case_report["render_color_path"] = os.path.join("Color", test_case_report["file_name"])
+        test_case_report["group_timeout_exceeded"] = False
+
+        stub_image_path = os.path.join(args.output, 'Color', test_case_report['file_name'])
 
         if test_case_status == "error":
-            stub_image_path = os.path.join(args.output, 'Color', test_case_report['file_name'])
             if not os.path.exists(stub_image_path):
                 copyfile(os.path.join(args.output, '..', '..', '..', '..', 'jobs_launcher', 
                     'common', 'img', 'error.jpg'), stub_image_path)
-
-        test_case_report["render_color_path"] = os.path.join("Color", test_case_report["file_name"])
-        test_case_report["group_timeout_exceeded"] = False
+        elif test_case_status == "observed" and not os.path.exists(test_case_report["render_color_path"]):
+            if not os.path.exists(stub_image_path):
+                copyfile(os.path.join(args.output, '..', '..', '..', '..', 'jobs_launcher', 
+                    'common', 'img', 'unsupported.jpg'), stub_image_path)
 
     with open(os.path.join(args.output, case["case"] + CASE_REPORT_SUFFIX), "w") as file:
         json.dump([test_case_report], file, indent=4)
@@ -166,7 +171,7 @@ def execute_tests(args, current_conf):
     with open(os.path.join(os.path.abspath(args.output), "test_cases.json"), "r") as json_file:
         cases = json.load(json_file)
 
-    for case in [x for x in cases if not utils.is_case_skipped(x, current_conf)]:
+    for case in [x for x in cases if not utils.is_case_skipped(x, current_conf, get_gpu(), args.engine)]:
         case_start_time = time()
 
         current_try = 0
@@ -194,12 +199,9 @@ def execute_tests(args, current_conf):
                 execution_script = f"{args.python} {tool_path} -r RPR --camera {case['camera']} {scene_path}"
                 script_path = os.path.join(args.output, "{}.bat".format(case["case"]))
 
-                utils.open_tool(script_path, execution_script)
+                utils.open_tool(script_path, execution_script, args.engine)
 
-                if "load_delay" in case:
-                    sleep(case["load_delay"])
-                else:
-                    sleep(5)
+                sleep(3)
 
                 utils.set_render_quality(args.engine)
 

@@ -35,9 +35,9 @@ if __name__ == "__main__":
 
         image_path = os.path.abspath("sanity.jpg")
 
-        utils.open_tool(script_path, execution_script)
+        utils.open_tool(script_path, execution_script, args.engine)
 
-        sleep(5)
+        sleep(3)
 
         utils.set_camera_options()
 

@@ -174,7 +174,7 @@ def create_case_logger(case_name, log_path):
     case_logger = logger
 
 
-def is_case_skipped(case, render_platform, engine):
+def is_case_skipped(case, render_platform, gpu, engine):
     if case["status"] == "skipped":
         return True
 
@@ -199,6 +199,9 @@ def is_case_skipped(case, render_platform, engine):
                 If the difference between the sets is equal to some other engine, then the config is designed for different engines.
                 """
                 return True
+
+    if engine == "HybridPro" and not ("RTX" in gpu or "AMD Radeon RX 6" in gpu):
+        return True
 
     return False 
 

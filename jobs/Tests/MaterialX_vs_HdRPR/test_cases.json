@@ -1,0 +1,11 @@
+[
+    {
+        "case": "MTLX_VS_HDRPR_001",
+        "status": "active",
+        "scene": "Math_Absval_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Absval Color3"
+        ]
+    }
+]

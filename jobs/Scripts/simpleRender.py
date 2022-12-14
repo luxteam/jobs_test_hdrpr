@@ -75,7 +75,7 @@ def prepare_empty_reports(args, current_conf):
         cases = json.load(json_file)
 
     for case in cases:
-        if utils.is_case_skipped(case, current_conf, args.engine):
+        if utils.is_case_skipped(case, current_conf, get_gpu(), args.engine):
             case['status'] = 'skipped'
 
         if case['status'] != 'done' and case['status'] != 'error':
@@ -94,6 +94,7 @@ def prepare_empty_reports(args, current_conf):
             test_case_report['tool'] = 'HdRPR'
             test_case_report['date_time'] = datetime.now().strftime(
                 '%m/%d/%Y %H:%M:%S')
+            test_case_report['render_version'] = os.getenv('TOOL_VERSION', default='')
 
             if 'jira_issue' in case:
                 test_case_report['jira_issue'] = case['jira_issue']
@@ -170,7 +171,7 @@ def execute_tests(args, current_conf):
     with open(os.path.join(os.path.abspath(args.output), "test_cases.json"), "r") as json_file:
         cases = json.load(json_file)
 
-    for case in [x for x in cases if not utils.is_case_skipped(x, current_conf, args.engine)]:
+    for case in [x for x in cases if not utils.is_case_skipped(x, current_conf, get_gpu(), args.engine)]:
         case_start_time = time()
 
         current_try = 0

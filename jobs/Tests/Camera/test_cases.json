@@ -1,79 +1,65 @@
 [
-	{
+    {
         "case": "HDRPR_CAMERA_001",
         "status": "active",
         "scene": "Clip_5-7.usda",
         "camera": "Camera",
         "script_info": [
             "Camera clip from 5 to 7"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
-	{
+    {
         "case": "HDRPR_CAMERA_002",
         "status": "active",
         "scene": "FocalLength_10mm.usda",
         "camera": "Camera",
         "script_info": [
             "Focal Length - 10mm"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
-	{
+    {
         "case": "HDRPR_CAMERA_003",
         "status": "active",
         "scene": "FoV_120.usda",
         "camera": "Camera",
         "script_info": [
             "Field ov View - 120"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
-	{
+    {
         "case": "HDRPR_CAMERA_004",
         "status": "active",
         "scene": "OrthographicCamera.usda",
         "camera": "Camera",
         "script_info": [
             "Camera type - orthographic"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
-	{
+    {
         "case": "HDRPR_CAMERA_005",
         "status": "active",
         "scene": "PanoramicCamera.usda",
         "camera": "Camera",
         "script_info": [
             "Camera type - panoramic"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
-	{
+    {
         "case": "HDRPR_CAMERA_006",
         "status": "active",
         "scene": "SensorWidth_100.usda",
         "camera": "Camera",
         "script_info": [
             "Sensor Width - 100"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
-	{
+    {
         "case": "HDRPR_CAMERA_007",
         "status": "active",
         "scene": "ShiftY_0.1.usda",
         "camera": "Camera",
         "script_info": [
             "Camera shift Y - 0.1"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     }
 ]

@@ -1,13 +1,11 @@
 [
-	{
+    {
         "case": "HDRPR_PHYSICAL_LIGHT_001",
         "status": "active",
         "scene": "4k_Resolution.usda",
         "camera": "Camera",
         "script_info": [
             "Render resolution - 4k"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     }
 ]

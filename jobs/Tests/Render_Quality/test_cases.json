@@ -1,14 +1,12 @@
 [
-	{
+    {
         "case": "HDRPR_RENDER_QUALITY_001",
         "status": "active",
         "scene": "ClampRadiance_0.usda",
         "camera": "Camera",
         "script_info": [
             "Clamp Radiance - 0"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_RENDER_QUALITY_002",
@@ -17,9 +15,7 @@
         "camera": "Camera",
         "script_info": [
             "Quality Diffuse - 0"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_RENDER_QUALITY_003",
@@ -28,9 +24,7 @@
         "camera": "Camera",
         "script_info": [
             "Quality Glossy - 0"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_RENDER_QUALITY_004",
@@ -39,9 +33,7 @@
         "camera": "Camera",
         "script_info": [
             "Quality GlossyRefraction - 0"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_RENDER_QUALITY_005",
@@ -50,9 +42,7 @@
         "camera": "Camera",
         "script_info": [
             "Quality RayCastEpsilon - 0"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_RENDER_QUALITY_006",
@@ -61,9 +51,7 @@
         "camera": "Camera",
         "script_info": [
             "Quality RayCastEpsilon - 1"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_RENDER_QUALITY_007",
@@ -72,8 +60,6 @@
         "camera": "Camera",
         "script_info": [
             "Quality Refraction - 0"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     }
 ]

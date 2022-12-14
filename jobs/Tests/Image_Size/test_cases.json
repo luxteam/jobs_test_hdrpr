@@ -1,14 +1,12 @@
 [
-	{
+    {
         "case": "HDRPR_IMAGE_SIZE_001",
         "status": "active",
         "scene": "Area_Light.usda",
         "camera": "Camera",
         "script_info": [
             "Area Light"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_IMAGE_SIZE_002",
@@ -17,9 +15,7 @@
         "camera": "Camera",
         "script_info": [
             "Point Light"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_IMAGE_SIZE_003",
@@ -28,9 +24,7 @@
         "camera": "Camera",
         "script_info": [
             "Spot Light"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_IMAGE_SIZE_004",
@@ -39,8 +33,6 @@
         "camera": "Camera",
         "script_info": [
             "Sun Light"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     }
 ]

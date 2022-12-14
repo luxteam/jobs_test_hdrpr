@@ -6,9 +6,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Contrast Amount"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_002",
@@ -17,9 +15,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Contrast Pivot"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_003",
@@ -30,9 +26,7 @@
             "Adjustment Contrast Float",
             "NS: Too much colors",
             "HP: Too dark"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_004",
@@ -44,9 +38,11 @@
             "NS: Too bright",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_005",
@@ -56,9 +52,7 @@
         "script_info": [
             "Adjustment Contrast Vector2",
             "HP: Too dark"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_006",
@@ -68,9 +62,7 @@
         "script_info": [
             "Adjustment Contrast Vector3",
             "HP: Too dark"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_007",
@@ -82,9 +74,11 @@
             "NS: Too bright",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_008",
@@ -94,9 +88,7 @@
         "script_info": [
             "Adjustment Contrast Color3FA",
             "HP: Too dark"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_009",
@@ -108,9 +100,11 @@
             "NS: Too bright",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_010",
@@ -121,9 +115,7 @@
             "Adjustment Contrast Vector2FA",
             "NS: Not yellow enough",
             "HP: Too dark"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_011",
@@ -133,9 +125,7 @@
         "script_info": [
             "Adjustment Contrast Vector3FA",
             "HP: Too dark"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_012",
@@ -147,9 +137,11 @@
             "NS: Too bright",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_013",
@@ -158,9 +150,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Hsvadjust X"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_014",
@@ -169,9 +159,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Hsvadjust Y"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_015",
@@ -180,9 +168,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Hsvadjust Z"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_016",
@@ -194,9 +180,11 @@
             "NS: Not enough reflective",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_017",
@@ -205,9 +193,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Hsvtorgb Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_018",
@@ -219,9 +205,11 @@
             "NS: Too bright",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_019",
@@ -230,9 +218,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Luminance Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_020",
@@ -244,9 +230,11 @@
             "NS: Too bright",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_021",
@@ -255,9 +243,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Rgbtohsv Color3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_022",
@@ -269,9 +255,11 @@
             "NS: Not enough reflective",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_023",
@@ -280,9 +268,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Range Inlow"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_024",
@@ -293,9 +279,7 @@
             "Adjustment Range Inhigh",
             "NS: Not enough pink",
             "HP: Not enough pink"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_025",
@@ -304,9 +288,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Range Outlow"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_026",
@@ -315,9 +297,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Range Outhigh"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_027",
@@ -326,9 +306,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Range Gamma"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_028",
@@ -339,9 +317,7 @@
             "Adjustment Range Doclamp",
             "NS: Too pink",
             "HP: Too pink"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_029",
@@ -351,9 +327,7 @@
         "script_info": [
             "Adjustment Range Float",
             "NS: Too much colors"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_030",
@@ -365,9 +339,11 @@
             "NS: Not enough reflective",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_031",
@@ -376,9 +352,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Range Vector2"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_032",
@@ -389,9 +363,7 @@
             "Adjustment Range Vector3",
             "NS: Too pink",
             "HP: Too blue"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_033",
@@ -403,9 +375,11 @@
             "NS: Not enough reflective",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_034",
@@ -414,9 +388,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Range Color3FA"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_035",
@@ -428,9 +400,11 @@
             "NS: Too bright",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_036",
@@ -441,9 +415,7 @@
             "Adjustment Range Vector2FA",
             "NS: Too bright",
             "HP: Too yellow"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_037",
@@ -452,9 +424,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Range Vector3FA"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_038",
@@ -466,9 +436,11 @@
             "NS: Too bright",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_039",
@@ -478,9 +450,7 @@
         "script_info": [
             "Adjustment Remap Inlow",
             "HP: Not enough reflective"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_040",
@@ -489,9 +459,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Remap Inhigh"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_041",
@@ -500,9 +468,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Remap Outlow"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_042",
@@ -511,9 +477,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Remap Outhigh"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_043",
@@ -523,9 +487,7 @@
         "script_info": [
             "Adjustment Remap Float",
             "NS: Too much colors"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_044",
@@ -537,9 +499,11 @@
             "NS: Black part too reflective",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_045",
@@ -549,9 +513,7 @@
         "script_info": [
             "Adjustment Remap Vector2",
             "HP: Not enough reflective"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_046",
@@ -560,9 +522,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Remap Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_047",
@@ -574,9 +534,11 @@
             "NS: Not expected result",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_048",
@@ -585,9 +547,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Remap Color3FA"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_049",
@@ -599,9 +559,11 @@
             "NS: Not enough reflective",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_050",
@@ -612,9 +574,7 @@
             "Adjustment Remap Vector2FA",
             "NS: Too dark",
             "HP: Not enough reflective"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_051",
@@ -624,9 +584,7 @@
         "script_info": [
             "Adjustment Remap Vector3FA",
             "NS: Too dark"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_052",
@@ -638,9 +596,11 @@
             "NS: Not enough reflective",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_053",
@@ -649,9 +609,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Saturate Amount"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_054",
@@ -660,9 +618,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Saturate Lumacoeffs"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_055",
@@ -674,9 +630,11 @@
             "NS: Too bright",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_056",
@@ -685,9 +643,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Smoothstep High"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_057",
@@ -696,9 +652,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Smoothstep Low"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_058",
@@ -708,9 +662,7 @@
         "script_info": [
             "Adjustment Smoothstep Float",
             "NS: Too much colors"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_059",
@@ -722,9 +674,11 @@
             "NS: Too bright",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_060",
@@ -734,9 +688,7 @@
         "script_info": [
             "Adjustment Smoothstep Vector2",
             "NS: inverted?"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_061",
@@ -745,9 +697,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Smoothstep Vector3"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_062",
@@ -759,9 +709,11 @@
             "NS: Too bright",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_063",
@@ -770,9 +722,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Smoothstep Color3FA"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_064",
@@ -784,9 +734,11 @@
             "NS: Too bright",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_065",
@@ -796,9 +748,7 @@
         "script_info": [
             "Adjustment Smoothstep Vector2FA",
             "NS: Not yellow enough"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_066",
@@ -807,9 +757,7 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Smoothstep Vector3FA"
-        ],
-        "render_delay": 10,
-        "load_delay": 10
+        ]
     },
     {
         "case": "HDRPR_MATERIALX_ADJUSTMENT_NODES_067",
@@ -821,8 +769,10 @@
             "NS: Too bright",
             "HP: Blocked by Separate and Convert nodes issue"
         ],
-        "render_delay": 10,
-        "load_delay": 10,
-        "skip_config": [ ["HybridPro"] ]
+        "skip_config": [
+            [
+                "HybridPro"
+            ]
+        ]
     }
 ]

@@ -1,0 +1,128 @@
+[
+    {
+        "case": "HDRPR_STANDARD_SURFACE_001",
+        "status": "active",
+        "scene": "Base_and_Roughness_0.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base and Roughness - 0"
+        ]
+    },
+    {
+        "case": "HDRPR_STANDARD_SURFACE_002",
+        "status": "active",
+        "scene": "Coat_Color.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Coat Color"
+        ]
+    },
+    {
+        "case": "HDRPR_STANDARD_SURFACE_003",
+        "status": "active",
+        "scene": "Coat_RGB_0_1_0.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Coat RGB - 0_1_0"
+        ]
+    },
+    {
+        "case": "HDRPR_STANDARD_SURFACE_004",
+        "status": "active",
+        "scene": "Diffuse_Color.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Diffuse - Color"
+        ]
+    },
+    {
+        "case": "HDRPR_STANDARD_SURFACE_005",
+        "status": "active",
+        "scene": "Emission_RGB_0_0.1_1.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Emission RGB - 0_0.1_1"
+        ]
+    },
+    {
+        "case": "HDRPR_STANDARD_SURFACE_006",
+        "status": "active",
+        "scene": "Geometry_Opacity_png.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Geometry Opacity - png"
+        ]
+    },
+    {
+        "case": "HDRPR_STANDARD_SURFACE_007",
+        "status": "active",
+        "scene": "Sheen_RGB_0_1_1.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Sheen RGB - 0_1_1"
+        ]
+    },
+    {
+        "case": "HDRPR_STANDARD_SURFACE_008",
+        "status": "active",
+        "scene": "Specular_Color.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Specular Color"
+        ]
+    },
+    {
+        "case": "HDRPR_STANDARD_SURFACE_009",
+        "status": "active",
+        "scene": "Specular_Weight_0.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Specular Weight - 0"
+        ]
+    },
+    {
+        "case": "HDRPR_STANDARD_SURFACE_010",
+        "status": "active",
+        "scene": "Subsurface_Color.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Subsurface Color"
+        ]
+    },
+    {
+        "case": "HDRPR_STANDARD_SURFACE_011",
+        "status": "active",
+        "scene": "Subsurface_RGB_0_0.4_0.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Subsurface RGB - 0_0.4_0"
+        ]
+    },
+    {
+        "case": "HDRPR_STANDARD_SURFACE_012",
+        "status": "active",
+        "scene": "Thin_Film_Thickness_1.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Thin Film Thickness - 1"
+        ]
+    },
+    {
+        "case": "HDRPR_STANDARD_SURFACE_013",
+        "status": "active",
+        "scene": "Transmission_Color.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Transmission Color"
+        ]
+    },
+    {
+        "case": "HDRPR_STANDARD_SURFACE_014",
+        "status": "active",
+        "scene": "Transmission_Weight_0.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Transmission Weight - 0"
+        ]
+    }
+]

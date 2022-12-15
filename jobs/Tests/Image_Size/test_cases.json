@@ -2,37 +2,10 @@
     {
         "case": "HDRPR_IMAGE_SIZE_001",
         "status": "active",
-        "scene": "Area_Light.usda",
+        "scene": "4k_Resolution.usda",
         "camera": "Camera",
         "script_info": [
-            "Area Light"
-        ]
-    },
-    {
-        "case": "HDRPR_IMAGE_SIZE_002",
-        "status": "active",
-        "scene": "Point_Light.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Point Light"
-        ]
-    },
-    {
-        "case": "HDRPR_IMAGE_SIZE_003",
-        "status": "active",
-        "scene": "Spot_Light.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Spot Light"
-        ]
-    },
-    {
-        "case": "HDRPR_IMAGE_SIZE_004",
-        "status": "active",
-        "scene": "Sun_Light.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Sun Light"
+            "Render resolution - 4k"
         ]
     }
 ]

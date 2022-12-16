@@ -7,7 +7,7 @@
         <argument>--output "{OutputDir}"</argument>
         <argument>--tool_path "{Tool}"</argument>
         <argument>--test_group MaterialX_Nodes</argument>
-        <argument>--res_path "{ScenesDir}/Materials"</argument>
+        <argument>--res_path "{ScenesDir}/MaterialX_Nodes"</argument>
         <argument>--test_cases "{TestCases}"</argument>
         <argument>--engine "{Engine}"</argument>
         <argument>--python "{Python}"</argument>

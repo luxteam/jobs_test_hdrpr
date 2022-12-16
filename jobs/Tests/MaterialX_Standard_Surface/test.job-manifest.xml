@@ -6,7 +6,7 @@
     <execute command='python "{ResourcesDir}/simpleRender.py"' timeout="2400">
         <argument>--output "{OutputDir}"</argument>
         <argument>--tool_path "{Tool}"</argument>
-        <argument>--test_group Standard_Surface</argument>
+        <argument>--test_group MaterialX_Standard_Surface</argument>
         <argument>--res_path "{ScenesDir}/Standard_Surface"</argument>
         <argument>--test_cases "{TestCases}"</argument>
         <argument>--engine "{Engine}"</argument>

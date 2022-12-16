@@ -5,6 +5,7 @@ import time
 import win32api
 import win32gui
 import win32con
+import win32process
 import json
 from pyautogui import typewrite, press
 import psutil
@@ -28,8 +29,6 @@ pyautogui.FAILSAFE = False
 
 # Logger for current test case
 case_logger = None
-# Application process
-process = None
 
 
 ENGINES_LIST = set(["HybridPro", "Northstar"])
@@ -98,7 +97,7 @@ def open_tool(script_path, execution_script, engine):
     try:
         locate_on_screen(USDViewElements.APPLICATION_GOT_STUCK.build_path(), tries=1, confidence=0.95)
         case_logger.error("Application got stuck. Restart it")
-        close_process(process)
+        post_action()
 
         process = psutil.Popen(script_path, stdout=PIPE, stderr=PIPE)
 
@@ -153,7 +152,16 @@ def set_render_quality(engine):
 
 def post_action():
     try:
-        close_process(process)
+        for window in pyautogui.getAllWindows():
+            if ".usd" in window.title:
+                pid = win32process.GetWindowThreadProcessId(window._hWnd)[1]
+
+                for process in psutil.process_iter():
+                    if process.pid == pid:
+                        close_process(process)
+                        break
+
+                break
     except Exception as e:
         case_logger.error(f"Failed to do post actions: {str(e)}")
         case_logger.error(f"Traceback: {traceback.format_exc()}")

@@ -137,6 +137,55 @@ def open_tool(script_path, execution_script, engine):
         time.sleep(0.2)
 
 
+def set_render_settings(case):
+    PADDINGS = {
+        "max_ray_depth": 0,
+        "diffuse_ray_depth": 1,
+        "glossy_ray_depth": 2,
+        "refraction_ray_depth": 3,
+        "glossy_refraction_ray_depth": 4,
+        "shadow_ray_depth": 5,
+        "ray_case_epsilon": 6,
+        "max_radiance": 7
+    }
+
+    last_field = None
+
+    if "render_settings" in case:
+        locate_and_click(USDViewElements.RENDERER.build_path())
+        time.sleep(0.5)
+        locate_and_click(USDViewElements.HYDRA_SETTINGS.build_path())
+        time.sleep(0.5)
+        locate_and_click(USDViewElements.MORE.build_path())
+        time.sleep(0.5)
+
+        # find label of first supporting render setting
+        coords = locate_on_screen(USDViewElements.MAX_RAY_DEPTH.build_path())
+        click_on_element(coords, x_offset=400)
+        time.sleep(0.1)
+
+        for key in case["render_settings"].keys():
+            if key not in PADDINGS:
+                raise Exception(f"Unexpected render setting {key}")
+
+            if last_field is None:
+                padding = PADDINGS[key]
+            else:
+                padding = PADDINGS[key] - PADDINGS[last_field]
+
+            for i in range(padding):
+                pyautogui.press("tab")
+                time.sleep(0.1)
+
+            pyautogui.hotkey("ctrl", "a")
+            time.sleep(0.1)
+            pyautogui.typewrite(case["render_settings"][key])
+
+            last_field = key
+
+        pyautogui.press("enter")
+
+
 def set_render_quality(engine):
     locate_and_click(USDViewElements.RPR.build_path())
     time.sleep(0.5)

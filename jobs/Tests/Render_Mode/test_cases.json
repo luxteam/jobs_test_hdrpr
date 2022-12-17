@@ -1,0 +1,56 @@
+[
+    {
+        "case": "HDRPR_RENDER_MODE_001",
+        "status": "active",
+        "scene": "AI_Denoising_MinIteration_8.usda",
+        "camera": "Camera",
+        "script_info": [
+            "AI Denoising, Min Iteration - 8"
+        ]
+    },
+    {
+        "case": "HDRPR_RENDER_MODE_002",
+        "status": "active",
+        "scene": "AI_Denoising_IterationStep_16.usda",
+        "camera": "Camera",
+        "script_info": [
+            "AI Denoising, Iteration Step - 16"
+        ]
+    },
+    {
+        "case": "HDRPR_RENDER_MODE_003",
+        "status": "active",
+        "scene": "MaxSamples_16.usda",
+        "camera": "Camera",
+        "script_info": [
+            "MaxSamples - 16"
+        ]
+    },
+    {
+        "case": "HDRPR_RENDER_MODE_004",
+        "status": "active",
+        "scene": "NoiseThreshold_0.05.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Noise Threshold - 0.05"
+        ]
+    },
+    {
+        "case": "HDRPR_RENDER_MODE_005",
+        "status": "active",
+        "scene": "RenderMode_Contour.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Render Mode - Contour"
+        ]
+    },
+    {
+        "case": "HDRPR_RENDER_MODE_006",
+        "status": "active",
+        "scene": "RenderMode_Diffuse.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Render Mode - Diffuse"
+        ]
+    }
+]

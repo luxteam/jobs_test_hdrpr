@@ -1,0 +1,11 @@
+[
+    {
+        "case": "HDRPR_IMAGE_SIZE_001",
+        "status": "active",
+        "scene": "4k_Resolution.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Render resolution - 4k"
+        ]
+    }
+]

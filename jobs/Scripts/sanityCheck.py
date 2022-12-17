@@ -30,7 +30,7 @@ if __name__ == "__main__":
 
         tool_path = os.path.abspath(args.tool_path)
         scene_path = os.path.join(args.res_path, SCENE_NAME)
-        execution_script = f"{args.python} {tool_path} -r RPR --camera {CAMERA} {scene_path}"
+        execution_script = f"start cmd.exe @cmd /k \"{args.python} {tool_path} -r RPR --camera {CAMERA} {scene_path} & exit 0\""
         script_path = "sanity.bat"
 
         image_path = os.path.abspath("sanity.jpg")
@@ -52,7 +52,7 @@ if __name__ == "__main__":
         utils.save_image(image_path)
 
         # Camera setting will be saved only after closing through button
-        utils.close_app_through_button()
+        #utils.close_app_through_button()
         sleep(0.5)
     except Exception as e:
         print(f"Failed during script execution. Exception: {str(e)}")

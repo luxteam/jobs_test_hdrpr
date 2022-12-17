@@ -1,0 +1,38 @@
+[
+    {
+        "case": "HDRPR_MATERIALS_001",
+        "status": "active",
+        "scene": "Adjustment_Hsvtorgb_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Adjustment Hsvtorgb Color3"
+        ]
+    },
+    {
+        "case": "HDRPR_MATERIALS_002",
+        "status": "active",
+        "scene": "Channel_Extract_Vector2_X.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Channel Extract Vector2_X"
+        ]
+    },
+    {
+        "case": "HDRPR_MATERIALS_003",
+        "status": "active",
+        "scene": "Compositing_Dodge_Color3.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Compositing Dodge Color3"
+        ]
+    },
+    {
+        "case": "HDRPR_MATERIALS_004",
+        "status": "active",
+        "scene": "Math_Add_Color3FA.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Math Add Color3FA"
+        ]
+    }
+]

@@ -39,12 +39,6 @@ if __name__ == "__main__":
 
         sleep(3)
 
-        utils.set_camera_options()
-
-        utils.disable_bounding_boxes()
-
-        utils.disable_hud()
-
         utils.set_render_quality(args.engine)
 
         utils.detect_render_finishing()
@@ -59,9 +53,6 @@ if __name__ == "__main__":
         print(f"Traceback: {traceback.format_exc()}")
         rc = -1
     finally:
-        # if process is alive - fail sanity check
-        if find_usdview_process() != None:
-            print("Process is alive")
-            exit(1)
+        utils.post_action()
 
     exit(rc)

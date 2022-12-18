@@ -52,7 +52,7 @@ if __name__ == "__main__":
         utils.save_image(image_path)
 
         # Camera setting will be saved only after closing through button
-        #utils.close_app_through_button()
+        utils.close_app_through_button()
         sleep(0.5)
     except Exception as e:
         print(f"Failed during script execution. Exception: {str(e)}")

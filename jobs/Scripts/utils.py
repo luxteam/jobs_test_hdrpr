@@ -188,7 +188,15 @@ def set_render_settings(case):
 def set_render_quality(engine):
     locate_and_click(USDViewElements.RPR.build_path())
     time.sleep(0.5)
-    locate_and_click(USDViewElements.RENDER_QUALITY.build_path())
+
+    try:
+        locate_and_click(USDViewElements.RENDER_QUALITY.build_path())
+    pass:
+        # if render settins wasn't found, try to click RPR tab again
+        locate_and_click(USDViewElements.RPR.build_path())
+        time.sleep(0.5)
+        locate_and_click(USDViewElements.RENDER_QUALITY.build_path())
+
     time.sleep(0.5)
 
     if engine == "Northstar":

@@ -207,18 +207,22 @@ def set_render_quality(engine):
         raise ValueError(f"Unexpected engine '{engine}'")
 
 
+def find_usdview_process():
+    for window in pyautogui.getAllWindows():
+        if ".usd" in window.title:
+            pid = win32process.GetWindowThreadProcessId(window._hWnd)[1]
+
+            for process in psutil.process_iter():
+                if process.pid == pid:
+                    return process
+
+    return None
+
+
 def post_action():
     try:
-        for window in pyautogui.getAllWindows():
-            if ".usd" in window.title:
-                pid = win32process.GetWindowThreadProcessId(window._hWnd)[1]
-
-                for process in psutil.process_iter():
-                    if process.pid == pid:
-                        close_process(process)
-                        break
-
-                break
+        process = find_usdview_process()
+        close_process(process)
     except Exception as e:
         case_logger.error(f"Failed to do post actions: {str(e)}")
         case_logger.error(f"Traceback: {traceback.format_exc()}")

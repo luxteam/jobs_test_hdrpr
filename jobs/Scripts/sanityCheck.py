@@ -59,6 +59,9 @@ if __name__ == "__main__":
         print(f"Traceback: {traceback.format_exc()}")
         rc = -1
     finally:
-        utils.post_action()
+        # if process is alive - fail sanity check
+        if find_usdview_process() != None:
+            print("Process is alive")
+            exit(1)
 
     exit(rc)

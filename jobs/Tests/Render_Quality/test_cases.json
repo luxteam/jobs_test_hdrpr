@@ -47,7 +47,7 @@
     {
         "case": "HDRPR_RENDER_QUALITY_005",
         "status": "active",
-        "scene": "Quality_RayCastEpsilon_0.usda",
+        "scene": "Quality_RayCastEpsilon.usda",
         "camera": "Camera",
         "max_ray_depth": "2",
         "diffuse_ray_depth": "2",
@@ -69,7 +69,7 @@
     {
         "case": "HDRPR_RENDER_QUALITY_006",
         "status": "active",
-        "scene": "Quality_RayCastEpsilon_1.usda",
+        "scene": "Quality_RayCastEpsilon.usda",
         "camera": "Camera",
         "max_ray_depth": "50",
         "diffuse_ray_depth": "50",

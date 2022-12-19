@@ -30,7 +30,8 @@ if __name__ == "__main__":
 
         tool_path = os.path.abspath(args.tool_path)
         scene_path = os.path.join(args.res_path, SCENE_NAME)
-        execution_script = f"start cmd.exe @cmd /k \"{args.python} {tool_path} -r RPR --camera {CAMERA} {scene_path} & exit 0\""
+
+        execution_script = utils.run_in_new_windows(f"{args.python} {tool_path} -r RPR --camera {CAMERA} {scene_path}")
         script_path = "sanity.bat"
 
         image_path = os.path.abspath("sanity.jpg")

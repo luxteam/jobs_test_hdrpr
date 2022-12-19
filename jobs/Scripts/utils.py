@@ -17,6 +17,7 @@ from PIL import Image
 import pyscreenshot
 from datetime import datetime
 from shutil import copyfile
+import platform
 from elements import USDViewElements
 
 sys.path.append(os.path.abspath(os.path.join(
@@ -376,3 +377,19 @@ def detect_render_finishing(max_delay=45):
             break
 
         make_viewport_screenshot(PREVIOUS_SCREEN_PATH)
+
+
+def run_in_new_windows(command):
+    if platform.system() == "Windows":
+        return f"start cmd.exe @cmd /k \"{command} & exit 0\""
+    else:
+        return f"xterm -e \"{command}\""
+
+
+def get_resolution():
+    if platform.system() == "Windows":
+        return win32api.GetSystemMetrics(0), win32api.GetSystemMetrics(1)
+    else:
+        process = subprocess.Popen("xdpyinfo | awk '/dimensions/{print $2}'", stdout=PIPE, shell=True)
+        stdout, stderr = process.communicate()
+        return stdout.decode("utf-8").strip().split("x")

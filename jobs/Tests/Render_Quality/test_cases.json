@@ -4,7 +4,9 @@
         "status": "active",
         "scene": "ClampRadiance.usda",
         "camera": "Camera",
-        "max_ray_depth": "50",
+        "render_settings": {
+            "max_ray_depth": "50"
+        },
         "script_info": [
             "Clamp Radiance - 0"
         ]
@@ -14,8 +16,10 @@
         "status": "active",
         "scene": "DiffuseDepth2_test.usda",
         "camera": "Camera",
-        "max_ray_depth": "50",
-        "diffuse_ray_depth": "0",
+        "render_settings": {
+            "max_ray_depth": "50",
+            "diffuse_ray_depth": "0"
+        },
         "script_info": [
             "Quality Diffuse - 0"
         ]
@@ -25,8 +29,10 @@
         "status": "active",
         "scene": "GlossyDepth.usda",
         "camera": "Camera",
-        "max_ray_depth": "50",
-        "glossy_ray_depth": "0",
+        "render_settings": {
+            "max_ray_depth": "50",
+            "glossy_ray_depth": "0"
+        },
         "script_info": [
             "Quality Glossy - 0"
         ]
@@ -36,10 +42,12 @@
         "status": "active",
         "scene": "RefractionGlossyDepth.usda",
         "camera": "Camera",
-        "max_ray_depth": "50",
-        "glossy_ray_depth": "50",
-        "refraction_ray_depth": "50",
-        "glossy_refraction_ray_depth": "50",
+        "render_settings": {
+            "max_ray_depth": "50",
+            "glossy_ray_depth": "50",
+            "refraction_ray_depth": "50",
+            "glossy_refraction_ray_depth": "50"
+        },
         "script_info": [
             "Quality GlossyRefraction - 0"
         ]
@@ -49,13 +57,15 @@
         "status": "active",
         "scene": "Quality.usda",
         "camera": "Camera",
-        "max_ray_depth": "2",
-        "diffuse_ray_depth": "2",
-        "glossy_ray_depth": "2",
-        "refraction_ray_depth": "1",
-        "glossy_refraction_ray_depth": "1", 
-        "shadow_ray_depth": "1",
-        "ray_case_epsilon": "0",
+        "render_settings": {
+            "max_ray_depth": "2",
+            "diffuse_ray_depth": "2",
+            "glossy_ray_depth": "2",
+            "refraction_ray_depth": "1",
+            "glossy_refraction_ray_depth": "1", 
+            "shadow_ray_depth": "1",
+            "ray_case_epsilon": "0"
+        },
         "script_info": [
             "Max Ray Depth - 2",
 			"Max Diffuse - 2",
@@ -71,14 +81,16 @@
         "status": "active",
         "scene": "Quality.usda",
         "camera": "Camera",
-        "max_ray_depth": "50",
-        "diffuse_ray_depth": "50",
-        "glossy_ray_depth": "50",
-        "refraction_ray_depth": "50", 
-        "glossy_refraction_ray_depth": "50", 
-        "shadow_ray_depth": "50",
-        "ray_case_epsilon": "1",
-        "max_radiance": "100",
+        "render_settings": {
+            "max_ray_depth": "50",
+            "diffuse_ray_depth": "50",
+            "glossy_ray_depth": "50",
+            "refraction_ray_depth": "50", 
+            "glossy_refraction_ray_depth": "50", 
+            "shadow_ray_depth": "50",
+            "ray_case_epsilon": "1",
+            "max_radiance": "100"
+        },
         "script_info": [
             "Max Ray Depth - 50",
 			"Max Diffuse - 50",
@@ -95,8 +107,10 @@
         "status": "active",
         "scene": "RefractionDepth.usda",
         "camera": "Camera",
-        "max_ray_depth": "50",
-        "refraction_ray_depth": "0",
+        "render_settings": {
+            "max_ray_depth": "50",
+            "refraction_ray_depth": "0"
+        },
         "script_info": [
             "Quality Refraction - 0"
         ]

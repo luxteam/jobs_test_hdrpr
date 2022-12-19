@@ -2,10 +2,235 @@
     {
         "case": "MTLX_VS_HDRPR_001",
         "status": "active",
-        "scene": "Math_Absval_Color3.usda",
+        "scene": "standard_surface_brass_tiled.usda",
         "camera": "Camera",
         "script_info": [
-            "Math Absval Color3"
+            "standard surface brass tiled"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_002",
+        "status": "active",
+        "scene": "standard_surface_brick_procedural.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface brick procedural"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_003",
+        "status": "active",
+        "scene": "standard_surface_carpaint.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface carpaint"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_004",
+        "status": "active",
+        "scene": "standard_surface_chess_set.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface chess set"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_005",
+        "status": "active",
+        "scene": "standard_surface_chrome.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface chrome"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_006",
+        "status": "active",
+        "scene": "standard_surface_copper.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface copper"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_007",
+        "status": "active",
+        "scene": "standard_surface_default.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface default"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_008",
+        "status": "active",
+        "scene": "standard_surface_glass.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface glass"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_009",
+        "status": "active",
+        "scene": "standard_surface_glass_tinted.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface glass tinted"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_010",
+        "status": "active",
+        "scene": "standard_surface_gold.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface gold"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_011",
+        "status": "active",
+        "scene": "standard_surface_greysphere.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface greysphere"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_012",
+        "status": "active",
+        "scene": "standard_surface_greysphere_calibration.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface greysphere calibration"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_013",
+        "status": "active",
+        "scene": "standard_surface_jade.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface jade"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_014",
+        "status": "active",
+        "scene": "standard_surface_look_brass_tiled.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface look brass tiled"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_015",
+        "status": "active",
+        "scene": "standard_surface_look_wood_tiled.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface look wood tiled"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_016",
+        "status": "active",
+        "scene": "standard_surface_marble_solid.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface marble solid"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_017",
+        "status": "active",
+        "scene": "standard_surface_metal_brushed.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface metal brushed"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_018",
+        "status": "active",
+        "scene": "standard_surface_plastic.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface plastic"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_019",
+        "status": "active",
+        "scene": "standard_surface_thin_film.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface thin film"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_020",
+        "status": "active",
+        "scene": "standard_surface_velvet.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface velvet"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_021",
+        "status": "active",
+        "scene": "standard_surface_wood_tiled.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface wood tiled"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_022",
+        "status": "active",
+        "scene": "usd_preview_surface_brass_tiled.usda",
+        "camera": "Camera",
+        "script_info": [
+            "usd preview surface brass tiled"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_023",
+        "status": "active",
+        "scene": "usd_preview_surface_default.usda",
+        "camera": "Camera",
+        "script_info": [
+            "usd preview surface default"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_024",
+        "status": "active",
+        "scene": "usd_preview_surface_glass.usda",
+        "camera": "Camera",
+        "script_info": [
+            "usd preview surface glass"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_025",
+        "status": "active",
+        "scene": "usd_preview_surface_gold.usda",
+        "camera": "Camera",
+        "script_info": [
+            "usd preview surface gold"
+        ]
+    },
+    {
+        "case": "MTLX_VS_HDRPR_026",
+        "status": "active",
+        "scene": "usd_preview_surface_plastic.usda",
+        "camera": "Camera",
+        "script_info": [
+            "usd preview surface plastic"
         ]
     }
 ]

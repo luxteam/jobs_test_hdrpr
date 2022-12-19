@@ -1,7 +1,7 @@
 [
     {
         "case": "HDRPR_IMAGE_SIZE_001",
-        "status": "active",
+        "status": "skipped",
         "scene": "4k_Resolution.usda",
         "camera": "Camera",
         "script_info": [

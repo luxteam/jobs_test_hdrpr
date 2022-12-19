@@ -2,7 +2,7 @@
     { 
         "case": "HDRPR_RENDER_QUALITY_001",
         "status": "active",
-        "scene": "ClampRadiance_0.usda",
+        "scene": "ClampRadiance.usda",
         "camera": "Camera",
         "max_ray_depth": "50",
         "script_info": [
@@ -12,7 +12,7 @@
     {
         "case": "HDRPR_RENDER_QUALITY_002",
         "status": "active",
-        "scene": "Quality_Diffuse_0.usda",
+        "scene": "DiffuseDepth2_test.usda",
         "camera": "Camera",
         "max_ray_depth": "50",
         "diffuse_ray_depth": "0",
@@ -23,7 +23,7 @@
     { 
         "case": "HDRPR_RENDER_QUALITY_003",
         "status": "active",
-        "scene": "Quality_Glossy_0.usda",
+        "scene": "GlossyDepth.usda",
         "camera": "Camera",
         "max_ray_depth": "50",
         "glossy_ray_depth": "0",
@@ -34,7 +34,7 @@
     {
         "case": "HDRPR_RENDER_QUALITY_004",
         "status": "active",
-        "scene": "Quality_GlossyRefraction_0.usda",
+        "scene": "RefractionGlossyDepth.usda",
         "camera": "Camera",
         "max_ray_depth": "50",
         "glossy_ray_depth": "50",
@@ -47,7 +47,7 @@
     {
         "case": "HDRPR_RENDER_QUALITY_005",
         "status": "active",
-        "scene": "Quality_RayCastEpsilon.usda",
+        "scene": "Quality.usda",
         "camera": "Camera",
         "max_ray_depth": "2",
         "diffuse_ray_depth": "2",
@@ -69,7 +69,7 @@
     {
         "case": "HDRPR_RENDER_QUALITY_006",
         "status": "active",
-        "scene": "Quality_RayCastEpsilon.usda",
+        "scene": "Quality.usda",
         "camera": "Camera",
         "max_ray_depth": "50",
         "diffuse_ray_depth": "50",
@@ -93,7 +93,7 @@
     {
         "case": "HDRPR_RENDER_QUALITY_007",
         "status": "active",
-        "scene": "Quality_Refraction_0.usda",
+        "scene": "RefractionDepth.usda",
         "camera": "Camera",
         "max_ray_depth": "50",
         "refraction_ray_depth": "0",

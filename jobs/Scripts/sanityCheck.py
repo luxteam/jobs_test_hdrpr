@@ -39,12 +39,6 @@ if __name__ == "__main__":
 
         sleep(3)
 
-        utils.set_camera_options()
-
-        utils.disable_bounding_boxes()
-
-        utils.disable_hud()
-
         utils.set_render_quality(args.engine)
 
         utils.detect_render_finishing()
@@ -52,7 +46,7 @@ if __name__ == "__main__":
         utils.save_image(image_path)
 
         # Camera setting will be saved only after closing through button
-        #utils.close_app_through_button()
+        utils.close_app_through_button()
         sleep(0.5)
     except Exception as e:
         print(f"Failed during script execution. Exception: {str(e)}")

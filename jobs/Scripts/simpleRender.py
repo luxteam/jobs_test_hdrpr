@@ -203,6 +203,8 @@ def execute_tests(args, current_conf):
 
                 sleep(3)
 
+                utils.set_render_settings(case)
+
                 utils.set_render_quality(args.engine)
 
                 utils.detect_render_finishing()

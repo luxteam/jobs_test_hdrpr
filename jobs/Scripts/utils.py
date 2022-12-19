@@ -16,6 +16,7 @@ import traceback
 from PIL import Image
 import pyscreenshot
 from datetime import datetime
+from shutil import copyfile
 from elements import USDViewElements
 
 sys.path.append(os.path.abspath(os.path.join(
@@ -70,6 +71,21 @@ def close_process(process):
 
 def open_tool(script_path, execution_script, engine):
     global process
+
+    # copy baseline state.json of usdview with necessary settings
+    state_file_location = os.path.join(os.path.expanduser("~"), ".usdview")
+    state_file_name = "state.json"
+
+    target_file_location = os.path.join(state_file_location, state_file_name)
+    source_file_location = os.path.join(os.path.dirname(__file__), state_file_name)
+
+    if not os.path.exists(state_file_location):
+        os.makedirs(state_file_location)
+
+    if os.path.exists(target_file_location):
+        os.remove(target_file_location)
+
+    copyfile(source_file_location, target_file_location)
 
     with open(script_path, "w") as f:
         f.write(execution_script)
@@ -136,10 +152,67 @@ def open_tool(script_path, execution_script, engine):
         time.sleep(0.2)
 
 
+def set_render_settings(case):
+    PADDINGS = {
+        "max_ray_depth": 0,
+        "diffuse_ray_depth": 1,
+        "glossy_ray_depth": 2,
+        "refraction_ray_depth": 3,
+        "glossy_refraction_ray_depth": 4,
+        "shadow_ray_depth": 5,
+        "ray_case_epsilon": 6,
+        "max_radiance": 7
+    }
+
+    last_field = None
+
+    if "render_settings" in case:
+        locate_and_click(USDViewElements.RENDERER.build_path())
+        time.sleep(0.5)
+        locate_and_click(USDViewElements.HYDRA_SETTINGS.build_path())
+        time.sleep(0.5)
+        locate_and_click(USDViewElements.MORE.build_path())
+        time.sleep(0.5)
+
+        # find label of first supporting render setting
+        coords = locate_on_screen(USDViewElements.MAX_RAY_DEPTH.build_path())
+        click_on_element(coords, x_offset=400)
+        time.sleep(0.1)
+
+        for key in case["render_settings"].keys():
+            if key not in PADDINGS:
+                raise Exception(f"Unexpected render setting {key}")
+
+            if last_field is None:
+                padding = PADDINGS[key]
+            else:
+                padding = PADDINGS[key] - PADDINGS[last_field]
+
+            for i in range(padding):
+                pyautogui.press("tab")
+                time.sleep(0.1)
+
+            pyautogui.hotkey("ctrl", "a")
+            time.sleep(0.1)
+            pyautogui.typewrite(case["render_settings"][key])
+
+            last_field = key
+
+        pyautogui.press("enter")
+
+
 def set_render_quality(engine):
     locate_and_click(USDViewElements.RPR.build_path())
     time.sleep(0.5)
-    locate_and_click(USDViewElements.RENDER_QUALITY.build_path())
+
+    try:
+        locate_and_click(USDViewElements.RENDER_QUALITY.build_path())
+    except:
+        # if render settins wasn't found, try to click RPR tab again
+        locate_and_click(USDViewElements.RPR.build_path())
+        time.sleep(0.5)
+        locate_and_click(USDViewElements.RENDER_QUALITY.build_path())
+
     time.sleep(0.5)
 
     if engine == "Northstar":
@@ -150,21 +223,25 @@ def set_render_quality(engine):
         raise ValueError(f"Unexpected engine '{engine}'")
 
 
+def find_usdview_process():
+    for window in pyautogui.getAllWindows():
+        if ".usd" in window.title:
+            pid = win32process.GetWindowThreadProcessId(window._hWnd)[1]
+
+            for process in psutil.process_iter():
+                if process.pid == pid:
+                    return process
+
+    return None
+
+
 def post_action():
     try:
-        for window in pyautogui.getAllWindows():
-            if ".usd" in window.title:
-                pid = win32process.GetWindowThreadProcessId(window._hWnd)[1]
-
-                for process in psutil.process_iter():
-                    if process.pid == pid:
-                        close_process(process)
-                        break
-
-                break
+        process = find_usdview_process()
+        close_process(process)
     except Exception as e:
-        case_logger.error(f"Failed to do post actions: {str(e)}")
-        case_logger.error(f"Traceback: {traceback.format_exc()}")
+        case_logger.warning(f"Failed to do post actions: {str(e)}")
+        case_logger.warning(f"Traceback: {traceback.format_exc()}")
 
 
 def create_case_logger(case_name, log_path):
@@ -222,61 +299,6 @@ def save_image(image_path):
     pyautogui.typewrite(image_path)
     pyautogui.press("enter")
     time.sleep(0.5)
-
-
-def disable_bounding_boxes():
-    locate_and_click(USDViewElements.DISPLAY.build_path())
-    time.sleep(0.5)
-    locate_and_click(USDViewElements.BOUNDING_BOX.build_path())
-    time.sleep(0.5)
-
-    try:
-        locate_on_screen(USDViewElements.SHOW_BOUNDING_BOXES_OFF.build_path(), tries=1, confidence=0.99)
-    except:
-        locate_and_click(USDViewElements.SHOW_BOUNDING_BOXES_LABEL.build_path())
-        time.sleep(0.5)
-
-
-def disable_hud():
-    locate_and_click(USDViewElements.DISPLAY.build_path())
-    time.sleep(0.5)
-    locate_and_click(USDViewElements.HEADS_UP_DISPLAY.build_path())
-    time.sleep(0.5)
-
-    try:
-        locate_on_screen(USDViewElements.SHOW_HUD_OFF.build_path(), tries=1, confidence=0.99)
-    except:
-        locate_and_click(USDViewElements.SHOW_HUD_LABEL.build_path())
-        time.sleep(0.5)
-
-
-def set_camera_options():
-    locate_and_click(USDViewElements.LIGHTS.build_path())
-    time.sleep(0.5)
-
-    try:
-        locate_on_screen(USDViewElements.ENABLE_SCENE_LIGHTS_ON.build_path(), tries=1, confidence=0.99)
-    except:
-        locate_and_click(USDViewElements.ENABLE_SCENE_LIGHTS_LABEL.build_path())
-        time.sleep(0.5)
-        locate_and_click(USDViewElements.LIGHTS.build_path())
-        time.sleep(0.5)
-
-    try:
-        locate_on_screen(USDViewElements.ENABLE_DEFAULT_CAMERA_LIGHT_OFF.build_path(), tries=1, confidence=0.99)
-    except:
-        locate_and_click(USDViewElements.ENABLE_DEFAULT_CAMERA_LIGHT_LABEL.build_path(), confidence=0.97)
-        time.sleep(0.5)
-        locate_and_click(USDViewElements.LIGHTS.build_path())
-        time.sleep(0.5)
-
-    try:
-        locate_on_screen(USDViewElements.ENABLE_DEFAULT_DOME_LIGHT_OFF.build_path(), tries=1, confidence=0.99)
-    except:
-        locate_and_click(USDViewElements.ENABLE_DEFAULT_DOME_LIGHT_LABEL.build_path(), confidence=0.97)
-        time.sleep(0.5)
-
-    locate_and_click(USDViewElements.LIGHTS.build_path())
 
 
 def close_app_through_button():

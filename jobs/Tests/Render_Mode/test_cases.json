@@ -4,8 +4,10 @@
         "status": "active",
         "scene": "Cube.usda",
         "camera": "Camera",
-        "ai_denoise": true,
-        "min_iteration": 8,
+        "render_settings": {
+            "enable_ai_denoise": true,
+            "denoise_min_iteration": 8
+        },
         "script_info": [
             "AI Denoising, Min Iteration - 8"
         ]
@@ -15,8 +17,10 @@
         "status": "active",
         "scene": "Cube.usda",
         "camera": "Camera",
-        "ai_denoise": true,
-        "iteration_step": 16,
+        "render_settings": {
+            "enable_ai_denoise": true,
+            "denoise_iteration_step": 16
+        },
         "script_info": [
             "AI Denoising, Iteration Step - 16"
         ]
@@ -26,7 +30,9 @@
         "status": "active",
         "scene": "Cube.usda",
         "camera": "Camera",
-        "max_samples": 16,
+        "render_settings": {
+            "max_samples": 16
+        },
         "script_info": [
             "MaxSamples - 16"
         ]
@@ -36,7 +42,9 @@
         "status": "active",
         "scene": "Cube.usda",
         "camera": "Camera",
-        "noise_threshold": 0.05,
+        "render_settings": {
+            "noise_threshold": 0.05
+        },
         "script_info": [
             "Noise Threshold - 0.05"
         ]

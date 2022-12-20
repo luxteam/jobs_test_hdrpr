@@ -1,0 +1,85 @@
+{
+  "1": {
+    "model": {
+      "cameraMaskColor": [
+        0.1,
+        0.1,
+        0.1,
+        1.0
+      ],
+      "cameraReticlesColor": [
+        0.0,
+        0.7,
+        1.0,
+        1.0
+      ],
+      "defaultMaterialAmbient": 0.2,
+      "defaultMaterialSpecular": 0.1,
+      "redrawOnScrub": true,
+      "renderMode": "Smooth Shaded",
+      "freeCameraFOV": 60.0,
+      "freeCameraOverrideNear": -Infinity,
+      "freeCameraOverrideFar": -Infinity,
+      "freeCameraAspect": 1.0,
+      "lockFreeCameraAspect": false,
+      "colorCorrectionMode": "sRGB",
+      "pickMode": "Select Prims",
+      "selectionHighlightMode": "Only when paused",
+      "highlightColor": "Yellow",
+      "cameraLightEnabled": false,
+      "domeLightEnabled": false,
+      "backgroundColor": "Grey (Dark)",
+      "autoComputeClippingPlanes": false,
+      "showBBoxesDuringPlayback": false,
+      "showBBoxes": false,
+      "showAABBox": true,
+      "showOBBox": true,
+      "displayGuide": false,
+      "displayProxy": true,
+      "displayRender": false,
+      "displayPrimId": false,
+      "enableSceneMaterials": true,
+      "enableSceneLights": true,
+      "cullBackfaces": false,
+      "showInactivePrims": true,
+      "showAllPrototypePrims": false,
+      "showAllMasterPrims": false,
+      "showUndefinedPrims": false,
+      "showAbstractPrims": false,
+      "rolloverPrimInfo": false,
+      "cameraOracles": false,
+      "cameraMaskMode": "none",
+      "cameraMaskOutline": false,
+      "cameraReticlesInside": false,
+      "cameraReticlesOutside": false,
+      "showHUD": false,
+      "showHUDInfo": false,
+      "showHUDComplexity": true,
+      "showHUDPerformance": true,
+      "showHUDGPUStats": false,
+      "fontSize": 10
+    },
+    "ui": {
+      "primViewWidth": 0,
+      "stageViewWidth": 2000,
+      "attributeViewWidth": 1146,
+      "attributeInspectorWidth": 744,
+      "topHeight": 486,
+      "bottomHeight": 276,
+      "viewerMode": false,
+      "primViewColumnVisibility": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "propertyViewColumnVisibility": [
+        true,
+        true,
+        true
+      ],
+      "attributeInspectorCurrentTab": 0
+    }
+  }
+}

@@ -199,7 +199,10 @@ def execute_tests(args, current_conf):
                 execution_script = f"start cmd.exe @cmd /k \"{args.python} {tool_path} -r RPR --camera {case['camera']} {scene_path} & exit 0\""
                 script_path = os.path.join(args.output, "{}.bat".format(case["case"]))
 
-                utils.open_tool(script_path, execution_script, args.engine)
+                if "custom_state_json" in case:
+                    utils.open_tool(script_path, execution_script, args.engine, state_file_name=case["custom_state_json"])
+                else:
+                    utils.open_tool(script_path, execution_script, args.engine)
 
                 sleep(3)
 

@@ -70,15 +70,14 @@ def close_process(process):
         case_logger.error(f"Traceback: {traceback.format_exc()}")
 
 
-def open_tool(script_path, execution_script, engine):
+def open_tool(script_path, execution_script, engine, state_file_name="state.json"):
     global process
 
     # copy baseline state.json of usdview with necessary settings
     state_file_location = os.path.join(os.path.expanduser("~"), ".usdview")
-    state_file_name = "state.json"
 
-    target_file_location = os.path.join(state_file_location, state_file_name)
-    source_file_location = os.path.join(os.path.dirname(__file__), state_file_name)
+    target_file_location = os.path.join(state_file_location, "state.json")
+    source_file_location = os.path.join(os.path.dirname(__file__), "state", state_file_name)
 
     if not os.path.exists(state_file_location):
         os.makedirs(state_file_location)

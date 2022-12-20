@@ -300,6 +300,9 @@ def save_image(image_path):
     pyautogui.press("enter")
     time.sleep(0.5)
 
+    if not os.path.exists(image_path):
+        raise Exception("Saved image not found")
+
 
 def close_app_through_button():
     locate_and_click(USDViewElements.CLOSE_BUTTON.build_path())

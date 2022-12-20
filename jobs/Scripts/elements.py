@@ -48,3 +48,6 @@ class USDViewElements:
     MORE = USDViewLocation("more")
     MAX_RAY_DEPTH = USDViewLocation("max_ray_depth")
     UV_THRESHOLD = USDViewLocation("uv_threshold")
+    ENABLE_GAMMA = USDViewLocation("enable_gamma")
+    ENABLE_COLOR_ALPHA = USDViewLocation("enable_color_alpha")
+    ENABLE_TONE_MAPPING = USDViewLocation("enable_tone_mapping")

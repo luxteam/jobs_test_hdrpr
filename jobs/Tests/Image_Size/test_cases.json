@@ -4,7 +4,8 @@
         "status": "active",
         "scene": "Cube.usda",
         "camera": "Camera",
-        "custom_state_json": "max_resolution_state.json",
+        "prim_view_width": 0,
+        "stage_view_width": 2000,
         "script_info": [
             "Max available resolution in usdview tool"
         ]

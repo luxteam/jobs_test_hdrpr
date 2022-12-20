@@ -10,7 +10,7 @@
     },
     {
         "case": "MTLX_VS_HDRPR_002",
-        "status": "active",
+        "status": "skipped",
         "scene": "standard_surface_brick_procedural.usda",
         "camera": "Camera",
         "script_info": [

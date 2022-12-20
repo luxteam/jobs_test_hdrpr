@@ -5,7 +5,8 @@
         "scene": "Clip_5-7.usda",
         "camera": "Camera",
         "script_info": [
-            "Camera clip from 5 to 7"
+            "Camera clip from 5 to 7",
+            "Black image expected"
         ]
     },
     {
@@ -14,7 +15,8 @@
         "scene": "FocalLength_10mm.usda",
         "camera": "Camera",
         "script_info": [
-            "Focal Length - 10mm"
+            "Focal Length - 10mm",
+            "Black image expected"
         ]
     },
     {
@@ -23,7 +25,8 @@
         "scene": "FoV_120.usda",
         "camera": "Camera",
         "script_info": [
-            "Field ov View - 120"
+            "Field ov View - 120",
+            "Black image expected"
         ]
     },
     {
@@ -32,7 +35,8 @@
         "scene": "OrthographicCamera.usda",
         "camera": "Camera",
         "script_info": [
-            "Camera type - orthographic"
+            "Camera type - orthographic",
+            "Black image expected"
         ]
     },
     {
@@ -41,7 +45,8 @@
         "scene": "PanoramicCamera.usda",
         "camera": "Camera",
         "script_info": [
-            "Camera type - panoramic"
+            "Camera type - panoramic",
+            "Black image expected"
         ]
     },
     {
@@ -50,7 +55,8 @@
         "scene": "SensorWidth_100.usda",
         "camera": "Camera",
         "script_info": [
-            "Sensor Width - 100"
+            "Sensor Width - 100",
+            "Black image expected"
         ]
     },
     {
@@ -59,7 +65,8 @@
         "scene": "ShiftY_0.1.usda",
         "camera": "Camera",
         "script_info": [
-            "Camera shift Y - 0.1"
+            "Camera shift Y - 0.1",
+            "Black image expected"
         ]
     }
 ]

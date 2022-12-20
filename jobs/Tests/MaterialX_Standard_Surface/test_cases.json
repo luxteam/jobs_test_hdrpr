@@ -5,7 +5,8 @@
         "scene": "Base_and_Roughness_0.usda",
         "camera": "Camera",
         "script_info": [
-            "Base and Roughness - 0"
+            "Base and Roughness - 0",
+            "Black image expected"
         ]
     },
     {
@@ -14,7 +15,8 @@
         "scene": "Coat_Color.usda",
         "camera": "Camera",
         "script_info": [
-            "Coat Color"
+            "Coat Color",
+            "Black image expected"
         ]
     },
     {
@@ -23,7 +25,8 @@
         "scene": "Coat_RGB_0_1_0.usda",
         "camera": "Camera",
         "script_info": [
-            "Coat RGB - 0_1_0"
+            "Coat RGB - 0_1_0",
+            "Black image expected"
         ]
     },
     {
@@ -32,7 +35,8 @@
         "scene": "Diffuse_Color.usda",
         "camera": "Camera",
         "script_info": [
-            "Diffuse - Color"
+            "Diffuse - Color",
+            "Black image expected"
         ]
     },
     {
@@ -41,7 +45,8 @@
         "scene": "Emission_RGB_0_0.1_1.usda",
         "camera": "Camera",
         "script_info": [
-            "Emission RGB - 0_0.1_1"
+            "Emission RGB - 0_0.1_1",
+            "Black image expected"
         ]
     },
     {
@@ -50,7 +55,8 @@
         "scene": "Geometry_Opacity_png.usda",
         "camera": "Camera",
         "script_info": [
-            "Geometry Opacity - png"
+            "Geometry Opacity - png",
+            "Black image expected"
         ]
     },
     {
@@ -59,7 +65,8 @@
         "scene": "Sheen_RGB_0_1_1.usda",
         "camera": "Camera",
         "script_info": [
-            "Sheen RGB - 0_1_1"
+            "Sheen RGB - 0_1_1",
+            "Black image expected"
         ]
     },
     {
@@ -68,7 +75,8 @@
         "scene": "Specular_Color.usda",
         "camera": "Camera",
         "script_info": [
-            "Specular Color"
+            "Specular Color",
+            "Black image expected"
         ]
     },
     {
@@ -77,7 +85,8 @@
         "scene": "Specular_Weight_0.usda",
         "camera": "Camera",
         "script_info": [
-            "Specular Weight - 0"
+            "Specular Weight - 0",
+            "Black image expected"
         ]
     },
     {
@@ -86,7 +95,8 @@
         "scene": "Subsurface_Color.usda",
         "camera": "Camera",
         "script_info": [
-            "Subsurface Color"
+            "Subsurface Color",
+            "Black image expected"
         ]
     },
     {
@@ -95,7 +105,8 @@
         "scene": "Subsurface_RGB_0_0.4_0.usda",
         "camera": "Camera",
         "script_info": [
-            "Subsurface RGB - 0_0.4_0"
+            "Subsurface RGB - 0_0.4_0",
+            "Black image expected"
         ]
     },
     {
@@ -104,7 +115,8 @@
         "scene": "Thin_Film_Thickness_1.usda",
         "camera": "Camera",
         "script_info": [
-            "Thin Film Thickness - 1"
+            "Thin Film Thickness - 1",
+            "Black image expected"
         ]
     },
     {
@@ -113,7 +125,8 @@
         "scene": "Transmission_Color.usda",
         "camera": "Camera",
         "script_info": [
-            "Transmission Color"
+            "Transmission Color",
+            "Black image expected"
         ]
     },
     {
@@ -122,7 +135,8 @@
         "scene": "Transmission_Weight_0.usda",
         "camera": "Camera",
         "script_info": [
-            "Transmission Weight - 0"
+            "Transmission Weight - 0",
+            "Black image expected"
         ]
     }
 ]

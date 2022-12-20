@@ -2,10 +2,11 @@
     {
         "case": "HDRPR_IMAGE_SIZE_001",
         "status": "active",
-        "scene": "4k_Resolution.usda",
+        "scene": "Cube.usda",
         "camera": "Camera",
+        "custom_state_json": "max_resolution_state.json",
         "script_info": [
-            "Render resolution - 4k"
+            "Max available resolution in usdview tool"
         ]
     }
 ]

@@ -17,6 +17,7 @@ from PIL import Image
 import pyscreenshot
 from datetime import datetime
 from shutil import copyfile
+from collections import OrderedDict
 from elements import USDViewElements
 
 sys.path.append(os.path.abspath(os.path.join(
@@ -153,16 +154,25 @@ def open_tool(script_path, execution_script, engine):
 
 
 def set_render_settings(case):
-    PADDINGS = {
-        "max_ray_depth": 0,
-        "diffuse_ray_depth": 1,
-        "glossy_ray_depth": 2,
-        "refraction_ray_depth": 3,
-        "glossy_refraction_ray_depth": 4,
-        "shadow_ray_depth": 5,
-        "ray_case_epsilon": 6,
-        "max_radiance": 7
-    }
+    PADDINGS = OrderedDict()
+    PADDINGS["uv_threshold"] = 0
+    PADDINGS["debug"] = 1
+    PADDINGS["enable_ai_denoising"] = 2
+    PADDINGS["denoise_min_iteration"] = 3
+    PADDINGS["denoise_iteration_step"] = 4
+    PADDINGS["max_samples"] = 5
+    PADDINGS["min_samples"] = 6
+    PADDINGS["noise_threshold"] = 7
+    PADDINGS["max_ray_depth"] = 8
+    PADDINGS["diffuse_ray_depth"] = 9
+    PADDINGS["glossy_ray_depth"] = 10
+    PADDINGS["refraction_ray_depth"] = 11
+    PADDINGS["glossy_refraction_ray_depth"] = 12
+    PADDINGS["shadow_ray_depth"] = 13
+    PADDINGS["ray_case_epsilon"] = 14
+    PADDINGS["max_radiance"] = 15
+
+    CHECK_BOXES = ["debug", "enable_ai_denoising"]
 
     last_field = None
 
@@ -175,28 +185,29 @@ def set_render_settings(case):
         time.sleep(0.5)
 
         # find label of first supporting render setting
-        coords = locate_on_screen(USDViewElements.MAX_RAY_DEPTH.build_path())
+        coords = locate_on_screen(USDViewElements.UV_THRESHOLD.build_path())
         click_on_element(coords, x_offset=400)
         time.sleep(0.1)
 
-        for key in case["render_settings"].keys():
-            if key not in PADDINGS:
-                raise Exception(f"Unexpected render setting {key}")
+        for key in PADDINGS.keys():
+            if key in case["render_settings"]:
+                if last_field is None:
+                    padding = PADDINGS[key]
+                else:
+                    padding = PADDINGS[key] - PADDINGS[last_field]
 
-            if last_field is None:
-                padding = PADDINGS[key]
-            else:
-                padding = PADDINGS[key] - PADDINGS[last_field]
+                for i in range(padding):
+                    pyautogui.press("tab")
+                    time.sleep(0.1)
 
-            for i in range(padding):
-                pyautogui.press("tab")
-                time.sleep(0.1)
+                if key in CHECK_BOXES:
+                    pyautogui.press("space")
+                else:
+                    pyautogui.hotkey("ctrl", "a")
+                    time.sleep(0.1)
+                    pyautogui.typewrite(str(case["render_settings"][key]))
 
-            pyautogui.hotkey("ctrl", "a")
-            time.sleep(0.1)
-            pyautogui.typewrite(case["render_settings"][key])
-
-            last_field = key
+                last_field = key
 
         pyautogui.press("enter")
 

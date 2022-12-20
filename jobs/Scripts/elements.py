@@ -47,3 +47,4 @@ class USDViewElements:
     HYDRA_SETTINGS = USDViewLocation("hydra_settings")
     MORE = USDViewLocation("more")
     MAX_RAY_DEPTH = USDViewLocation("max_ray_depth")
+    UV_THRESHOLD = USDViewLocation("uv_threshold")

@@ -6,7 +6,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface brass tiled"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_002",
@@ -15,7 +19,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface brick procedural"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_003",
@@ -24,7 +32,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface carpaint"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_004",
@@ -33,7 +45,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface chess set"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_005",
@@ -42,7 +58,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface chrome"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_006",
@@ -51,7 +71,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface copper"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_007",
@@ -60,7 +84,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface default"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_008",
@@ -69,7 +97,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface glass"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_009",
@@ -78,7 +110,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface glass tinted"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_010",
@@ -87,7 +123,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface gold"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_011",
@@ -96,7 +136,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface greysphere"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_012",
@@ -105,7 +149,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface greysphere calibration"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_013",
@@ -114,7 +162,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface jade"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_014",
@@ -123,7 +175,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface look brass tiled"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_015",
@@ -132,7 +188,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface look wood tiled"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_016",
@@ -141,7 +201,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface marble solid"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_017",
@@ -150,7 +214,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface metal brushed"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_018",
@@ -159,7 +227,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface plastic"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_019",
@@ -168,7 +240,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface thin film"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_020",
@@ -177,7 +253,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface velvet"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_021",
@@ -186,7 +266,11 @@
         "camera": "Camera",
         "script_info": [
             "standard surface wood tiled"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_022",
@@ -195,7 +279,11 @@
         "camera": "Camera",
         "script_info": [
             "usd preview surface brass tiled"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_023",
@@ -204,7 +292,11 @@
         "camera": "Camera",
         "script_info": [
             "usd preview surface default"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_024",
@@ -213,7 +305,11 @@
         "camera": "Camera",
         "script_info": [
             "usd preview surface glass"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_025",
@@ -222,7 +318,11 @@
         "camera": "Camera",
         "script_info": [
             "usd preview surface gold"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "MTLX_VS_HDRPR_026",
@@ -231,6 +331,10 @@
         "camera": "Camera",
         "script_info": [
             "usd preview surface plastic"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     }
 ]

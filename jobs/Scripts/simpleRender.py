@@ -199,13 +199,18 @@ def execute_tests(args, current_conf):
                 execution_script = f"start cmd.exe @cmd /k \"{args.python} {tool_path} -r RPR --camera {case['camera']} {scene_path} & exit 0\""
                 script_path = os.path.join(args.output, "{}.bat".format(case["case"]))
 
-                utils.open_tool(script_path, execution_script, args.engine)
+                utils.open_tool(script_path, execution_script, args.engine, case=case)
 
                 sleep(3)
 
                 utils.set_render_settings(case)
 
+                utils.set_hydra_settings(case)
+
                 utils.set_render_quality(args.engine)
+
+                if "render_delay" in case and args.engine in case["render_delay"]:
+                    sleep(case["render_delay"][args.engine])
 
                 utils.detect_render_finishing()
 

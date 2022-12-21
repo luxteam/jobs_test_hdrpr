@@ -70,7 +70,7 @@ def close_process(process):
         case_logger.error(f"Traceback: {traceback.format_exc()}")
 
 
-def open_tool(script_path, execution_script, engine):
+def open_tool(script_path, execution_script, engine, case=None):
     global process
 
     # copy baseline state.json of usdview with necessary settings
@@ -78,7 +78,7 @@ def open_tool(script_path, execution_script, engine):
     state_file_name = "state.json"
 
     target_file_location = os.path.join(state_file_location, state_file_name)
-    source_file_location = os.path.join(os.path.dirname(__file__), state_file_name)
+    source_file_location = os.path.join(os.path.dirname(__file__), "state", state_file_name)
 
     if not os.path.exists(state_file_location):
         os.makedirs(state_file_location)
@@ -87,6 +87,9 @@ def open_tool(script_path, execution_script, engine):
         os.remove(target_file_location)
 
     copyfile(source_file_location, target_file_location)
+
+    if case:
+        modify_state_file(case, target_file_location)
 
     with open(script_path, "w") as f:
         f.write(execution_script)
@@ -153,6 +156,22 @@ def open_tool(script_path, execution_script, engine):
         time.sleep(0.2)
 
 
+def modify_state_file(case, state_path):
+    with open(state_path, "r") as json_file:
+        state = json.load(json_file)
+
+    if "render_mode" in case:
+        state["1"]["model"]["renderMode"] = case["render_mode"]
+
+    if "prim_view_width" in case:
+        state["1"]["ui"]["primViewWidth"] = case["prim_view_width"]
+    if "stage_view_width" in case:
+        state["1"]["ui"]["stageViewWidth"] = case["stage_view_width"]
+
+    with open(state_path, "w") as json_file:
+        json.dump(state, json_file, indent=4)
+
+
 def set_render_settings(case):
     PADDINGS = OrderedDict()
     PADDINGS["uv_threshold"] = 0
@@ -210,6 +229,30 @@ def set_render_settings(case):
                 last_field = key
 
         pyautogui.press("enter")
+
+
+def set_hydra_settings(case):
+    if "hydra_settings" in case:
+        def open_hydra_settings():
+            locate_and_click(USDViewElements.RENDERER.build_path())
+            time.sleep(0.5)
+            locate_and_click(USDViewElements.HYDRA_SETTINGS.build_path())
+            time.sleep(0.5)
+
+        if "enable_gamma" in case["hydra_settings"]:
+            open_hydra_settings()
+            locate_and_click(USDViewElements.ENABLE_GAMMA.build_path())
+            time.sleep(0.5)
+
+        if "enable_color_alpha" in case["hydra_settings"]:
+            open_hydra_settings()
+            locate_and_click(USDViewElements.ENABLE_COLOR_ALPHA.build_path())
+            time.sleep(0.5)
+
+        if "enable_tone_mapping" in case["hydra_settings"]:
+            open_hydra_settings()
+            locate_and_click(USDViewElements.ENABLE_TONE_MAPPING.build_path())
+            time.sleep(0.5)
 
 
 def set_render_quality(engine):
@@ -353,7 +396,7 @@ def locate_and_click(template, tries=3, confidence=0.9, x_offset=0, y_offset=0, 
     click_on_element(coords, x_offset=x_offset, y_offset=y_offset)
 
 
-def detect_render_finishing(max_delay=45):
+def detect_render_finishing(max_delay=60):
     PREVIOUS_SCREEN_PATH = "previous_screenshot.jpg"
     CURRENT_SCREEN_PATH = "current_screenshot.jpg"
 
@@ -383,7 +426,7 @@ def detect_render_finishing(max_delay=45):
         make_viewport_screenshot(CURRENT_SCREEN_PATH)
 
         metrics = CompareMetrics(PREVIOUS_SCREEN_PATH, CURRENT_SCREEN_PATH)
-        prediction = metrics.getPrediction(mark_failed_if_black=True, max_size=20)
+        prediction = metrics.getPrediction(mark_failed_if_black=True, max_size=5)
 
         # Viewport doesn't changed
         if prediction == 0:

@@ -2,8 +2,12 @@
     {
         "case": "HDRPR_RENDER_MODE_001",
         "status": "active",
-        "scene": "AI_Denoising_MinIteration_8.usda",
+        "scene": "Cube.usda",
         "camera": "Camera",
+        "render_settings": {
+            "enable_ai_denoise": true,
+            "denoise_min_iteration": 8
+        },
         "script_info": [
             "AI Denoising, Min Iteration - 8"
         ]
@@ -11,8 +15,12 @@
     {
         "case": "HDRPR_RENDER_MODE_002",
         "status": "active",
-        "scene": "AI_Denoising_IterationStep_16.usda",
+        "scene": "Cube.usda",
         "camera": "Camera",
+        "render_settings": {
+            "enable_ai_denoise": true,
+            "denoise_iteration_step": 16
+        },
         "script_info": [
             "AI Denoising, Iteration Step - 16"
         ]
@@ -20,8 +28,11 @@
     {
         "case": "HDRPR_RENDER_MODE_003",
         "status": "active",
-        "scene": "MaxSamples_16.usda",
+        "scene": "Cube.usda",
         "camera": "Camera",
+        "render_settings": {
+            "max_samples": 16
+        },
         "script_info": [
             "MaxSamples - 16"
         ]
@@ -29,28 +40,62 @@
     {
         "case": "HDRPR_RENDER_MODE_004",
         "status": "active",
-        "scene": "NoiseThreshold_0.05.usda",
+        "scene": "Cube.usda",
         "camera": "Camera",
+        "render_settings": {
+            "noise_threshold": 0.05
+        },
         "script_info": [
             "Noise Threshold - 0.05"
         ]
     },
     {
         "case": "HDRPR_RENDER_MODE_005",
-        "status": "active",
-        "scene": "RenderMode_Contour.usda",
-        "camera": "Camera",
+        "status": "skipped",
+        "scene": "Austin.usda",
+        "camera": "camera1",
+        "render_settings": {
+            "min_samples": 50,
+            "max_samples": 50
+        },
+        "hydra_settings": {
+            "enable_tone_mapping": true,
+            "tone_mapping_gamma": 2.2
+        },
         "script_info": [
-            "Render Mode - Contour"
+            "RPR Tone Mapping",
+            "Gamma - 2.2"
         ]
     },
     {
         "case": "HDRPR_RENDER_MODE_006",
-        "status": "active",
-        "scene": "RenderMode_Diffuse.usda",
-        "camera": "Camera",
+        "status": "skipped",
+        "scene": "Austin.usda",
+        "camera": "camera1",
+        "render_settings": {
+            "min_samples": 50,
+            "max_samples": 50
+        },
+        "hydra_settings": {
+            "enable_gamma": true,
+            "gamma": 2.2
+        },
         "script_info": [
-            "Render Mode - Diffuse"
+            "Native Tone Mapping",
+            "Gamma - 2.2"
+        ]
+    },
+    {
+        "case": "HDRPR_RENDER_MODE_007",
+        "status": "active",
+        "scene": "Austin.usda",
+        "camera": "camera1",
+        "hydra_settings": {
+            "enable_color_alpha": true
+        },
+        "script_info": [
+            "Color Alpha"
         ]
     }
+    
 ]

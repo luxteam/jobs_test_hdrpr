@@ -14,4 +14,4 @@ if not defined PYTHON set PYTHON="C:\Python37\python.exe"
 
 python -m pip install -r ..\jobs_launcher\install\requirements.txt
 %PYTHON% -m pip install -r requirements.txt
-python ..\jobs_launcher\executeTests.py --test_filter %TESTS_FILTER% --file_filter %FILE_FILTER% --tests_root ..\jobs --work_root ..\Work\Results --work_dir HdRPR --scale_thumbnails 1.5 --cmd_variables Python %PYTHON% Tool %TOOL% ResPath "C:\TestResources\hdrpr_autotests_assets" Engine %ENGINE% Retries %RETRIES% UpdateRefs %UPDATE_REFS%
+python ..\jobs_launcher\executeTests.py --test_filter %TESTS_FILTER% --file_filter %FILE_FILTER% --tests_root ..\jobs --work_root ..\Work\Results --work_dir HdRPR --scale_thumbnails 2.0 --cmd_variables Python %PYTHON% Tool %TOOL% ResPath "C:\TestResources\hdrpr_autotests_assets" Engine %ENGINE% Retries %RETRIES% UpdateRefs %UPDATE_REFS%

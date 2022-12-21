@@ -1,12 +1,16 @@
 [
     {
         "case": "HDRPR_CAMERA_001",
-        "status": "active",
+        "status": "observed",
         "scene": "Clip_5-7.usda",
         "camera": "Camera",
         "script_info": [
             "Camera clip from 5 to 7"
-        ]
+        ],
+        "jira_issue": "https://amdrender.atlassian.net/browse/RPRHYB-701",
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_002",
@@ -15,7 +19,10 @@
         "camera": "Camera",
         "script_info": [
             "Focal Length - 10mm"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_003",
@@ -24,7 +31,10 @@
         "camera": "Camera",
         "script_info": [
             "Field ov View - 120"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_004",
@@ -33,7 +43,10 @@
         "camera": "Camera",
         "script_info": [
             "Camera type - orthographic"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_005",
@@ -42,7 +55,10 @@
         "camera": "Camera",
         "script_info": [
             "Camera type - panoramic"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_006",
@@ -51,7 +67,10 @@
         "camera": "Camera",
         "script_info": [
             "Sensor Width - 100"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_007",
@@ -60,6 +79,9 @@
         "camera": "Camera",
         "script_info": [
             "Camera shift Y - 0.1"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     }
 ]

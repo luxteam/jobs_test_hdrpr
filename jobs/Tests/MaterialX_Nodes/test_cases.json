@@ -6,7 +6,11 @@
         "camera": "Camera",
         "script_info": [
             "Adjustment Hsvtorgb Color3"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "HDRPR_MATERIALS_002",
@@ -15,7 +19,11 @@
         "camera": "Camera",
         "script_info": [
             "Channel Extract Vector2_X"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "HDRPR_MATERIALS_003",
@@ -24,7 +32,11 @@
         "camera": "Camera",
         "script_info": [
             "Compositing Dodge Color3"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     },
     {
         "case": "HDRPR_MATERIALS_004",
@@ -33,6 +45,10 @@
         "camera": "Camera",
         "script_info": [
             "Math Add Color3FA"
-        ]
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     }
 ]

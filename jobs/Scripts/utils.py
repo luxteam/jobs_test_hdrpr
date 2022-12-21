@@ -18,6 +18,7 @@ import pyscreenshot
 from datetime import datetime
 from shutil import copyfile
 import platform
+from collections import OrderedDict
 from elements import USDViewElements
 
 sys.path.append(os.path.abspath(os.path.join(
@@ -70,7 +71,7 @@ def close_process(process):
         case_logger.error(f"Traceback: {traceback.format_exc()}")
 
 
-def open_tool(script_path, execution_script, engine):
+def open_tool(script_path, execution_script, engine, case=None):
     global process
 
     # copy baseline state.json of usdview with necessary settings
@@ -78,7 +79,7 @@ def open_tool(script_path, execution_script, engine):
     state_file_name = "state.json"
 
     target_file_location = os.path.join(state_file_location, state_file_name)
-    source_file_location = os.path.join(os.path.dirname(__file__), state_file_name)
+    source_file_location = os.path.join(os.path.dirname(__file__), "state", state_file_name)
 
     if not os.path.exists(state_file_location):
         os.makedirs(state_file_location)
@@ -87,6 +88,9 @@ def open_tool(script_path, execution_script, engine):
         os.remove(target_file_location)
 
     copyfile(source_file_location, target_file_location)
+
+    if case:
+        modify_state_file(case, target_file_location)
 
     with open(script_path, "w") as f:
         f.write(execution_script)
@@ -153,17 +157,42 @@ def open_tool(script_path, execution_script, engine):
         time.sleep(0.2)
 
 
+def modify_state_file(case, state_path):
+    with open(state_path, "r") as json_file:
+        state = json.load(json_file)
+
+    if "render_mode" in case:
+        state["1"]["model"]["renderMode"] = case["render_mode"]
+
+    if "prim_view_width" in case:
+        state["1"]["ui"]["primViewWidth"] = case["prim_view_width"]
+    if "stage_view_width" in case:
+        state["1"]["ui"]["stageViewWidth"] = case["stage_view_width"]
+
+    with open(state_path, "w") as json_file:
+        json.dump(state, json_file, indent=4)
+
+
 def set_render_settings(case):
-    PADDINGS = {
-        "max_ray_depth": 0,
-        "diffuse_ray_depth": 1,
-        "glossy_ray_depth": 2,
-        "refraction_ray_depth": 3,
-        "glossy_refraction_ray_depth": 4,
-        "shadow_ray_depth": 5,
-        "ray_case_epsilon": 6,
-        "max_radiance": 7
-    }
+    PADDINGS = OrderedDict()
+    PADDINGS["uv_threshold"] = 0
+    PADDINGS["debug"] = 1
+    PADDINGS["enable_ai_denoising"] = 2
+    PADDINGS["denoise_min_iteration"] = 3
+    PADDINGS["denoise_iteration_step"] = 4
+    PADDINGS["max_samples"] = 5
+    PADDINGS["min_samples"] = 6
+    PADDINGS["noise_threshold"] = 7
+    PADDINGS["max_ray_depth"] = 8
+    PADDINGS["diffuse_ray_depth"] = 9
+    PADDINGS["glossy_ray_depth"] = 10
+    PADDINGS["refraction_ray_depth"] = 11
+    PADDINGS["glossy_refraction_ray_depth"] = 12
+    PADDINGS["shadow_ray_depth"] = 13
+    PADDINGS["ray_case_epsilon"] = 14
+    PADDINGS["max_radiance"] = 15
+
+    CHECK_BOXES = ["debug", "enable_ai_denoising"]
 
     last_field = None
 
@@ -176,30 +205,55 @@ def set_render_settings(case):
         time.sleep(0.5)
 
         # find label of first supporting render setting
-        coords = locate_on_screen(USDViewElements.MAX_RAY_DEPTH.build_path())
+        coords = locate_on_screen(USDViewElements.UV_THRESHOLD.build_path())
         click_on_element(coords, x_offset=400)
         time.sleep(0.1)
 
-        for key in case["render_settings"].keys():
-            if key not in PADDINGS:
-                raise Exception(f"Unexpected render setting {key}")
+        for key in PADDINGS.keys():
+            if key in case["render_settings"]:
+                if last_field is None:
+                    padding = PADDINGS[key]
+                else:
+                    padding = PADDINGS[key] - PADDINGS[last_field]
 
-            if last_field is None:
-                padding = PADDINGS[key]
-            else:
-                padding = PADDINGS[key] - PADDINGS[last_field]
+                for i in range(padding):
+                    pyautogui.press("tab")
+                    time.sleep(0.1)
 
-            for i in range(padding):
-                pyautogui.press("tab")
-                time.sleep(0.1)
+                if key in CHECK_BOXES:
+                    pyautogui.press("space")
+                else:
+                    pyautogui.hotkey("ctrl", "a")
+                    time.sleep(0.1)
+                    pyautogui.typewrite(str(case["render_settings"][key]))
 
-            pyautogui.hotkey("ctrl", "a")
-            time.sleep(0.1)
-            pyautogui.typewrite(case["render_settings"][key])
-
-            last_field = key
+                last_field = key
 
         pyautogui.press("enter")
+
+
+def set_hydra_settings(case):
+    if "hydra_settings" in case:
+        def open_hydra_settings():
+            locate_and_click(USDViewElements.RENDERER.build_path())
+            time.sleep(0.5)
+            locate_and_click(USDViewElements.HYDRA_SETTINGS.build_path())
+            time.sleep(0.5)
+
+        if "enable_gamma" in case["hydra_settings"]:
+            open_hydra_settings()
+            locate_and_click(USDViewElements.ENABLE_GAMMA.build_path())
+            time.sleep(0.5)
+
+        if "enable_color_alpha" in case["hydra_settings"]:
+            open_hydra_settings()
+            locate_and_click(USDViewElements.ENABLE_COLOR_ALPHA.build_path())
+            time.sleep(0.5)
+
+        if "enable_tone_mapping" in case["hydra_settings"]:
+            open_hydra_settings()
+            locate_and_click(USDViewElements.ENABLE_TONE_MAPPING.build_path())
+            time.sleep(0.5)
 
 
 def set_render_quality(engine):
@@ -301,6 +355,9 @@ def save_image(image_path):
     pyautogui.press("enter")
     time.sleep(0.5)
 
+    if not os.path.exists(image_path):
+        raise Exception("Saved image not found")
+
 
 def close_app_through_button():
     locate_and_click(USDViewElements.CLOSE_BUTTON.build_path())
@@ -340,7 +397,7 @@ def locate_and_click(template, tries=3, confidence=0.9, x_offset=0, y_offset=0, 
     click_on_element(coords, x_offset=x_offset, y_offset=y_offset)
 
 
-def detect_render_finishing(max_delay=45):
+def detect_render_finishing(max_delay=60):
     PREVIOUS_SCREEN_PATH = "previous_screenshot.jpg"
     CURRENT_SCREEN_PATH = "current_screenshot.jpg"
 
@@ -370,7 +427,7 @@ def detect_render_finishing(max_delay=45):
         make_viewport_screenshot(CURRENT_SCREEN_PATH)
 
         metrics = CompareMetrics(PREVIOUS_SCREEN_PATH, CURRENT_SCREEN_PATH)
-        prediction = metrics.getPrediction(mark_failed_if_black=True, max_size=20)
+        prediction = metrics.getPrediction(mark_failed_if_black=True, max_size=5)
 
         # Viewport doesn't changed
         if prediction == 0:

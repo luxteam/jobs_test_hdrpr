@@ -2,10 +2,339 @@
     {
         "case": "MTLX_VS_HDRPR_001",
         "status": "active",
-        "scene": "Math_Absval_Color3.usda",
+        "scene": "standard_surface_brass_tiled.usda",
         "camera": "Camera",
         "script_info": [
-            "Math Absval Color3"
-        ]
+            "standard surface brass tiled"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_002",
+        "status": "skipped",
+        "scene": "standard_surface_brick_procedural.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface brick procedural"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_003",
+        "status": "active",
+        "scene": "standard_surface_carpaint.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface carpaint"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_004",
+        "status": "active",
+        "scene": "standard_surface_chess_set.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface chess set"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_005",
+        "status": "active",
+        "scene": "standard_surface_chrome.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface chrome"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_006",
+        "status": "active",
+        "scene": "standard_surface_copper.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface copper"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_007",
+        "status": "active",
+        "scene": "standard_surface_default.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface default"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_008",
+        "status": "active",
+        "scene": "standard_surface_glass.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface glass"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_009",
+        "status": "active",
+        "scene": "standard_surface_glass_tinted.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface glass tinted"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_010",
+        "status": "active",
+        "scene": "standard_surface_gold.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface gold"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_011",
+        "status": "active",
+        "scene": "standard_surface_greysphere.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface greysphere"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_012",
+        "status": "active",
+        "scene": "standard_surface_greysphere_calibration.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface greysphere calibration"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_013",
+        "status": "active",
+        "scene": "standard_surface_jade.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface jade"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_014",
+        "status": "active",
+        "scene": "standard_surface_look_brass_tiled.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface look brass tiled"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_015",
+        "status": "active",
+        "scene": "standard_surface_look_wood_tiled.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface look wood tiled"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_016",
+        "status": "active",
+        "scene": "standard_surface_marble_solid.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface marble solid"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_017",
+        "status": "active",
+        "scene": "standard_surface_metal_brushed.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface metal brushed"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_018",
+        "status": "active",
+        "scene": "standard_surface_plastic.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface plastic"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_019",
+        "status": "active",
+        "scene": "standard_surface_thin_film.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface thin film"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_020",
+        "status": "active",
+        "scene": "standard_surface_velvet.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface velvet"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_021",
+        "status": "active",
+        "scene": "standard_surface_wood_tiled.usda",
+        "camera": "Camera",
+        "script_info": [
+            "standard surface wood tiled"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_022",
+        "status": "active",
+        "scene": "usd_preview_surface_brass_tiled.usda",
+        "camera": "Camera",
+        "script_info": [
+            "usd preview surface brass tiled"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_023",
+        "status": "active",
+        "scene": "usd_preview_surface_default.usda",
+        "camera": "Camera",
+        "script_info": [
+            "usd preview surface default"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_024",
+        "status": "active",
+        "scene": "usd_preview_surface_glass.usda",
+        "camera": "Camera",
+        "script_info": [
+            "usd preview surface glass"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_025",
+        "status": "active",
+        "scene": "usd_preview_surface_gold.usda",
+        "camera": "Camera",
+        "script_info": [
+            "usd preview surface gold"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
+    },
+    {
+        "case": "MTLX_VS_HDRPR_026",
+        "status": "active",
+        "scene": "usd_preview_surface_plastic.usda",
+        "camera": "Camera",
+        "script_info": [
+            "usd preview surface plastic"
+        ],
+        "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024"
+        }
     }
 ]

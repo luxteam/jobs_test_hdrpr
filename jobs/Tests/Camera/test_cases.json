@@ -1,12 +1,14 @@
 [
     {
         "case": "HDRPR_CAMERA_001",
-        "status": "active",
+        "status": "observed",
         "scene": "Clip_5-7.usda",
         "camera": "Camera",
         "script_info": [
-            "Camera clip from 5 to 7"
-        ]
+            "Camera clip from 5 to 7",
+            "Black image expected"
+        ],
+        "jira_issue": "https://amdrender.atlassian.net/browse/RPRHYB-701"
     },
     {
         "case": "HDRPR_CAMERA_002",

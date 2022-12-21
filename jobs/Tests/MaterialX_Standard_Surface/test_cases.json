@@ -5,8 +5,7 @@
         "scene": "Base_and_Roughness_0.usda",
         "camera": "Camera",
         "script_info": [
-            "Base and Roughness - 0",
-            "Black image expected"
+            "Base and Roughness - 0"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -18,8 +17,7 @@
         "scene": "Coat_Color.usda",
         "camera": "Camera",
         "script_info": [
-            "Coat Color",
-            "Black image expected"
+            "Coat Color"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -31,8 +29,7 @@
         "scene": "Coat_RGB_0_1_0.usda",
         "camera": "Camera",
         "script_info": [
-            "Coat RGB - 0_1_0",
-            "Black image expected"
+            "Coat RGB - 0_1_0"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -44,8 +41,7 @@
         "scene": "Diffuse_Color.usda",
         "camera": "Camera",
         "script_info": [
-            "Diffuse - Color",
-            "Black image expected"
+            "Diffuse - Color"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -57,8 +53,7 @@
         "scene": "Emission_RGB_0_0.1_1.usda",
         "camera": "Camera",
         "script_info": [
-            "Emission RGB - 0_0.1_1",
-            "Black image expected"
+            "Emission RGB - 0_0.1_1"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -70,8 +65,7 @@
         "scene": "Geometry_Opacity_png.usda",
         "camera": "Camera",
         "script_info": [
-            "Geometry Opacity - png",
-            "Black image expected"
+            "Geometry Opacity - png"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -83,8 +77,7 @@
         "scene": "Sheen_RGB_0_1_1.usda",
         "camera": "Camera",
         "script_info": [
-            "Sheen RGB - 0_1_1",
-            "Black image expected"
+            "Sheen RGB - 0_1_1"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -96,8 +89,7 @@
         "scene": "Specular_Color.usda",
         "camera": "Camera",
         "script_info": [
-            "Specular Color",
-            "Black image expected"
+            "Specular Color"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -109,8 +101,7 @@
         "scene": "Specular_Weight_0.usda",
         "camera": "Camera",
         "script_info": [
-            "Specular Weight - 0",
-            "Black image expected"
+            "Specular Weight - 0"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -122,8 +113,7 @@
         "scene": "Subsurface_Color.usda",
         "camera": "Camera",
         "script_info": [
-            "Subsurface Color",
-            "Black image expected"
+            "Subsurface Color"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -131,12 +121,11 @@
     },
     {
         "case": "HDRPR_STANDARD_SURFACE_011",
-        "status": "active",
+        "status": "observed",
         "scene": "Subsurface_RGB_0_0.4_0.usda",
         "camera": "Camera",
         "script_info": [
-            "Subsurface RGB - 0_0.4_0",
-            "Black image expected"
+            "Subsurface RGB - 0_0.4_0"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -148,8 +137,7 @@
         "scene": "Thin_Film_Thickness_1.usda",
         "camera": "Camera",
         "script_info": [
-            "Thin Film Thickness - 1",
-            "Black image expected"
+            "Thin Film Thickness - 1"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -161,8 +149,7 @@
         "scene": "Transmission_Color.usda",
         "camera": "Camera",
         "script_info": [
-            "Transmission Color",
-            "Black image expected"
+            "Transmission Color"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -174,8 +161,7 @@
         "scene": "Transmission_Weight_0.usda",
         "camera": "Camera",
         "script_info": [
-            "Transmission Weight - 0",
-            "Black image expected"
+            "Transmission Weight - 0"
         ],
         "render_delay": {
             "HybridPro": 15

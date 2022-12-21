@@ -48,23 +48,5 @@
         "script_info": [
             "Noise Threshold - 0.05"
         ]
-    },
-    {
-        "case": "HDRPR_RENDER_MODE_005",
-        "status": "skipped",
-        "scene": "Cube.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Render Mode - Contour"
-        ]
-    },
-    {
-        "case": "HDRPR_RENDER_MODE_006",
-        "status": "skipped",
-        "scene": "Cube.usda",
-        "camera": "Camera",
-        "script_info": [
-            "Render Mode - Diffuse"
-        ]
     }
 ]

@@ -1,10 +1,12 @@
 [
     { 
         "case": "HDRPR_RENDER_QUALITY_001",
-        "status": "active",
+        "status": "observed",
         "scene": "ClampRadiance.usda",
         "camera": "Camera",
         "render_settings": {
+            "max_samples": "1024",
+            "min_samples": "1024",
             "max_ray_depth": "50"
         },
         "script_info": [
@@ -13,7 +15,7 @@
     },
     {
         "case": "HDRPR_RENDER_QUALITY_002",
-        "status": "active",
+        "status": "observed",
         "scene": "DiffuseDepth2_test.usda",
         "camera": "Camera",
         "render_settings": {
@@ -26,7 +28,7 @@
     },
     { 
         "case": "HDRPR_RENDER_QUALITY_003",
-        "status": "active",
+        "status": "observed",
         "scene": "GlossyDepth.usda",
         "camera": "Camera",
         "render_settings": {
@@ -39,7 +41,7 @@
     },
     {
         "case": "HDRPR_RENDER_QUALITY_004",
-        "status": "active",
+        "status": "observed",
         "scene": "RefractionGlossyDepth.usda",
         "camera": "Camera",
         "render_settings": {
@@ -54,7 +56,7 @@
     },
     {
         "case": "HDRPR_RENDER_QUALITY_005",
-        "status": "active",
+        "status": "observed",
         "scene": "Quality.usda",
         "camera": "Camera",
         "render_settings": {
@@ -78,7 +80,7 @@
     },
     {
         "case": "HDRPR_RENDER_QUALITY_006",
-        "status": "active",
+        "status": "observed",
         "scene": "Quality.usda",
         "camera": "Camera",
         "render_settings": {
@@ -104,7 +106,7 @@
     },
     {
         "case": "HDRPR_RENDER_QUALITY_007",
-        "status": "active",
+        "status": "observed",
         "scene": "RefractionDepth.usda",
         "camera": "Camera",
         "render_settings": {

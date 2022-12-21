@@ -7,7 +7,10 @@
         "script_info": [
             "Camera clip from 5 to 7"
         ],
-        "jira_issue": "https://amdrender.atlassian.net/browse/RPRHYB-701"
+        "jira_issue": "https://amdrender.atlassian.net/browse/RPRHYB-701",
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_002",
@@ -15,9 +18,11 @@
         "scene": "FocalLength_10mm.usda",
         "camera": "Camera",
         "script_info": [
-            "Focal Length - 10mm",
-            "Black image expected"
-        ]
+            "Focal Length - 10mm"
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_003",
@@ -25,9 +30,11 @@
         "scene": "FoV_120.usda",
         "camera": "Camera",
         "script_info": [
-            "Field ov View - 120",
-            "Black image expected"
-        ]
+            "Field ov View - 120"
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_004",
@@ -35,9 +42,11 @@
         "scene": "OrthographicCamera.usda",
         "camera": "Camera",
         "script_info": [
-            "Camera type - orthographic",
-            "Black image expected"
-        ]
+            "Camera type - orthographic"
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_005",
@@ -45,9 +54,11 @@
         "scene": "PanoramicCamera.usda",
         "camera": "Camera",
         "script_info": [
-            "Camera type - panoramic",
-            "Black image expected"
-        ]
+            "Camera type - panoramic"
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_006",
@@ -55,9 +66,11 @@
         "scene": "SensorWidth_100.usda",
         "camera": "Camera",
         "script_info": [
-            "Sensor Width - 100",
-            "Black image expected"
-        ]
+            "Sensor Width - 100"
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_007",
@@ -65,8 +78,10 @@
         "scene": "ShiftY_0.1.usda",
         "camera": "Camera",
         "script_info": [
-            "Camera shift Y - 0.1",
-            "Black image expected"
-        ]
+            "Camera shift Y - 0.1"
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     }
 ]

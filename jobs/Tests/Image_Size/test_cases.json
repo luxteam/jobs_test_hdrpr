@@ -1,11 +1,13 @@
 [
     {
         "case": "HDRPR_IMAGE_SIZE_001",
-        "status": "skipped",
-        "scene": "4k_Resolution.usda",
+        "status": "active",
+        "scene": "Cube.usda",
         "camera": "Camera",
+        "prim_view_width": 0,
+        "stage_view_width": 2000,
         "script_info": [
-            "Render resolution - 4k"
+            "Max available resolution in usdview tool"
         ]
     }
 ]

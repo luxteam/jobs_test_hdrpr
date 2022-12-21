@@ -396,7 +396,7 @@ def locate_and_click(template, tries=3, confidence=0.9, x_offset=0, y_offset=0, 
     click_on_element(coords, x_offset=x_offset, y_offset=y_offset)
 
 
-def detect_render_finishing(max_delay=45):
+def detect_render_finishing(max_delay=60):
     PREVIOUS_SCREEN_PATH = "previous_screenshot.jpg"
     CURRENT_SCREEN_PATH = "current_screenshot.jpg"
 
@@ -426,7 +426,7 @@ def detect_render_finishing(max_delay=45):
         make_viewport_screenshot(CURRENT_SCREEN_PATH)
 
         metrics = CompareMetrics(PREVIOUS_SCREEN_PATH, CURRENT_SCREEN_PATH)
-        prediction = metrics.getPrediction(mark_failed_if_black=True, max_size=20)
+        prediction = metrics.getPrediction(mark_failed_if_black=True, max_size=5)
 
         # Viewport doesn't changed
         if prediction == 0:

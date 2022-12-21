@@ -1,13 +1,13 @@
 [
     {
         "case": "HDRPR_CAMERA_001",
-        "status": "active",
+        "status": "observed",
         "scene": "Clip_5-7.usda",
         "camera": "Camera",
         "script_info": [
-            "Camera clip from 5 to 7",
-            "Black image expected"
+            "Camera clip from 5 to 7"
         ],
+        "jira_issue": "https://amdrender.atlassian.net/browse/RPRHYB-701",
         "render_delay": {
             "HybridPro": 15
         }
@@ -18,8 +18,7 @@
         "scene": "FocalLength_10mm.usda",
         "camera": "Camera",
         "script_info": [
-            "Focal Length - 10mm",
-            "Black image expected"
+            "Focal Length - 10mm"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -31,8 +30,7 @@
         "scene": "FoV_120.usda",
         "camera": "Camera",
         "script_info": [
-            "Field ov View - 120",
-            "Black image expected"
+            "Field ov View - 120"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -44,8 +42,7 @@
         "scene": "OrthographicCamera.usda",
         "camera": "Camera",
         "script_info": [
-            "Camera type - orthographic",
-            "Black image expected"
+            "Camera type - orthographic"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -57,8 +54,7 @@
         "scene": "PanoramicCamera.usda",
         "camera": "Camera",
         "script_info": [
-            "Camera type - panoramic",
-            "Black image expected"
+            "Camera type - panoramic"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -70,8 +66,7 @@
         "scene": "SensorWidth_100.usda",
         "camera": "Camera",
         "script_info": [
-            "Sensor Width - 100",
-            "Black image expected"
+            "Sensor Width - 100"
         ],
         "render_delay": {
             "HybridPro": 15
@@ -83,8 +78,7 @@
         "scene": "ShiftY_0.1.usda",
         "camera": "Camera",
         "script_info": [
-            "Camera shift Y - 0.1",
-            "Black image expected"
+            "Camera shift Y - 0.1"
         ],
         "render_delay": {
             "HybridPro": 15

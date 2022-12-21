@@ -2,10 +2,6 @@ import os
 import logging
 import pyautogui
 import time
-import win32api
-import win32gui
-import win32con
-import win32process
 import json
 from pyautogui import typewrite, press
 import psutil
@@ -20,6 +16,12 @@ from shutil import copyfile
 import platform
 from collections import OrderedDict
 from elements import USDViewElements
+
+if platform.system() == "Windows":
+    import win32api
+    import win32gui
+    import win32con
+    import win32process
 
 sys.path.append(os.path.abspath(os.path.join(
     os.path.dirname(__file__), os.path.pardir, os.path.pardir)))
@@ -95,61 +97,29 @@ def open_tool(script_path, execution_script, engine, case=None):
     with open(script_path, "w") as f:
         f.write(execution_script)
 
-    pyautogui.hotkey("win", "m")
+    if platform.system() == "Windows":
+        pyautogui.hotkey("win", "m")
+    else:
+        pyautogui.hotkey("win", "d")
+
     time.sleep(1)
 
     process = psutil.Popen(script_path, stdout=PIPE, stderr=PIPE, shell=True)
 
     time.sleep(3)
 
-    window_hwnd = None
+    window_found = does_application_windows_exist()
 
-    for window in pyautogui.getAllWindows():
-        if ".usd" in window.title:
-            window_hwnd = window._hWnd
-            break
-
-    if not window_hwnd:
+    if not window_found:
         raise Exception("Application window not found")
     else:
         case_logger.info("Application window found")
 
-    # check that application doesn't got stuck
-    try:
-        locate_on_screen(USDViewElements.APPLICATION_GOT_STUCK.build_path(), tries=1, confidence=0.95)
-        case_logger.error("Application got stuck. Restart it")
-        post_action()
+    if platform.system() == "Windows":
+        win32gui.ShowWindow(window_hwnd, win32con.SW_MAXIMIZE)
+    else:
+        pyautogui.hotkey("win", "up")
 
-        process = psutil.Popen(script_path, stdout=PIPE, stderr=PIPE)
-
-        time.sleep(3)
-
-        window_hwnd = None
-
-        for window in pyautogui.getAllWindows():
-            if ".usd" in window.title:
-                window_hwnd = window._hWnd
-                break
-
-        if not window_hwnd:
-            raise Exception("Application window not found")
-        else:
-            case_logger.info("Application window found")
-
-        try:
-            locate_on_screen(USDViewElements.APPLICATION_GOT_STUCK.build_path(), tries=1, confidence=0.95)
-            raise RuntimeError("Application got stuck")
-        except RuntimeError as e:
-            raise e
-        except:
-            case_logger.info("Application is running normally")
-
-    except RuntimeError as e:
-        raise e
-    except:
-        case_logger.info("Application is running normally")
-
-    win32gui.ShowWindow(window_hwnd, win32con.SW_MAXIMIZE)
     time.sleep(0.5)
     # pause render
     if engine == "HybridPro":
@@ -290,10 +260,30 @@ def find_usdview_process():
     return None
 
 
+def does_application_windows_exist():
+    if platform.system() == "Windows":
+        for window in pyautogui.getAllWindows():
+            if ".usd" in window.title:
+                return True
+    else:
+        process = subprocess.Popen("wmctrl -l", stdout=PIPE, shell=True)
+        stdout, stderr = process.communicate()
+        windows = [" ".join(x.split()[3::]) for x in stdout.decode("utf-8").strip().split("\n")]
+
+        for window in windows:
+            if "usdview" in window:
+                return True
+
+    return False
+
+
 def post_action():
     try:
-        process = find_usdview_process()
-        close_process(process)
+        if platform.system() == "Windows":
+            process = find_usdview_process()
+            close_process(process)
+        else:
+            process = subprocess.Popen("pkill -f usdview", stdout=PIPE, shell=True)
     except Exception as e:
         case_logger.warning(f"Failed to do post actions: {str(e)}")
         case_logger.warning(f"Traceback: {traceback.format_exc()}")
@@ -405,8 +395,7 @@ def detect_render_finishing(max_delay=60):
         if os.path.exists(screen_path):
             os.remove(screen_path)
 
-        resolution_x = win32api.GetSystemMetrics(0)
-        resolution_y = win32api.GetSystemMetrics(1)
+        resolution_x, resolution_y = get_resolution()
 
         # Approximately position of viewport
         viewport_region = (int(resolution_x / 2), 180, resolution_x - 20, int(resolution_y / 2))

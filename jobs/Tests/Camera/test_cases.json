@@ -7,7 +7,10 @@
         "script_info": [
             "Camera clip from 5 to 7",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_002",
@@ -17,7 +20,10 @@
         "script_info": [
             "Focal Length - 10mm",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_003",
@@ -27,7 +33,10 @@
         "script_info": [
             "Field ov View - 120",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_004",
@@ -37,7 +46,10 @@
         "script_info": [
             "Camera type - orthographic",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_005",
@@ -47,7 +59,10 @@
         "script_info": [
             "Camera type - panoramic",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_006",
@@ -57,7 +72,10 @@
         "script_info": [
             "Sensor Width - 100",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_CAMERA_007",
@@ -67,6 +85,9 @@
         "script_info": [
             "Camera shift Y - 0.1",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     }
 ]

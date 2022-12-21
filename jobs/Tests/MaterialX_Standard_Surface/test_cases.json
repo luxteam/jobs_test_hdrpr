@@ -7,7 +7,10 @@
         "script_info": [
             "Base and Roughness - 0",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_STANDARD_SURFACE_002",
@@ -17,7 +20,10 @@
         "script_info": [
             "Coat Color",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_STANDARD_SURFACE_003",
@@ -27,7 +33,10 @@
         "script_info": [
             "Coat RGB - 0_1_0",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_STANDARD_SURFACE_004",
@@ -37,7 +46,10 @@
         "script_info": [
             "Diffuse - Color",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_STANDARD_SURFACE_005",
@@ -47,7 +59,10 @@
         "script_info": [
             "Emission RGB - 0_0.1_1",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_STANDARD_SURFACE_006",
@@ -57,7 +72,10 @@
         "script_info": [
             "Geometry Opacity - png",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_STANDARD_SURFACE_007",
@@ -67,7 +85,10 @@
         "script_info": [
             "Sheen RGB - 0_1_1",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_STANDARD_SURFACE_008",
@@ -77,7 +98,10 @@
         "script_info": [
             "Specular Color",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_STANDARD_SURFACE_009",
@@ -87,7 +111,10 @@
         "script_info": [
             "Specular Weight - 0",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_STANDARD_SURFACE_010",
@@ -97,7 +124,10 @@
         "script_info": [
             "Subsurface Color",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_STANDARD_SURFACE_011",
@@ -107,7 +137,10 @@
         "script_info": [
             "Subsurface RGB - 0_0.4_0",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_STANDARD_SURFACE_012",
@@ -117,7 +150,10 @@
         "script_info": [
             "Thin Film Thickness - 1",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_STANDARD_SURFACE_013",
@@ -127,7 +163,10 @@
         "script_info": [
             "Transmission Color",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     },
     {
         "case": "HDRPR_STANDARD_SURFACE_014",
@@ -137,6 +176,9 @@
         "script_info": [
             "Transmission Weight - 0",
             "Black image expected"
-        ]
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     }
 ]

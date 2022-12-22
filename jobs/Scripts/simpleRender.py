@@ -197,7 +197,11 @@ def execute_tests(args, current_conf):
                 tool_path = os.path.abspath(args.tool_path)
                 scene_path = os.path.join(args.res_path, case["scene"])
                 execution_script = utils.run_in_new_windows(f"{args.python} {tool_path} -r RPR --camera {case['camera']} {scene_path}")
-                script_path = os.path.join(args.output, "{}.bat".format(case["case"]))
+
+                if platform.system() == "Windows":
+                    script_path = os.path.join(args.output, "{}.bat".format(case["case"]))
+                else:
+                    script_path = os.path.join(args.output, "{}.sh".format(case["case"]))
 
                 utils.open_tool(script_path, execution_script, args.engine, case=case)
 

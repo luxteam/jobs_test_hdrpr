@@ -3,9 +3,9 @@ import logging
 import pyautogui
 import time
 import json
-from pyautogui import typewrite, press
 import psutil
 from psutil import Popen, NoSuchProcess
+import subprocess
 from subprocess import PIPE
 import sys
 import traceback
@@ -73,7 +73,7 @@ def close_process(process):
         case_logger.error(f"Traceback: {traceback.format_exc()}")
 
 
-def open_tool(script_path, execution_script, engine, case=None):
+def open_tool(script_path, execution_script, engine, case=None, is_first_opening=False):
     global process
 
     # copy baseline state.json of usdview with necessary settings
@@ -101,6 +101,7 @@ def open_tool(script_path, execution_script, engine, case=None):
         pyautogui.hotkey("win", "m")
     else:
         pyautogui.hotkey("win", "d")
+        os.system(f"chmod +x {script_path}")
 
     time.sleep(1)
 
@@ -119,6 +120,9 @@ def open_tool(script_path, execution_script, engine, case=None):
         process_application_stucking(script_path)
         win32gui.ShowWindow(window_hwnd, win32con.SW_MAXIMIZE)
     else:
+        # on Ubuntu it's required some time after application first start up
+        if is_first_opening:
+            time.sleep(20)
         pyautogui.hotkey("win", "up")
 
     time.sleep(0.5)
@@ -326,7 +330,7 @@ def does_application_windows_exist():
         windows = [" ".join(x.split()[3::]) for x in stdout.decode("utf-8").strip().split("\n")]
 
         for window in windows:
-            if "usdview" in window:
+            if "assets" in window and ".usda" in window:
                 return True
 
     return False
@@ -338,7 +342,7 @@ def post_action():
             process = find_usdview_process()
             close_process(process)
         else:
-            process = subprocess.Popen("pkill -f usdview", stdout=PIPE, shell=True)
+            process = subprocess.Popen("pkill -f .usda", stdout=PIPE, shell=True)
     except Exception as e:
         case_logger.warning(f"Failed to do post actions: {str(e)}")
         case_logger.warning(f"Traceback: {traceback.format_exc()}")
@@ -396,16 +400,14 @@ def save_image(image_path):
     time.sleep(0.5)
     locate_and_click(USDViewElements.SAVE_VIEWER_IMAGE.build_path())
     time.sleep(0.5)
+    pyautogui.hotkey("ctrl", "a")
+    time.sleep(0.1)
     pyautogui.typewrite(image_path)
     pyautogui.press("enter")
     time.sleep(0.5)
 
     if not os.path.exists(image_path):
         raise Exception("Saved image not found")
-
-
-def close_app_through_button():
-    locate_and_click(USDViewElements.CLOSE_BUTTON.build_path())
 
 
 def locate_on_screen(template, tries=3, confidence=0.9, **kwargs):
@@ -493,4 +495,5 @@ def get_resolution():
     else:
         process = subprocess.Popen("xdpyinfo | awk '/dimensions/{print $2}'", stdout=PIPE, shell=True)
         stdout, stderr = process.communicate()
-        return stdout.decode("utf-8").strip().split("x")
+        resolution_x, resolution_y = stdout.decode("utf-8").strip().split("x")
+        return int(resolution_x), int(resolution_y)

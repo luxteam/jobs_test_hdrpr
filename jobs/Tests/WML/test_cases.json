@@ -2,7 +2,7 @@
     {
         "case": "WML_001",
         "status": "active",
-        "scene": "WML/Bark_Bark_Base.usda",
+        "scene": "Bark_Bark_Base.usda",
         "camera": "Camera",
         "script_info": [
             "Bark Base"
@@ -11,7 +11,7 @@
     {
         "case": "WML_002",
         "status": "active",
-        "scene": "WML/Bark_Bark_Beech.usda",
+        "scene": "Bark_Bark_Beech.usda",
         "camera": "Camera",
         "script_info": [
             "Bark Beech"
@@ -20,7 +20,7 @@
     {
         "case": "WML_003",
         "status": "active",
-        "scene": "WML/Bark_Bark_Oak.usda",
+        "scene": "Bark_Bark_Oak.usda",
         "camera": "Camera",
         "script_info": [
             "Bark Oak"
@@ -29,7 +29,7 @@
     {
         "case": "WML_004",
         "status": "active",
-        "scene": "WML/Bark_Bark_Pine.usda",
+        "scene": "Bark_Bark_Pine.usda",
         "camera": "Camera",
         "script_info": [
             "Bark Pine"
@@ -38,7 +38,7 @@
     {
         "case": "WML_005",
         "status": "active",
-        "scene": "WML/Bark_Bark_Smooth.usda",
+        "scene": "Bark_Bark_Smooth.usda",
         "camera": "Camera",
         "script_info": [
             "Bark Smooth"
@@ -47,7 +47,7 @@
     {
         "case": "WML_006",
         "status": "active",
-        "scene": "WML/Bark_TH_Bark_Brown.usda",
+        "scene": "Bark_TH_Bark_Brown.usda",
         "camera": "Camera",
         "script_info": [
             "Bark Brown"
@@ -56,7 +56,7 @@
     {
         "case": "WML_007",
         "status": "active",
-        "scene": "WML/Bark_TH_Old_Bark_Brown.usda",
+        "scene": "Bark_TH_Old_Bark_Brown.usda",
         "camera": "Camera",
         "script_info": [
             "Bark Old Brown"
@@ -65,7 +65,7 @@
     {
         "case": "WML_008",
         "status": "active",
-        "scene": "WML/Bark_TH_Tree_Bark.usda",
+        "scene": "Bark_TH_Tree_Bark.usda",
         "camera": "Camera",
         "script_info": [
             "Bark Tree"

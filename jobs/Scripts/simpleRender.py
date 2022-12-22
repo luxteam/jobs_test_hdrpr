@@ -57,8 +57,10 @@ def copy_baselines(args, case, baseline_path, baseline_path_tr):
 def prepare_empty_reports(args, current_conf):
     main_logger.info('Create empty report files')
 
-    baseline_path_tr = os.path.join(
-        'c:/TestResources/hdrpr_autotests_baselines', args.test_group)
+    if args.engine == "Northstar":
+        baseline_path_tr = os.path.join('c:/TestResources/hdrpr_autotests_baselines-NorthStar', args.test_group)
+    else:
+        baseline_path_tr = os.path.join('c:/TestResources/hdrpr_autotests_baselines-HybridPro', args.test_group)
 
     baseline_path = os.path.join(
         args.output, os.path.pardir, os.path.pardir, os.path.pardir, 'Baseline', args.test_group)
@@ -196,7 +198,16 @@ def execute_tests(args, current_conf):
 
                 tool_path = os.path.abspath(args.tool_path)
                 scene_path = os.path.join(args.res_path, case["scene"])
-                execution_script = utils.run_in_new_windows(f"{args.python} {tool_path} -r RPR --camera {case['camera']} {scene_path}")
+
+                additional_keys = ""
+
+                if "frame" in case:
+                    additional_keys = f"{additional_keys} --cf {case['frame']}"
+
+                if "camera" in case:
+                    additional_keys = f"{additional_keys} --camera {case['camera']}"
+
+                execution_script = utils.run_in_new_windows(f"{args.python} {tool_path} -r RPR {additional_keys} {scene_path}")
 
                 if platform.system() == "Windows":
                     script_path = os.path.join(args.output, "{}.bat".format(case["case"]))

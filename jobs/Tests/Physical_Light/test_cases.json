@@ -5,7 +5,7 @@
         "scene": "Area_Light.usda",
         "camera": "Camera",
         "script_info": [
-            "Area Light"
+            "Area Light Basic"
         ]
     },
     {
@@ -14,7 +14,7 @@
         "scene": "Point_Light.usda",
         "camera": "Camera",
         "script_info": [
-            "Point Light"
+            "Point Light Basic"
         ]
     },
     {
@@ -23,7 +23,7 @@
         "scene": "Spot_Light.usda",
         "camera": "Camera",
         "script_info": [
-            "Spot Light"
+            "Spot Light Basic"
         ]
     },
     {
@@ -32,7 +32,537 @@
         "scene": "Sun_Light.usda",
         "camera": "Camera",
         "script_info": [
-            "Sun Light"
+            "Sun Light Basic"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_005",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 1,
+        "script_info": [
+            "IBL: Intensity - 1"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_006",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 2,
+        "script_info": [
+            "IBL: Intensity - 5"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_007",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 3,
+        "script_info": [
+            "IBL: Intensity - 10"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_008",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 4,
+        "script_info": [
+            "IBL: Intensity - 1 exposure 1"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_009",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 5,
+        "script_info": [
+            "IBL: Intensity - 1 exposure 5"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_010",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 6,
+        "script_info": [
+            "Spot: Intensity - 1 exposure 0"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_011",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 7,
+        "script_info": [
+            "Spot: Intensity - 10 exposure 0"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_012",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 8,
+        "script_info": [
+            "Spot: Insesity 100 exposure 0"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_013",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 9,
+        "script_info": [
+            "Spot: Intensity - 500 exposure 0"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_014",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 10,
+        "script_info": [
+            "Spot: Intensity - 100 exposure 2"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_015",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 11,
+        "script_info": [
+            "Spot: Intensity - 100 exposure 5"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_016",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 12,
+        "script_info": [
+            "Spot: Radius 0.5"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_017",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 13,
+        "script_info": [
+            "Spot: Radius 10"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_018",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 14,
+        "script_info": [
+            "Spot: Color temp 3000"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_019",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 15,
+        "script_info": [
+            "Spot: Color temp 6000"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_020",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 16,
+        "script_info": [
+            "Spot: Color temp 9000"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_021",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 17,
+        "script_info": [
+            "Area light: Intensity - 1 exposure 0"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_022",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 18,
+        "script_info": [
+            "Area light: Intensity - 5 exposure 0"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_023",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 19,
+        "script_info": [
+            "Area light: Intensity - 10 exposure 0"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_024",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 20,
+        "script_info": [
+            "Area light: Intensity - 1 exposure 2"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_025",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 21,
+        "script_info": [
+            "Area light: Intensity - 1 exposure 5"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_026",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 22,
+        "script_info": [
+            "Area light: Color temp 6500"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_027",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 23,
+        "script_info": [
+            "Area light: Color temp 3000"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_028",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 24,
+        "script_info": [
+            "Area light: Color temp 9000"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_029",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 25,
+        "script_info": [
+            "Area light: width 5 height 5"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_030",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 26,
+        "script_info": [
+            "Area light: width 1 height 1"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_031",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 27,
+        "script_info": [
+            "Area light: normalize power"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_032",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 28,
+        "script_info": [
+            "Distant light: Intensity - 1 exposure 0"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_033",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 29,
+        "script_info": [
+            "Distant light: Intensity - 5 exposure 0"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_034",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 30,
+        "script_info": [
+            "Distant light: Intensity - 10 exposure 0"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_035",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 31,
+        "script_info": [
+            "Distant light: Intensity - 1 exposure 2"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_036",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 32,
+        "script_info": [
+            "Distant light: Intensity - 1 exposure 5"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_037",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 33,
+        "script_info": [
+            "Distant light: color temp 6500"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_038",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 34,
+        "script_info": [
+            "Distant light: color temp 3000"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_039",
+        "status": "active",
+        "scene": "light1/light1.usda",
+        "camera": "Camera",
+        "frame": 35,
+        "script_info": [
+            "Distant light: color temp 9000"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_040",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 1,
+        "script_info": [
+            "Point light: Intensity - 1"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_041",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 2,
+        "script_info": [
+            "Point light: Intensity - 50"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_042",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 3,
+        "script_info": [
+            "Point light: Intensity - 100"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_043",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 4,
+        "script_info": [
+            "Point light: Intensity - 1 exposure 1"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_044",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 5,
+        "script_info": [
+            "Point light: Intensity - 1 exposure 5"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_045",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 6,
+        "script_info": [
+            "Point light: Intensity - 1 exposure 10"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_046",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 7,
+        "script_info": [
+            "Point light: color temp 3000"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_047",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 8,
+        "script_info": [
+            "Point light: color temp 6000"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_048",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 9,
+        "script_info": [
+            "Point light: color temp 9000"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_049",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 10,
+        "script_info": [
+            "Light: Intensity - 1"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_050",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 11,
+        "script_info": [
+            "Light: Intensity - 50"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_051",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 12,
+        "script_info": [
+            "Light: Intensity - 100"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_052",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 13,
+        "script_info": [
+            "Light: Intensity - 1 exposure 1"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_053",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 14,
+        "script_info": [
+            "Light: Intensity - 1 exposure 5"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_054",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 15,
+        "script_info": [
+            "Light: Intensity - 1 exposure 10"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_055",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 16,
+        "script_info": [
+            "Light: color temp 3000"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_056",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 17,
+        "script_info": [
+            "Light: color temp 6000"
+        ]
+    },
+    {
+        "case": "HDRPR_PHYSICAL_LIGHT_057",
+        "status": "active",
+        "scene": "light2/light2.usda",
+        "camera": "Camera",
+        "frame": 18,
+        "script_info": [
+            "Light: color temp 9000"
         ]
     }
 ]

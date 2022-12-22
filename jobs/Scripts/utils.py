@@ -109,7 +109,7 @@ def open_tool(script_path, execution_script, engine, case=None, is_first_opening
 
     time.sleep(3)
 
-    window_found = does_application_windows_exist()
+    window_found, window_hwnd = does_application_windows_exist()
 
     if not window_found:
         raise Exception("Application window not found")
@@ -323,7 +323,7 @@ def does_application_windows_exist():
     if platform.system() == "Windows":
         for window in pyautogui.getAllWindows():
             if ".usd" in window.title:
-                return True
+                return True, window._hWnd
     else:
         process = subprocess.Popen("wmctrl -l", stdout=PIPE, shell=True)
         stdout, stderr = process.communicate()
@@ -331,9 +331,9 @@ def does_application_windows_exist():
 
         for window in windows:
             if "assets" in window and ".usda" in window:
-                return True
+                return True, None
 
-    return False
+    return False, None
 
 
 def post_action():

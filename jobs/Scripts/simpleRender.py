@@ -196,7 +196,13 @@ def execute_tests(args, current_conf):
 
                 tool_path = os.path.abspath(args.tool_path)
                 scene_path = os.path.join(args.res_path, case["scene"])
-                execution_script = f"start cmd.exe @cmd /k \"{args.python} {tool_path} -r RPR --camera {case['camera']} {scene_path} & exit 0\""
+
+                additional_keys = ""
+
+                if "frame" in case:
+                    additional_keys = f"--cf {case['frame']}"
+
+                execution_script = f"start cmd.exe @cmd /k \"{args.python} {tool_path} -r RPR --camera {case['camera']} {additional_keys} {scene_path} & exit 0\""
                 script_path = os.path.join(args.output, "{}.bat".format(case["case"]))
 
                 utils.open_tool(script_path, execution_script, args.engine, case=case)

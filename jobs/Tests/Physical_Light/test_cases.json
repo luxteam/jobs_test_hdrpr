@@ -37,7 +37,7 @@
     },
     {
         "case": "HDRPR_PHYSICAL_LIGHT_005",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 1,
         "script_info": [
@@ -46,7 +46,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_006",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 2,
         "script_info": [
@@ -55,7 +55,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_007",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 3,
         "script_info": [
@@ -64,7 +64,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_008",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 4,
         "script_info": [
@@ -73,7 +73,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_009",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 5,
         "script_info": [
@@ -82,7 +82,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_010",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 6,
         "script_info": [
@@ -91,7 +91,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_011",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 7,
         "script_info": [
@@ -100,7 +100,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_012",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 8,
         "script_info": [
@@ -109,7 +109,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_013",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 9,
         "script_info": [
@@ -118,7 +118,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_014",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 10,
         "script_info": [
@@ -127,7 +127,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_015",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 11,
         "script_info": [
@@ -136,7 +136,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_016",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 12,
         "script_info": [
@@ -145,7 +145,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_017",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 13,
         "script_info": [
@@ -154,7 +154,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_018",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 14,
         "script_info": [
@@ -163,7 +163,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_019",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 15,
         "script_info": [
@@ -172,7 +172,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_020",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 16,
         "script_info": [
@@ -181,7 +181,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_021",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 17,
         "script_info": [
@@ -190,7 +190,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_022",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 18,
         "script_info": [
@@ -199,7 +199,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_023",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 19,
         "script_info": [
@@ -208,7 +208,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_024",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 20,
         "script_info": [
@@ -217,7 +217,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_025",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 21,
         "script_info": [
@@ -226,7 +226,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_026",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 22,
         "script_info": [
@@ -235,7 +235,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_027",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 23,
         "script_info": [
@@ -244,7 +244,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_028",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 24,
         "script_info": [
@@ -253,7 +253,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_029",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 25,
         "script_info": [
@@ -262,7 +262,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_030",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 26,
         "script_info": [
@@ -271,7 +271,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_031",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 27,
         "script_info": [
@@ -280,7 +280,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_032",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 28,
         "script_info": [
@@ -289,7 +289,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_033",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 29,
         "script_info": [
@@ -298,7 +298,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_034",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 30,
         "script_info": [
@@ -307,7 +307,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_035",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 31,
         "script_info": [
@@ -316,7 +316,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_036",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 32,
         "script_info": [
@@ -325,7 +325,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_037",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 33,
         "script_info": [
@@ -334,7 +334,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_038",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 34,
         "script_info": [
@@ -343,7 +343,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_039",
-        "status": "skipped",
+        "status": "active",
         "scene": "light1/light1.usda",
         "frame": 35,
         "script_info": [
@@ -352,7 +352,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_040",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 1,
         "script_info": [
@@ -361,7 +361,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_041",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 2,
         "script_info": [
@@ -370,7 +370,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_042",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 3,
         "script_info": [
@@ -379,7 +379,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_043",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 4,
         "script_info": [
@@ -388,7 +388,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_044",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 5,
         "script_info": [
@@ -397,7 +397,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_045",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 6,
         "script_info": [
@@ -406,7 +406,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_046",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 7,
         "script_info": [
@@ -415,7 +415,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_047",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 8,
         "script_info": [
@@ -424,7 +424,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_048",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 9,
         "script_info": [
@@ -433,7 +433,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_049",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 10,
         "script_info": [
@@ -442,7 +442,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_050",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 11,
         "script_info": [
@@ -451,7 +451,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_051",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 12,
         "script_info": [
@@ -460,7 +460,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_052",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 13,
         "script_info": [
@@ -469,7 +469,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_053",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 14,
         "script_info": [
@@ -478,7 +478,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_054",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 15,
         "script_info": [
@@ -487,7 +487,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_055",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 16,
         "script_info": [
@@ -496,7 +496,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_056",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 17,
         "script_info": [
@@ -505,7 +505,7 @@
       },
       {
         "case": "HDRPR_PHYSICAL_LIGHT_057",
-        "status": "skipped",
+        "status": "active",
         "scene": "light2/light2.usda",
         "frame": 18,
         "script_info": [

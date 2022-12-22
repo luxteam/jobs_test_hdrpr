@@ -4,8 +4,8 @@ TESTS_FILTER="$2"
 ENGINE=$3
 RETRIES=${4:-2}
 UPDATE_REFS=${5:-No}
-TOOL=${6:/home/admin/JN/WS/HdRPR_Build/USD/build/bin/usdview}
-PYTHON=${7:python3.9}
+TOOL=${6:-/home/admin/JN/WS/HdRPR_Build/USD/build/bin/usdview}
+PYTHON=${7:-python3.9}
 
 python3.9 -m pip install --user -r ../jobs_launcher/install/requirements.txt
 %PYTHON% -m pip install -r requirements.txt

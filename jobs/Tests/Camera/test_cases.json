@@ -83,5 +83,266 @@
         "render_delay": {
             "HybridPro": 15
         }
-    }
+    },
+    {
+        "case": "HDRPR_CAMERA_008",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 1,
+        "script_info": [
+            "scale 1 ,1 ,1"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_009",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 2,
+        "script_info": [
+          "scale 5,1,1"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_010",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 3,
+        "script_info": [
+          "shear 1,0,0"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_011",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 4,
+        "script_info": [
+          "frame 4= shear 0,1,0"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_012",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 5,
+        "script_info": [
+          "frame 5= shear 0,0,0"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_013",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 6,
+        "script_info": [
+          "frame 6= perpective projection"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_014",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 7,
+        "script_info": [
+          "frame 7= orthographic"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_015",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 8,
+        "script_info": [
+          "frame 8= focal length 50"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_016",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 9,
+        "script_info": [
+          "focal length 20"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_017",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 10,
+        "script_info": [
+          "horzontal aperture 40"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_018",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 11,
+        "script_info": [
+          "horzontal aperture 30"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_019",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 12,
+        "script_info": [
+          "aspect ration 16:9"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_020",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 13,
+        "script_info": [
+          "ratio 4:3"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_021",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 14,
+        "script_info": [
+          "shatter open -0.25"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_022",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 15,
+        "script_info": [
+          "shutter open 1"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_023",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 16,
+        "script_info": [
+          "shutter close 0.25"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_024",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 17,
+        "script_info": [
+          "shutter close 1"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_025",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 18,
+        "script_info": [
+          "focus distance 5"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_026",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 19,
+        "script_info": [
+          "focus distance 1"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_027",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 20,
+        "script_info": [
+          "fstop 0"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_028",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 21,
+        "script_info": [
+          "fstop 5"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_029",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 22,
+        "script_info": [
+          "exposure 0"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_030",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 23,
+        "script_info": [
+          "exposure 5"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_031",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 24,
+        "script_info": [
+          "horizontal apert 0"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_032",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 25,
+        "script_info": [
+          "horizontal apert 5"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_033",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 26,
+        "script_info": [
+          "horizontal apert 10"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_034",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 27,
+        "script_info": [
+          "vertical aperture 0"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_035",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 28,
+        "script_info": [
+          "vertical aperture 5"
+        ]
+      },
+      {
+        "case": "HDRPR_CAMERA_036",
+        "status": "active",
+        "scene": "Camera1.usda",
+        "frame": 29,
+        "script_info": [
+          "vertical aperture 10"
+        ]
+      }
 ]

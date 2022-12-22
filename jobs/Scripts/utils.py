@@ -211,7 +211,7 @@ def set_render_settings(case):
     PADDINGS["film_exposure_time"] = 34
     PADDINGS["film_sensitivity"] = 35
     PADDINGS["fstop"] = 36
-    PADDINGS["tome_mapping_gamma"] = 37
+    PADDINGS["tone_mapping_gamma"] = 37
     PADDINGS["enable_color_alpha"] = 38
     PADDINGS["enable_beauty_motion_blur"] = 39
     PADDINGS["opencolorio_rendering_color_space"] = 40

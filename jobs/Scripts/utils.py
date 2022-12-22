@@ -116,6 +116,7 @@ def open_tool(script_path, execution_script, engine, case=None):
         case_logger.info("Application window found")
 
     if platform.system() == "Windows":
+        process_application_stucking(script_path)
         win32gui.ShowWindow(window_hwnd, win32con.SW_MAXIMIZE)
     else:
         pyautogui.hotkey("win", "up")
@@ -125,6 +126,38 @@ def open_tool(script_path, execution_script, engine, case=None):
     if engine == "HybridPro":
         pyautogui.hotkey("ctrl", "p")
         time.sleep(0.2)
+
+
+def process_application_stucking(script_path):
+    # check that application doesn't got stuck
+    try:
+        locate_on_screen(USDViewElements.APPLICATION_GOT_STUCK.build_path(), tries=1, confidence=0.95)
+        case_logger.error("Application got stuck. Restart it")
+        post_action()
+
+        process = psutil.Popen(script_path, stdout=PIPE, stderr=PIPE)
+
+        time.sleep(3)
+
+        window_found = does_application_windows_exist()
+
+        if not window_found:
+            raise Exception("Application window not found")
+        else:
+            case_logger.info("Application window found")
+
+        try:
+            locate_on_screen(USDViewElements.APPLICATION_GOT_STUCK.build_path(), tries=1, confidence=0.95)
+            raise RuntimeError("Application got stuck")
+        except RuntimeError as e:
+            raise e
+        except:
+            case_logger.info("Application is running normally")
+
+    except RuntimeError as e:
+        raise e
+    except:
+        case_logger.info("Application is running normally")
 
 
 def modify_state_file(case, state_path):

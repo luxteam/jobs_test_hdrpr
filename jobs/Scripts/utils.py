@@ -2,14 +2,10 @@ import os
 import logging
 import pyautogui
 import time
-import win32api
-import win32gui
-import win32con
-import win32process
 import json
-from pyautogui import typewrite, press
 import psutil
 from psutil import Popen, NoSuchProcess
+import subprocess
 from subprocess import PIPE
 import sys
 import traceback
@@ -17,8 +13,15 @@ from PIL import Image
 import pyscreenshot
 from datetime import datetime
 from shutil import copyfile
+import platform
 from collections import OrderedDict
 from elements import USDViewElements
+
+if platform.system() == "Windows":
+    import win32api
+    import win32gui
+    import win32con
+    import win32process
 
 sys.path.append(os.path.abspath(os.path.join(
     os.path.dirname(__file__), os.path.pardir, os.path.pardir)))
@@ -70,7 +73,7 @@ def close_process(process):
         case_logger.error(f"Traceback: {traceback.format_exc()}")
 
 
-def open_tool(script_path, execution_script, engine, case=None):
+def open_tool(script_path, execution_script, engine, case=None, is_first_opening=False):
     global process
 
     # copy baseline state.json of usdview with necessary settings
@@ -94,25 +97,42 @@ def open_tool(script_path, execution_script, engine, case=None):
     with open(script_path, "w") as f:
         f.write(execution_script)
 
-    pyautogui.hotkey("win", "m")
+    if platform.system() == "Windows":
+        pyautogui.hotkey("win", "m")
+    else:
+        pyautogui.hotkey("win", "d")
+        os.system(f"chmod +x {script_path}")
+
     time.sleep(1)
 
     process = psutil.Popen(script_path, stdout=PIPE, stderr=PIPE, shell=True)
 
     time.sleep(3)
 
-    window_hwnd = None
+    window_found, window_hwnd = does_application_windows_exist()
 
-    for window in pyautogui.getAllWindows():
-        if ".usd" in window.title:
-            window_hwnd = window._hWnd
-            break
-
-    if not window_hwnd:
+    if not window_found:
         raise Exception("Application window not found")
     else:
         case_logger.info("Application window found")
 
+    if platform.system() == "Windows":
+        process_application_stucking(script_path)
+        win32gui.ShowWindow(window_hwnd, win32con.SW_MAXIMIZE)
+    else:
+        # on Ubuntu it's required some time after application first start up
+        if is_first_opening:
+            time.sleep(20)
+        pyautogui.hotkey("win", "up")
+
+    time.sleep(0.5)
+    # pause render
+    if engine == "HybridPro":
+        pyautogui.hotkey("ctrl", "p")
+        time.sleep(0.2)
+
+
+def process_application_stucking(script_path):
     # check that application doesn't got stuck
     try:
         locate_on_screen(USDViewElements.APPLICATION_GOT_STUCK.build_path(), tries=1, confidence=0.95)
@@ -123,14 +143,9 @@ def open_tool(script_path, execution_script, engine, case=None):
 
         time.sleep(3)
 
-        window_hwnd = None
+        window_found = does_application_windows_exist()
 
-        for window in pyautogui.getAllWindows():
-            if ".usd" in window.title:
-                window_hwnd = window._hWnd
-                break
-
-        if not window_hwnd:
+        if not window_found:
             raise Exception("Application window not found")
         else:
             case_logger.info("Application window found")
@@ -147,13 +162,6 @@ def open_tool(script_path, execution_script, engine, case=None):
         raise e
     except:
         case_logger.info("Application is running normally")
-
-    win32gui.ShowWindow(window_hwnd, win32con.SW_MAXIMIZE)
-    time.sleep(0.5)
-    # pause render
-    if engine == "HybridPro":
-        pyautogui.hotkey("ctrl", "p")
-        time.sleep(0.2)
 
 
 def modify_state_file(case, state_path):
@@ -311,10 +319,30 @@ def find_usdview_process():
     return None
 
 
+def does_application_windows_exist():
+    if platform.system() == "Windows":
+        for window in pyautogui.getAllWindows():
+            if ".usd" in window.title:
+                return True, window._hWnd
+    else:
+        process = subprocess.Popen("wmctrl -l", stdout=PIPE, shell=True)
+        stdout, stderr = process.communicate()
+        windows = [" ".join(x.split()[3::]) for x in stdout.decode("utf-8").strip().split("\n")]
+
+        for window in windows:
+            if "assets" in window and ".usda" in window:
+                return True, None
+
+    return False, None
+
+
 def post_action():
     try:
-        process = find_usdview_process()
-        close_process(process)
+        if platform.system() == "Windows":
+            process = find_usdview_process()
+            close_process(process)
+        else:
+            process = subprocess.Popen("pkill -f .usda", stdout=PIPE, shell=True)
     except Exception as e:
         case_logger.warning(f"Failed to do post actions: {str(e)}")
         case_logger.warning(f"Traceback: {traceback.format_exc()}")
@@ -372,16 +400,14 @@ def save_image(image_path):
     time.sleep(0.5)
     locate_and_click(USDViewElements.SAVE_VIEWER_IMAGE.build_path())
     time.sleep(0.5)
+    pyautogui.hotkey("ctrl", "a")
+    time.sleep(0.1)
     pyautogui.typewrite(image_path)
     pyautogui.press("enter")
     time.sleep(0.5)
 
     if not os.path.exists(image_path):
         raise Exception("Saved image not found")
-
-
-def close_app_through_button():
-    locate_and_click(USDViewElements.CLOSE_BUTTON.build_path())
 
 
 def locate_on_screen(template, tries=3, confidence=0.9, **kwargs):
@@ -426,8 +452,7 @@ def detect_render_finishing(max_delay=60):
         if os.path.exists(screen_path):
             os.remove(screen_path)
 
-        resolution_x = win32api.GetSystemMetrics(0)
-        resolution_y = win32api.GetSystemMetrics(1)
+        resolution_x, resolution_y = get_resolution()
 
         # Approximately position of viewport
         viewport_region = (int(resolution_x / 2), 180, resolution_x - 20, int(resolution_y / 2))
@@ -455,3 +480,20 @@ def detect_render_finishing(max_delay=60):
             break
 
         make_viewport_screenshot(PREVIOUS_SCREEN_PATH)
+
+
+def run_in_new_windows(command):
+    if platform.system() == "Windows":
+        return f"start cmd.exe @cmd /k \"{command} & exit 0\""
+    else:
+        return f"xterm -e \"{command}\""
+
+
+def get_resolution():
+    if platform.system() == "Windows":
+        return win32api.GetSystemMetrics(0), win32api.GetSystemMetrics(1)
+    else:
+        process = subprocess.Popen("xdpyinfo | awk '/dimensions/{print $2}'", stdout=PIPE, shell=True)
+        stdout, stderr = process.communicate()
+        resolution_x, resolution_y = stdout.decode("utf-8").strip().split("x")
+        return int(resolution_x), int(resolution_y)

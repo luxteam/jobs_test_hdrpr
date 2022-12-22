@@ -6,7 +6,6 @@ from datetime import datetime
 from shutil import copyfile
 import sys
 import traceback
-import win32api
 from time import time
 from time import sleep
 import utils
@@ -186,7 +185,8 @@ def execute_tests(args, current_conf):
 
             try:
                 utils.case_logger.info(f"Start \"{case['case']}\" (try #{current_try})")
-                utils.case_logger.info(f"Screen resolution: width = {win32api.GetSystemMetrics(0)}, height = {win32api.GetSystemMetrics(1)}")
+                resolution_x, resolution_y = utils.get_resolution()
+                utils.case_logger.info(f"Screen resolution: width = {resolution_x}, height = {resolution_y}")
 
                 extension = extension if "extension" in case else "jpg"
                 image_path = os.path.abspath(os.path.join(args.output, "Color", f"{case['case']}.{extension}"))
@@ -202,10 +202,17 @@ def execute_tests(args, current_conf):
                 additional_keys = ""
 
                 if "frame" in case:
-                    additional_keys = f"--cf {case['frame']}"
+                    additional_keys = f"{additional_keys} --cf {case['frame']}"
 
-                execution_script = f"start cmd.exe @cmd /k \"{args.python} {tool_path} -r RPR --camera {case['camera']} {additional_keys} {scene_path} & exit 0\""
-                script_path = os.path.join(args.output, "{}.bat".format(case["case"]))
+                if "camera" in case:
+                    additional_keys = f"{additional_keys} --camera {case['camera']}"
+
+                execution_script = utils.run_in_new_windows(f"{args.python} {tool_path} -r RPR {additional_keys} {scene_path}")
+
+                if platform.system() == "Windows":
+                    script_path = os.path.join(args.output, "{}.bat".format(case["case"]))
+                else:
+                    script_path = os.path.join(args.output, "{}.sh".format(case["case"]))
 
                 utils.open_tool(script_path, execution_script, args.engine, case=case)
 

@@ -2,6 +2,7 @@ import argparse
 import os
 import traceback
 from time import sleep
+import platform
 import utils
 
 
@@ -30,12 +31,17 @@ if __name__ == "__main__":
 
         tool_path = os.path.abspath(args.tool_path)
         scene_path = os.path.join(args.res_path, SCENE_NAME)
-        execution_script = f"start cmd.exe @cmd /k \"{args.python} {tool_path} -r RPR --camera {CAMERA} {scene_path} & exit 0\""
-        script_path = "sanity.bat"
+
+        execution_script = utils.run_in_new_windows(f"{args.python} {tool_path} -r RPR --camera {CAMERA} {scene_path}")
+        
+        if platform.system() == "Windows":
+            script_path = "sanity.bat"
+        else:
+            script_path = "./sanity.sh"
 
         image_path = os.path.abspath("sanity.jpg")
 
-        utils.open_tool(script_path, execution_script, args.engine)
+        utils.open_tool(script_path, execution_script, args.engine, is_first_opening=True)
 
         sleep(3)
 
@@ -44,10 +50,6 @@ if __name__ == "__main__":
         utils.detect_render_finishing()
 
         utils.save_image(image_path)
-
-        # Camera setting will be saved only after closing through button
-        utils.close_app_through_button()
-        sleep(0.5)
     except Exception as e:
         print(f"Failed during script execution. Exception: {str(e)}")
         print(f"Traceback: {traceback.format_exc()}")

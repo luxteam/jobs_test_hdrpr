@@ -52,19 +52,50 @@
     {
         "case": "HDRPR_RENDER_MODE_005",
         "status": "skipped",
-        "scene": "Cube.usda",
-        "camera": "Camera",
+        "scene": "Austin.usda",
+        "camera": "camera1",
+        "render_settings": {
+            "min_samples": 50,
+            "max_samples": 50
+        },
+        "hydra_settings": {
+            "enable_tone_mapping": true,
+            "tone_mapping_gamma": 2.2
+        },
         "script_info": [
-            "Render Mode - Contour"
+            "RPR Tone Mapping",
+            "Gamma - 2.2"
         ]
     },
     {
         "case": "HDRPR_RENDER_MODE_006",
         "status": "skipped",
-        "scene": "Cube.usda",
-        "camera": "Camera",
+        "scene": "Austin.usda",
+        "camera": "camera1",
+        "render_settings": {
+            "min_samples": 50,
+            "max_samples": 50
+        },
+        "hydra_settings": {
+            "enable_gamma": true,
+            "gamma": 2.2
+        },
         "script_info": [
-            "Render Mode - Diffuse"
+            "Native Tone Mapping",
+            "Gamma - 2.2"
+        ]
+    },
+    {
+        "case": "HDRPR_RENDER_MODE_007",
+        "status": "active",
+        "scene": "Austin.usda",
+        "camera": "camera1",
+        "hydra_settings": {
+            "enable_color_alpha": true
+        },
+        "script_info": [
+            "Color Alpha"
         ]
     }
+    
 ]

@@ -145,22 +145,49 @@ def modify_state_file(case, state_path):
 
 def set_render_settings(case):
     PADDINGS = OrderedDict()
-    PADDINGS["uv_threshold"] = 0
-    PADDINGS["debug"] = 1
-    PADDINGS["enable_ai_denoising"] = 2
-    PADDINGS["denoise_min_iteration"] = 3
-    PADDINGS["denoise_iteration_step"] = 4
-    PADDINGS["max_samples"] = 5
-    PADDINGS["min_samples"] = 6
-    PADDINGS["noise_threshold"] = 7
-    PADDINGS["max_ray_depth"] = 8
-    PADDINGS["diffuse_ray_depth"] = 9
-    PADDINGS["glossy_ray_depth"] = 10
-    PADDINGS["refraction_ray_depth"] = 11
-    PADDINGS["glossy_refraction_ray_depth"] = 12
-    PADDINGS["shadow_ray_depth"] = 13
-    PADDINGS["ray_case_epsilon"] = 14
-    PADDINGS["max_radiance"] = 15
+    PADDINGS["ambient_occlusion_radius"] = 0
+    PADDINGS["antialiasing"] = 1
+    PADDINGS["use_normal"] = 2
+    PADDINGS["linewidth_normal"] = 3
+    PADDINGS["normal_threshold"] = 4
+    PADDINGS["use_primitive_id"] = 5
+    PADDINGS["linewidth_primitive_id"] = 6
+    PADDINGS["use_material_id"] = 7
+    PADDINGS["linewidth_material_id"] = 8
+    PADDINGS["use_uv"] = 9
+    PADDINGS["linewidth_uv"] = 10
+    PADDINGS["uv_threshold"] = 11
+    PADDINGS["debug"] = 12
+    PADDINGS["enable_ai_denoising"] = 13
+    PADDINGS["denoise_min_iteration"] = 14
+    PADDINGS["denoise_iteration_step"] = 15
+    PADDINGS["max_samples"] = 16
+    PADDINGS["min_samples"] = 17
+    PADDINGS["noise_threshold"] = 18
+    PADDINGS["max_ray_depth"] = 19
+    PADDINGS["diffuse_ray_depth"] = 20
+    PADDINGS["glossy_ray_depth"] = 21
+    PADDINGS["refraction_ray_depth"] = 22
+    PADDINGS["glossy_refraction_ray_depth"] = 23
+    PADDINGS["shadow_ray_depth"] = 24
+    PADDINGS["ray_cast_epsilon"] = 25
+    PADDINGS["max_radiance"] = 26
+    PADDINGS["pixel_filter_width"] = 27
+    PADDINGS["interactive_max_ray_depth"] = 28
+    PADDINGS["interactive_resolution_downscale"] = 29
+    PADDINGS["downscale_resolution_when_interactive"] = 30
+    PADDINGS["enable_gamma"] = 31
+    PADDINGS["gamma"] = 32
+    PADDINGS["enable_tone_mapping"] = 33
+    PADDINGS["film_exposure_time"] = 34
+    PADDINGS["film_sensitivity"] = 35
+    PADDINGS["fstop"] = 36
+    PADDINGS["tome_mapping_gamma"] = 37
+    PADDINGS["enable_color_alpha"] = 38
+    PADDINGS["enable_beauty_motion_blur"] = 39
+    PADDINGS["opencolorio_rendering_color_space"] = 40
+    PADDINGS["use_uniform_seed"] = 41
+    PADDINGS["cryptomatte_add_preview_layer"] = 42
 
     CHECK_BOXES = ["debug", "enable_ai_denoising"]
 
@@ -173,11 +200,6 @@ def set_render_settings(case):
         time.sleep(0.5)
         locate_and_click(USDViewElements.MORE.build_path())
         time.sleep(0.5)
-
-        # find label of first supporting render setting
-        coords = locate_on_screen(USDViewElements.UV_THRESHOLD.build_path())
-        click_on_element(coords, x_offset=400)
-        time.sleep(0.1)
 
         for key in PADDINGS.keys():
             if key in case["render_settings"]:

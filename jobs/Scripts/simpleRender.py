@@ -204,10 +204,7 @@ def execute_tests(args, current_conf):
                 if "frame" in case:
                     additional_keys = f"{additional_keys} --cf {case['frame']}"
 
-                if "camera" in case:
-                    additional_keys = f"{additional_keys} --camera {case['camera']}"
-
-                execution_script = utils.run_in_new_windows(f"{args.python} {tool_path} -r RPR {additional_keys} {scene_path}")
+                execution_script = utils.run_in_new_windows(f"{args.python} {tool_path} -r RPR --camera {case['camera']} {additional_keys} {scene_path}")
 
                 if platform.system() == "Windows":
                     script_path = os.path.join(args.output, "{}.bat".format(case["case"]))

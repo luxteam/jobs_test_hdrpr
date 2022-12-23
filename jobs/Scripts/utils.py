@@ -238,7 +238,7 @@ def set_render_settings(case):
             time.sleep(0.5)
         except:
             # if hydra settings item isn't displayed, wait a bit and try again
-            sleep(5)
+            time.sleep(5)
             locate_and_click(USDViewElements.RENDERER.build_path())
             time.sleep(0.5)
             locate_and_click(USDViewElements.HYDRA_SETTINGS.build_path())
@@ -280,7 +280,7 @@ def set_hydra_settings(case):
                 time.sleep(0.5)
             except:
                 # if hydra settings item isn't displayed, wait a bit and try again
-                sleep(5)
+                time.sleep(5)
                 locate_and_click(USDViewElements.RENDERER.build_path())
                 time.sleep(0.5)
                 locate_and_click(USDViewElements.HYDRA_SETTINGS.build_path())

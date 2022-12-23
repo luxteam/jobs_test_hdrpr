@@ -20,7 +20,6 @@ from elements import USDViewElements
 if platform.system() == "Windows":
     import win32api
     import win32gui
-    import win32con
     import win32process
 
 sys.path.append(os.path.abspath(os.path.join(
@@ -118,7 +117,7 @@ def open_tool(script_path, execution_script, engine, case=None, is_first_opening
 
     if platform.system() == "Windows":
         process_application_stucking(script_path)
-        win32gui.ShowWindow(window_hwnd, win32con.SW_MAXIMIZE)
+        pyautogui.hotkey("win", "up")
     else:
         # on Ubuntu it's required some time after application first start up
         if is_first_opening:

@@ -176,7 +176,7 @@ def modify_state_file(case, state_path):
     if "stage_view_width" in case:
         state["1"]["ui"]["stageViewWidth"] = case["stage_view_width"]
     if "viewer_mode" in case:
-        state["1"]["ui"]["viewer_mode"] = case["viewer_mode"]
+        state["1"]["ui"]["viewerMode"] = case["viewer_mode"]
 
     with open(state_path, "w") as json_file:
         json.dump(state, json_file, indent=4)

@@ -6,6 +6,7 @@
         "camera": "Camera",
         "prim_view_width": 0,
         "stage_view_width": 2000,
+        "viewer_mode": true,
         "script_info": [
             "Max available resolution in usdview tool (1325 x 681)"
         ]

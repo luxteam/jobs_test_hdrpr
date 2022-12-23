@@ -231,10 +231,19 @@ def set_render_settings(case):
     last_field = None
 
     if "render_settings" in case:
-        locate_and_click(USDViewElements.RENDERER.build_path())
-        time.sleep(0.5)
-        locate_and_click(USDViewElements.HYDRA_SETTINGS.build_path())
-        time.sleep(0.5)
+        try:
+            locate_and_click(USDViewElements.RENDERER.build_path())
+            time.sleep(0.5)
+            locate_and_click(USDViewElements.HYDRA_SETTINGS.build_path())
+            time.sleep(0.5)
+        except:
+            # if hydra settings item isn't displayed, wait a bit and try again
+            time.sleep(5)
+            locate_and_click(USDViewElements.RENDERER.build_path())
+            time.sleep(0.5)
+            locate_and_click(USDViewElements.HYDRA_SETTINGS.build_path())
+            time.sleep(0.5)
+
         locate_and_click(USDViewElements.MORE.build_path())
         time.sleep(0.5)
 
@@ -264,10 +273,18 @@ def set_render_settings(case):
 def set_hydra_settings(case):
     if "hydra_settings" in case:
         def open_hydra_settings():
-            locate_and_click(USDViewElements.RENDERER.build_path())
-            time.sleep(0.5)
-            locate_and_click(USDViewElements.HYDRA_SETTINGS.build_path())
-            time.sleep(0.5)
+            try:
+                locate_and_click(USDViewElements.RENDERER.build_path())
+                time.sleep(0.5)
+                locate_and_click(USDViewElements.HYDRA_SETTINGS.build_path())
+                time.sleep(0.5)
+            except:
+                # if hydra settings item isn't displayed, wait a bit and try again
+                time.sleep(5)
+                locate_and_click(USDViewElements.RENDERER.build_path())
+                time.sleep(0.5)
+                locate_and_click(USDViewElements.HYDRA_SETTINGS.build_path())
+                time.sleep(0.5)
 
         if "enable_gamma" in case["hydra_settings"]:
             open_hydra_settings()

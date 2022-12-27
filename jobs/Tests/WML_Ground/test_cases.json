@@ -1,0 +1,164 @@
+[
+    {
+        "case": "WML_GROUND_001",
+        "status": "active",
+        "scene": "Ground_Ground_Leaves_Cover.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground Ground Leaves Cover"
+        ]
+    },
+    {
+        "case": "WML_GROUND_002",
+        "status": "active",
+        "scene": "Ground_Ground_River_Bottom.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground Ground River Bottom"
+        ]
+    },
+    {
+        "case": "WML_GROUND_003",
+        "status": "active",
+        "scene": "Ground_Ground_Soil.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground Ground Soil"
+        ]
+    },
+    {
+        "case": "WML_GROUND_004",
+        "status": "active",
+        "scene": "Ground_Moss_Ground.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground Moss Ground"
+        ]
+    },
+    {
+        "case": "WML_GROUND_005",
+        "status": "active",
+        "scene": "Ground_Pebbles_Sand.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground Pebbles Sand"
+        ]
+    },
+    {
+        "case": "WML_GROUND_006",
+        "status": "active",
+        "scene": "Ground_Rocky_Ground.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground Rocky Ground"
+        ]
+    },
+    {
+        "case": "WML_GROUND_007",
+        "status": "active",
+        "scene": "Ground_Shells_Beach_Sand.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground Shells Beach Sand"
+        ]
+    },
+    {
+        "case": "WML_GROUND_008",
+        "status": "active",
+        "scene": "Ground_Shells_Pebble_Sand.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground Shells Pebble Sand"
+        ]
+    },
+    {
+        "case": "WML_GROUND_009",
+        "status": "active",
+        "scene": "Ground_Smooth_Beach_Sand.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground Smooth Beach Sand"
+        ]
+    },
+    {
+        "case": "WML_GROUND_010",
+        "status": "active",
+        "scene": "Ground_Starfish_Beach_Sand.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground Starfish Beach Sand"
+        ]
+    },
+    {
+        "case": "WML_GROUND_011",
+        "status": "active",
+        "scene": "Ground_TH_Coral_Gravel.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground TH Coral Gravel"
+        ]
+    },
+    {
+        "case": "WML_GROUND_012",
+        "status": "active",
+        "scene": "Ground_TH_Coral_Rocky_Ground.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground TH Coral Rocky Ground"
+        ]
+    },
+    {
+        "case": "WML_GROUND_013",
+        "status": "active",
+        "scene": "Ground_TH_Light_Rocks_Ground.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground TH Light Rocks Ground"
+        ]
+    },
+    {
+        "case": "WML_GROUND_014",
+        "status": "active",
+        "scene": "Ground_TH_Moss_Mountain_Ground.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground TH Moss Mountain Ground"
+        ]
+    },
+    {
+        "case": "WML_GROUND_015",
+        "status": "active",
+        "scene": "Ground_TH_Mountain_Rocks_Ground.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground TH Mountain Rocks Ground"
+        ]
+    },
+    {
+        "case": "WML_GROUND_016",
+        "status": "active",
+        "scene": "Ground_TH_Rocks_Dirt_Ground.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground TH Rocks Dirt Ground"
+        ]
+    },
+    {
+        "case": "WML_GROUND_017",
+        "status": "active",
+        "scene": "Ground_TH_Rocks_Ground.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground TH Rocks Ground"
+        ]
+    },
+    {
+        "case": "WML_GROUND_018",
+        "status": "active",
+        "scene": "Ground_TH_Various_Rocks_Ground.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Ground TH Various Rocks Ground"
+        ]
+    }
+]

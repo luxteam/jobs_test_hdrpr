@@ -1,0 +1,20 @@
+[
+    {
+        "case": "WML_PLASTIC_001",
+        "status": "active",
+        "scene": "Plastic_Carbon_biColor_Coat.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Plastic Carbon biColor Coat"
+        ]
+    },
+    {
+        "case": "WML_PLASTIC_002",
+        "status": "active",
+        "scene": "Plastic_Patterned_Resin_Floor.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Plastic Patterned Resin Floor"
+        ]
+    }
+]

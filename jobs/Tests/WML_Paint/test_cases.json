@@ -1,0 +1,20 @@
+[
+    {
+        "case": "WML_PAINT_001",
+        "status": "active",
+        "scene": "Paint_Car_Paint.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Paint Car Paint"
+        ]
+    },
+    {
+        "case": "WML_PAINT_002",
+        "status": "active",
+        "scene": "Paint_Old_Paint.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Paint Old Paint"
+        ]
+    }
+]

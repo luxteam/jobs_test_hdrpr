@@ -1,0 +1,209 @@
+[
+    {
+        "case": "WML_CONCRETE_001",
+        "status": "active",
+        "scene": "Concrete_Cement_Shells_Wall.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete Cement Shells Wall"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_002",
+        "status": "active",
+        "scene": "Concrete_Cement_Wall_with_Shells.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete Cement Wall with Shells"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_003",
+        "status": "active",
+        "scene": "Concrete_Cement_Wall_with_Starfish.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete Cement Wall with Starfish"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_004",
+        "status": "active",
+        "scene": "Concrete_Concrete_Plain.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete Concrete Plain"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_005",
+        "status": "active",
+        "scene": "Concrete_Concrete_Planks.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete Concrete Planks"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_006",
+        "status": "active",
+        "scene": "Concrete_Concrete_Tiles.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete Concrete Tiles"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_007",
+        "status": "active",
+        "scene": "Concrete_Detailed_Ramshorn_Shells_Wall.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete Detailed Ramshorn Shells Wall"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_008",
+        "status": "active",
+        "scene": "Concrete_Gray_Cement_Shells_Wall.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete Gray Cement Shells Wall"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_009",
+        "status": "active",
+        "scene": "Concrete_Gray_Ramshorn_Shells_Wall.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete Gray Ramshorn Shells Wall"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_010",
+        "status": "active",
+        "scene": "Concrete_Ramshorn_Shells_Wall.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete Ramshorn Shells Wall"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_011",
+        "status": "active",
+        "scene": "Concrete_Red_Stone_Wall.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete Red Stone Wall"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_012",
+        "status": "active",
+        "scene": "Concrete_Smooth_Concrete.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete Smooth Concrete"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_013",
+        "status": "active",
+        "scene": "Concrete_Stone_Wall.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete Stone Wall"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_014",
+        "status": "active",
+        "scene": "Concrete_Stone_Wall_Combination.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete Stone Wall Combination"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_015",
+        "status": "active",
+        "scene": "Concrete_TH_Bricks_Concrete_Wall.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete TH Bricks Concrete Wall"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_016",
+        "status": "active",
+        "scene": "Concrete_TH_Concrete_Floor.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete TH Concrete Floor"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_017",
+        "status": "active",
+        "scene": "Concrete_TH_Concrete_Floor_Worn.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete TH Concrete Floor Worn"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_018",
+        "status": "active",
+        "scene": "Concrete_TH_Concrete_Old_Floor.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete TH Concrete Old Floor"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_019",
+        "status": "active",
+        "scene": "Concrete_TH_Concrete_Wall.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete TH Concrete Wall"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_020",
+        "status": "active",
+        "scene": "Concrete_TH_Dirty_Concrete.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete TH Dirty Concrete"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_021",
+        "status": "active",
+        "scene": "Concrete_TH_Rubble_Concrete_Floor.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete TH Rubble Concrete Floor"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_022",
+        "status": "active",
+        "scene": "Concrete_Wall_of_Shells.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete Wall of Shells"
+        ]
+    },
+    {
+        "case": "WML_CONCRETE_023",
+        "status": "active",
+        "scene": "Concrete_White_Stone_Wall.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Concrete White Stone Wall"
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "case": "WML_SCIFI_001",
+        "status": "active",
+        "scene": "SciFi_Aluminum_Hexagon.usda",
+        "camera": "Camera",
+        "script_info": [
+            "SciFi Aluminum Hexagon"
+        ]
+    },
+    {
+        "case": "WML_SCIFI_002",
+        "status": "active",
+        "scene": "SciFi_Chains.usda",
+        "camera": "Camera",
+        "script_info": [
+            "SciFi Chains"
+        ]
+    },
+    {
+        "case": "WML_SCIFI_003",
+        "status": "active",
+        "scene": "SciFi_Perforated_Metal.usda",
+        "camera": "Camera",
+        "script_info": [
+            "SciFi Perforated Metal"
+        ]
+    },
+    {
+        "case": "WML_SCIFI_004",
+        "status": "active",
+        "scene": "SciFi_SciFi_Brick.usda",
+        "camera": "Camera",
+        "script_info": [
+            "SciFi SciFi Brick"
+        ]
+    }
+]

@@ -1,0 +1,191 @@
+[
+    {
+        "case": "WML_BASE_MATERIALS_001",
+        "status": "active",
+        "scene": "Base_Materials_Acryl_Plastic.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Acryl Plastic"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_002",
+        "status": "active",
+        "scene": "Base_Materials_Aluminum.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Aluminum"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_003",
+        "status": "active",
+        "scene": "Base_Materials_Black_Plastic.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Black Plastic"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_004",
+        "status": "active",
+        "scene": "Base_Materials_Brass.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Brass"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_005",
+        "status": "active",
+        "scene": "Base_Materials_Bronze.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Bronze"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_006",
+        "status": "active",
+        "scene": "Base_Materials_Chrome.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Chrome"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_007",
+        "status": "active",
+        "scene": "Base_Materials_Cobalt.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Cobalt"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_008",
+        "status": "active",
+        "scene": "Base_Materials_Copper.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Copper"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_009",
+        "status": "active",
+        "scene": "Base_Materials_Dark_Glass.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Dark Glass"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_010",
+        "status": "active",
+        "scene": "Base_Materials_Diamond.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Diamond"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_011",
+        "status": "active",
+        "scene": "Base_Materials_Frosted_Glass.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Frosted Glass"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_012",
+        "status": "active",
+        "scene": "Base_Materials_Glass.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Glass"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_013",
+        "status": "active",
+        "scene": "Base_Materials_Gold.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Gold"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_014",
+        "status": "active",
+        "scene": "Base_Materials_Iron.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Iron"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_015",
+        "status": "active",
+        "scene": "Base_Materials_Nickel.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Nickel"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_016",
+        "status": "active",
+        "scene": "Base_Materials_Red_Wine.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Red Wine"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_017",
+        "status": "active",
+        "scene": "Base_Materials_Rough_Plastic.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Rough Plastic"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_018",
+        "status": "active",
+        "scene": "Base_Materials_Rubber.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Rubber"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_019",
+        "status": "active",
+        "scene": "Base_Materials_Semitransparent_Silicone.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials Semitransparent Silicone"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_020",
+        "status": "active",
+        "scene": "Base_Materials_White_Plastic.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials White Plastic"
+        ]
+    },
+    {
+        "case": "WML_BASE_MATERIALS_021",
+        "status": "active",
+        "scene": "Base_Materials_White_Wine.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Base Materials White Wine"
+        ]
+    }
+]

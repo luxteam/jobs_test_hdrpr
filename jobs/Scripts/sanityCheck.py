@@ -41,15 +41,27 @@ if __name__ == "__main__":
 
         image_path = os.path.abspath("sanity.jpg")
 
-        utils.open_tool(script_path, execution_script, args.engine, is_first_opening=True)
+        current_try = 0
 
-        sleep(3)
+        while current_try < 5:
+            try:
+                utils.open_tool(script_path, execution_script, args.engine, is_first_opening=True)
 
-        utils.set_render_quality(args.engine)
+                sleep(3)
 
-        utils.detect_render_finishing()
+                utils.set_render_quality(args.engine)
 
-        utils.save_image(image_path)
+                utils.detect_render_finishing()
+
+                utils.save_image(image_path)
+
+                break
+            except Exception as e:
+                print(f"Failed during script execution (try #{current_try}). Exception: {str(e)}")
+                print(f"Traceback: {traceback.format_exc()}")
+            finally:
+                current_try += 1
+                utils.post_action()
     except Exception as e:
         print(f"Failed during script execution. Exception: {str(e)}")
         print(f"Traceback: {traceback.format_exc()}")

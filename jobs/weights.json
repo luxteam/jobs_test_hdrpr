@@ -1,3 +1,28 @@
 {
-    "weights": []
+    "weights": [
+        {
+            "suite_name": "Image_Size",
+            "value": 600
+        },
+        {
+            "suite_name": "MaterialX_Nodes",
+            "value": 600
+        },
+        {
+            "suite_name": "MaterialX_Standard_Surface",
+            "value": 600
+        },
+        {
+            "suite_name": "Physical_Light",
+            "value": 1800
+        },
+        {
+            "suite_name": "Render_Mode",
+            "value": 600
+        },
+        {
+            "suite_name": "Render_Quality",
+            "value": 600
+        }
+    ]
 }

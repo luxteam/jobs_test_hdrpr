@@ -1,9 +1,11 @@
 {
     "split": true,
     "groups": {
-        "MaterialX_Adjustment_Nodes": "",
-        "MaterialX_Channel_Nodes": "",
-        "MaterialX_Compositing_Nodes": "",
-        "MaterialX_Math_Nodes": ""
+        "Image_Size": "",
+        "MaterialX_Nodes": "",
+        "MaterialX_Standard_Surface": "",
+        "Physical_Light": "",
+        "Render_Mode": "",
+        "Render_Quality": ""
     }
 }

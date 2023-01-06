@@ -62,7 +62,7 @@ def prepare_empty_reports(args, current_conf):
     if args.engine == "Northstar":
         baselines_postfix = "NorthStar"
     else:
-        baseline_path_tr = "HybridPro"
+        baselines_postfix = "HybridPro"
 
     if platform.system() == 'Windows':
         baseline_path_tr = os.path.join(f'c:/TestResources/hdrpr_autotests_baselines-{baselines_postfix}', args.test_group)

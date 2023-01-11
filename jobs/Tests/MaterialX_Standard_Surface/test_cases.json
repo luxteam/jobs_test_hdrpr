@@ -166,5 +166,95 @@
         "render_delay": {
             "HybridPro": 15
         }
+    },
+    {
+        "case": "HDRPR_STANDARD_SURFACE_015",
+        "status": "active",
+        "scene": "Multiple_Spheres_Base_Specular.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Steps (from down to top): 0, 0.2, 0.4, 0.6, 0.8, 1",
+            "1. Base",
+            "2. Base Color",
+            "3. Diffuse Rougness",
+            "4. Metalness",
+            "5. Specular (IoR - 10, Specular Color - Blue)",
+            "6. Specular Color (IoR - 10, Specular - 1) = [Black, Red, Green, Blue, Yellow, White]",
+            "7. Specular Roughness (Specular - 1, IoR - 0)",
+            "8. Index of Refraction (Specular - 1)",
+            "9. Specular Anisotropy (Specular - 1)",
+            "10. Specular Rotation (Specular - 1, IoR - 0, Specular Anisotropy - 1)"
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
+    },
+    {
+        "case": "HDRPR_STANDARD_SURFACE_016",
+        "status": "active",
+        "scene": "Multiple_Spheres_Transmission_Subsurface.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Steps (from down to top): 0, 0.2, 0.4, 0.6, 0.8, 1",
+            "1. Transmission",
+            "2. Transmission Color (Transmission - 1) = [Black, Red, Green, Blue, Yellow, White]",
+            "3. (doesn't work) Transmission Depth (Transmission - 1) = [0, 0.5, .., 2.5]",
+            "4. (doesn't work) Transmission Scatter (Transmission - 1) = [Black, Red, Green, Blue, Yellow, White]",
+            "4. (doesn't work) Transmission Anisotropy",
+            "5. (doesn't work) Transmission Dispersion",
+            "6. (doesn't work) Transmission Roughness",
+            "7. Subsurface (Subsurface Color - Blue)",
+            "8. Subsurface Color (Subsurface - 1) = [Black, Red, Green, Blue, Yellow, White]",
+            "9. (doesn't work) Subsurface Radius (Subsurface - 1, Subsurface Color - Blue)",
+            "10. (doesn't work) Subsurface Scale (Subsurface - 1, Subsurface Color - Blue)",
+            "11. (doesn't work) Subsurface Anisotropy (Subsurface - 1, Subsurface Color - Blue)"
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
+    },
+    {
+        "case": "HDRPR_STANDARD_SURFACE_017",
+        "status": "active",
+        "scene": "Multiple_Spheres_Sheen_Coat.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Steps (from down to top): 0, 0.2, 0.4, 0.6, 0.8, 1",
+            "1. Sheen (Sheen Color - Red)",
+            "2. Sheen Color (Sheen - 1) = [Black, Red, Green, Blue, Yellow, White]",
+            "3. Sheen Roughness (Sheen - 1, Sheen Color - Red)",
+            "4. Coat (Coat Color - Red)",
+            "5. Coat Color (Coat - 1)",
+            "6. Coat Roughness (Coat - 1, Coat Color - Red)",
+            "7. Coat Anisotropy (Coat - 1, Coat Index of Refraction - 0)",
+            "8. (doesn't work) Coat Rotation (Coat - 1, Coat Index of Refraction - 0, Coat Anisotropy - 1)",
+            "9. Coat Index of Refraction (Coat - 1)",
+            "10. Coat normal (Coat - 1)",
+            "11. (doesn't work) Coat Affect Color (Coat - 1)",
+            "12. (doesn't work) Coat Affect Rougness (Coat - 1)"
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
+    },
+    {
+        "case": "HDRPR_STANDARD_SURFACE_018",
+        "status": "active",
+        "scene": "Multiple_Spheres_Thin_Film_Emission_Geometry.usda",
+        "camera": "Camera",
+        "script_info": [
+            "Steps (from down to top): 0, 0.2, 0.4, 0.6, 0.8, 1",
+            "1. Thin Film Thickness (Thin Film IoR - 0.7) = [0, 1, 10, 100, 1000, 10000]",
+            "2. Thin Film Index of Refraction (Thin Film Thickness - 1)",
+            "3. Emission (Emission Color - Green)",
+            "4. Emission Color (Emission - 1) = [Black, Red, Green, Blue, Yellow, White]",
+            "5. (doesn't work) Opacity = [Black, Red, Green, Blue, Yellow, White]",
+            "6. Normal = [(0,0,0), (1,0,0), (0,1,0), (0,0,1), (1,1,0), (1,1,1)]",
+            "7. (doesn't work) Tangent Input",
+            "8. (doesn't work) Thin Walled"
+        ],
+        "render_delay": {
+            "HybridPro": 15
+        }
     }
 ]

@@ -1,6 +1,7 @@
 {
     "split": true,
     "groups": {
+        "Camera": "",
         "Image_Size": "",
         "MaterialX_Nodes": "",
         "MaterialX_Standard_Surface": "",

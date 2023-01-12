@@ -121,7 +121,7 @@
         "camera": "Camera",
         "frame": 4,
         "script_info": [
-            "frame 4= shear 0,1,0"
+            "shear 0,1,0"
         ]
     },
     {
@@ -131,7 +131,7 @@
         "camera": "Camera",
         "frame": 5,
         "script_info": [
-            "frame 5= shear 0,0,0"
+            "shear 0,0,0"
         ]
     },
     {
@@ -141,7 +141,7 @@
         "camera": "Camera",
         "frame": 6,
         "script_info": [
-            "frame 6= perpective projection"
+            "perpective projection"
         ]
     },
     {
@@ -151,7 +151,7 @@
         "camera": "Camera",
         "frame": 7,
         "script_info": [
-            "frame 7= orthographic"
+            "orthographic"
         ]
     },
     {
@@ -161,7 +161,7 @@
         "camera": "Camera",
         "frame": 8,
         "script_info": [
-            "frame 8= focal length 50"
+            "focal length 50"
         ]
     },
     {
@@ -181,7 +181,7 @@
         "camera": "Camera",
         "frame": 10,
         "script_info": [
-            "horzontal aperture 40"
+            "horizontal aperture 40"
         ]
     },
     {
@@ -191,7 +191,7 @@
         "camera": "Camera",
         "frame": 11,
         "script_info": [
-            "horzontal aperture 30"
+            "horizontal aperture 30"
         ]
     },
     {
@@ -316,62 +316,68 @@
     },
     {
         "case": "HDRPR_CAMERA_031",
-        "status": "active",
+        "status": "observed",
         "scene": "Camera1.usda",
         "camera": "Camera",
         "frame": 24,
         "script_info": [
-            "horizontal apert 0"
+            "horizontal apert 0",
+            "aperture is not supported in HybridPro"
         ]
     },
     {
         "case": "HDRPR_CAMERA_032",
-        "status": "active",
+        "status": "observed",
         "scene": "Camera1.usda",
         "camera": "Camera",
         "frame": 25,
         "script_info": [
-            "horizontal apert 5"
+            "horizontal apert 5",
+            "aperture is not supported in HybridPro"
         ]
     },
     {
         "case": "HDRPR_CAMERA_033",
-        "status": "active",
+        "status": "observed",
         "scene": "Camera1.usda",
         "camera": "Camera",
         "frame": 26,
         "script_info": [
-            "horizontal apert 10"
+            "horizontal apert 10",
+            "aperture is not supported in HybridPro"
         ]
     },
     {
         "case": "HDRPR_CAMERA_034",
-        "status": "active",
+        "status": "observed",
         "scene": "Camera1.usda",
         "camera": "Camera",
         "frame": 27,
         "script_info": [
-            "vertical aperture 0"
+            "vertical aperture 0",
+            "aperture is not supported in HybridPro"
         ]
     },
     {
         "case": "HDRPR_CAMERA_035",
-        "status": "active",
+        "status": "observed",
         "scene": "Camera1.usda",
         "camera": "Camera",
         "frame": 28,
         "script_info": [
-            "vertical aperture 5"
+            "vertical aperture 5",
+            "aperture is not supported in HybridPro"
         ]
     },
     {
         "case": "HDRPR_CAMERA_036",
-        "status": "active",
+        "status": "observed",
         "scene": "Camera1.usda",
         "camera": "Camera",
         "frame": 29,
         "script_info": [
-            "vertical aperture 10"
+            "vertical aperture 10",
+            "aperture is not supported in HybridPro"
         ]
     }
 ]

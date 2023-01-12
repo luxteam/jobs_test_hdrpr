@@ -86,52 +86,57 @@
     },
     {
         "case": "HDRPR_CAMERA_008",
-        "status": "active",
+        "status": "observed",
         "scene": "Camera1.usda",
         "camera": "Camera",
         "frame": 1,
         "script_info": [
-            "scale 1 ,1 ,1"
+            "scale 1 ,1 ,1",
+            "https://amdrender.atlassian.net/browse/RPRHOUD-45"
         ]
     },
     {
         "case": "HDRPR_CAMERA_009",
-        "status": "active",
+        "status": "observed",
         "scene": "Camera1.usda",
         "camera": "Camera",
         "frame": 2,
         "script_info": [
-            "scale 5,1,1"
+            "scale 5,1,1",
+            "https://amdrender.atlassian.net/browse/RPRHOUD-45"
         ]
     },
     {
         "case": "HDRPR_CAMERA_010",
-        "status": "active",
+        "status": "observed",
         "scene": "Camera1.usda",
         "camera": "Camera",
         "frame": 3,
         "script_info": [
-            "shear 1,0,0"
+            "shear 1,0,0",
+            "https://amdrender.atlassian.net/browse/RPRHOUD-45"
         ]
     },
     {
         "case": "HDRPR_CAMERA_011",
-        "status": "active",
+        "status": "observed",
         "scene": "Camera1.usda",
         "camera": "Camera",
         "frame": 4,
         "script_info": [
-            "shear 0,1,0"
+            "shear 0,1,0",
+            "https://amdrender.atlassian.net/browse/RPRHOUD-45"
         ]
     },
     {
         "case": "HDRPR_CAMERA_012",
-        "status": "active",
+        "status": "observed",
         "scene": "Camera1.usda",
         "camera": "Camera",
         "frame": 5,
         "script_info": [
-            "shear 0,0,0"
+            "shear 0,0,0",
+            "https://amdrender.atlassian.net/browse/RPRHOUD-45"
         ]
     },
     {
